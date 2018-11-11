@@ -1,0 +1,64 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+.JourJ .wrapper-title {
+    display: none;
+}
+
+.JourJ h3 img {
+    display: none;
+}
+
+.carousel-inner>.item>div>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    line-height: 1;
+}
+
+@media (max-width: 325px) {
+    .JourJ article {
+        padding: 0px;
+    }
+    .JourJ .item:nth-child(3) article, .JourJ .item:nth-child(6) article {
+        margin-bottom: -17px;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .JourJ .wrapper-title h1 {
+        font-size: 70px;
+        font-family: SignPainter;
+        color: black;
+    }
+    .JourJ .wrapper-title {
+        margin-top: 20px;
+        position: absolute;
+        z-index: 100;
+        text-align: center;
+        width: 100%;
+    }
+    .JourJ h3 img {
+        display: block;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 768px) {
+    .JourJ .carousel .item{
+       display: block; 
+    }
+    .JourJ .carousel .carousel-indicators, .JourJ .carousel .carousel-control {
+        display: none;
+    }
+}

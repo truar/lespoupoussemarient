@@ -1,0 +1,2929 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <JourJ />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <PageHeader
+          bsClass="wrapper-title"
+        >
+          Le Jour J
+        </PageHeader>,
+        <Carousel
+          activeIndex={0}
+          bsClass="carousel"
+          controls={true}
+          direction={null}
+          indicators={true}
+          interval={5000}
+          nextIcon={
+            <Glyphicon
+              bsClass="glyphicon"
+              glyph="chevron-right"
+            />
+          }
+          nextLabel="Next"
+          onSelect={[Function]}
+          pauseOnHover={true}
+          prevIcon={
+            <Glyphicon
+              bsClass="glyphicon"
+              glyph="chevron-left"
+            />
+          }
+          prevLabel="Previous"
+          slide={true}
+          wrap={true}
+        >
+          <CarouselItem
+            active={false}
+            animateIn={false}
+            animateOut={false}
+          >
+            <LazyLoad
+              debounce={true}
+              elementType="div"
+              offset={0}
+              offsetBottom={0}
+              offsetHorizontal={0}
+              offsetLeft={0}
+              offsetRight={0}
+              offsetTop={0}
+              offsetVertical={0}
+              throttle={250}
+            >
+              <img
+                src="union.jpg"
+              />
+            </LazyLoad>
+            <CarouselCaption
+              bsClass="carousel-caption"
+              componentClass="article"
+            >
+              <h3>
+                <Image
+                  bsClass="img"
+                  circle={false}
+                  responsive={true}
+                  rounded={false}
+                  src="union-profile.png"
+                  thumbnail={false}
+                />
+                Anouk & Thibault
+              </h3>
+              <p>
+                S’unissent pour le meilleur et pour le pire le 31 Août 2019 au domaine de Saint-Jean de Chépy
+              </p>
+            </CarouselCaption>
+          </CarouselItem>
+          <CarouselItem
+            active={false}
+            animateIn={false}
+            animateOut={false}
+          >
+            <LazyLoad
+              debounce={true}
+              elementType="div"
+              offset={0}
+              offsetBottom={0}
+              offsetHorizontal={0}
+              offsetLeft={0}
+              offsetRight={0}
+              offsetTop={0}
+              offsetVertical={0}
+              throttle={250}
+            >
+              <img
+                src="ceremonie.jpg"
+              />
+            </LazyLoad>
+            <CarouselCaption
+              bsClass="carousel-caption"
+              componentClass="article"
+            >
+              <h3>
+                Cérémonie
+              </h3>
+              <p>
+                Nous vous donnons rendez-vous à 10h45 au domaine de Saint-Jean de Chépy. La cérémonie débutera à 11h00 sous le chapiteau
+              </p>
+            </CarouselCaption>
+          </CarouselItem>
+          <CarouselItem
+            active={false}
+            animateIn={false}
+            animateOut={false}
+          >
+            <LazyLoad
+              debounce={true}
+              elementType="div"
+              offset={0}
+              offsetBottom={0}
+              offsetHorizontal={0}
+              offsetLeft={0}
+              offsetRight={0}
+              offsetTop={0}
+              offsetVertical={0}
+              throttle={250}
+            >
+              <img
+                src="vin-honneur.jpg"
+              />
+            </LazyLoad>
+            <CarouselCaption
+              bsClass="carousel-caption"
+              componentClass="article"
+            >
+              <h3>
+                Le vin d'honneur
+              </h3>
+              <p>
+                Se déroulera de 13h00 à 15h00. Une activité « guest book » aura lieu dans l’après-midi. Nous aimerions que chaque invité, couple, famille apporte une photo qui lui est chère
+              </p>
+            </CarouselCaption>
+          </CarouselItem>
+          <CarouselItem
+            active={false}
+            animateIn={false}
+            animateOut={false}
+          >
+            <LazyLoad
+              debounce={true}
+              elementType="div"
+              offset={0}
+              offsetBottom={0}
+              offsetHorizontal={0}
+              offsetLeft={0}
+              offsetRight={0}
+              offsetTop={0}
+              offsetVertical={0}
+              throttle={250}
+            >
+              <img
+                src="sport.jpg"
+              />
+            </LazyLoad>
+            <CarouselCaption
+              bsClass="carousel-caption"
+              componentClass="article"
+            >
+              <h3>
+                Activités sportives
+              </h3>
+              <p>
+                De 15h00 à 18h00. N’oubliez pas de prévoir une tenue adéquate (Vestiaire et douches sur place)
+              </p>
+            </CarouselCaption>
+          </CarouselItem>
+          <CarouselItem
+            active={false}
+            animateIn={false}
+            animateOut={false}
+          >
+            <LazyLoad
+              debounce={true}
+              elementType="div"
+              offset={0}
+              offsetBottom={0}
+              offsetHorizontal={0}
+              offsetLeft={0}
+              offsetRight={0}
+              offsetTop={0}
+              offsetVertical={0}
+              throttle={250}
+            >
+              <img
+                src="diner.jpg"
+              />
+            </LazyLoad>
+            <CarouselCaption
+              bsClass="carousel-caption"
+              componentClass="article"
+            >
+              <h3>
+                Diner
+              </h3>
+              <p>
+                Vous pourrez vous installer dans la salle principale à partir de 19h00. Nous vous proposons de déguster un repas 100% végétarien
+              </p>
+            </CarouselCaption>
+          </CarouselItem>
+          <CarouselItem
+            active={false}
+            animateIn={false}
+            animateOut={false}
+          >
+            <LazyLoad
+              debounce={true}
+              elementType="div"
+              offset={0}
+              offsetBottom={0}
+              offsetHorizontal={0}
+              offsetLeft={0}
+              offsetRight={0}
+              offsetTop={0}
+              offsetVertical={0}
+              throttle={250}
+            >
+              <img
+                src="danse.jpg"
+              />
+            </LazyLoad>
+            <CarouselCaption
+              bsClass="carousel-caption"
+              componentClass="article"
+            >
+              <h3>
+                Soirée
+              </h3>
+              <p>
+                C’est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00 (N'oubliez pas de consulter la page hébergements pour savoir ou dormir)
+              </p>
+            </CarouselCaption>
+          </CarouselItem>
+          <CarouselItem
+            active={false}
+            animateIn={false}
+            animateOut={false}
+          >
+            <LazyLoad
+              debounce={true}
+              elementType="div"
+              offset={0}
+              offsetBottom={0}
+              offsetHorizontal={0}
+              offsetLeft={0}
+              offsetRight={0}
+              offsetTop={0}
+              offsetVertical={0}
+              throttle={250}
+            >
+              <img
+                src="brunch.jpg"
+              />
+            </LazyLoad>
+            <CarouselCaption
+              bsClass="carousel-caption"
+              componentClass="article"
+            >
+              <h3>
+                Brunch
+              </h3>
+              <p>
+                Dimanche 1 Septembre à partir de 11h00. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain
+              </p>
+            </CarouselCaption>
+          </CarouselItem>
+        </Carousel>,
+      ],
+      "className": "JourJ",
+      "id": "le-jour-j",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "bsClass": "wrapper-title",
+          "children": "Le Jour J",
+        },
+        "ref": null,
+        "rendered": "Le Jour J",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "activeIndex": 0,
+          "bsClass": "carousel",
+          "children": Array [
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <LazyLoad
+                debounce={true}
+                elementType="div"
+                offset={0}
+                offsetBottom={0}
+                offsetHorizontal={0}
+                offsetLeft={0}
+                offsetRight={0}
+                offsetTop={0}
+                offsetVertical={0}
+                throttle={250}
+              >
+                <img
+                  src="union.jpg"
+                />
+              </LazyLoad>
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="article"
+              >
+                <h3>
+                  <Image
+                    bsClass="img"
+                    circle={false}
+                    responsive={true}
+                    rounded={false}
+                    src="union-profile.png"
+                    thumbnail={false}
+                  />
+                  Anouk & Thibault
+                </h3>
+                <p>
+                  S’unissent pour le meilleur et pour le pire le 31 Août 2019 au domaine de Saint-Jean de Chépy
+                </p>
+              </CarouselCaption>
+            </CarouselItem>,
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <LazyLoad
+                debounce={true}
+                elementType="div"
+                offset={0}
+                offsetBottom={0}
+                offsetHorizontal={0}
+                offsetLeft={0}
+                offsetRight={0}
+                offsetTop={0}
+                offsetVertical={0}
+                throttle={250}
+              >
+                <img
+                  src="ceremonie.jpg"
+                />
+              </LazyLoad>
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="article"
+              >
+                <h3>
+                  Cérémonie
+                </h3>
+                <p>
+                  Nous vous donnons rendez-vous à 10h45 au domaine de Saint-Jean de Chépy. La cérémonie débutera à 11h00 sous le chapiteau
+                </p>
+              </CarouselCaption>
+            </CarouselItem>,
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <LazyLoad
+                debounce={true}
+                elementType="div"
+                offset={0}
+                offsetBottom={0}
+                offsetHorizontal={0}
+                offsetLeft={0}
+                offsetRight={0}
+                offsetTop={0}
+                offsetVertical={0}
+                throttle={250}
+              >
+                <img
+                  src="vin-honneur.jpg"
+                />
+              </LazyLoad>
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="article"
+              >
+                <h3>
+                  Le vin d'honneur
+                </h3>
+                <p>
+                  Se déroulera de 13h00 à 15h00. Une activité « guest book » aura lieu dans l’après-midi. Nous aimerions que chaque invité, couple, famille apporte une photo qui lui est chère
+                </p>
+              </CarouselCaption>
+            </CarouselItem>,
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <LazyLoad
+                debounce={true}
+                elementType="div"
+                offset={0}
+                offsetBottom={0}
+                offsetHorizontal={0}
+                offsetLeft={0}
+                offsetRight={0}
+                offsetTop={0}
+                offsetVertical={0}
+                throttle={250}
+              >
+                <img
+                  src="sport.jpg"
+                />
+              </LazyLoad>
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="article"
+              >
+                <h3>
+                  Activités sportives
+                </h3>
+                <p>
+                  De 15h00 à 18h00. N’oubliez pas de prévoir une tenue adéquate (Vestiaire et douches sur place)
+                </p>
+              </CarouselCaption>
+            </CarouselItem>,
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <LazyLoad
+                debounce={true}
+                elementType="div"
+                offset={0}
+                offsetBottom={0}
+                offsetHorizontal={0}
+                offsetLeft={0}
+                offsetRight={0}
+                offsetTop={0}
+                offsetVertical={0}
+                throttle={250}
+              >
+                <img
+                  src="diner.jpg"
+                />
+              </LazyLoad>
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="article"
+              >
+                <h3>
+                  Diner
+                </h3>
+                <p>
+                  Vous pourrez vous installer dans la salle principale à partir de 19h00. Nous vous proposons de déguster un repas 100% végétarien
+                </p>
+              </CarouselCaption>
+            </CarouselItem>,
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <LazyLoad
+                debounce={true}
+                elementType="div"
+                offset={0}
+                offsetBottom={0}
+                offsetHorizontal={0}
+                offsetLeft={0}
+                offsetRight={0}
+                offsetTop={0}
+                offsetVertical={0}
+                throttle={250}
+              >
+                <img
+                  src="danse.jpg"
+                />
+              </LazyLoad>
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="article"
+              >
+                <h3>
+                  Soirée
+                </h3>
+                <p>
+                  C’est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00 (N'oubliez pas de consulter la page hébergements pour savoir ou dormir)
+                </p>
+              </CarouselCaption>
+            </CarouselItem>,
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <LazyLoad
+                debounce={true}
+                elementType="div"
+                offset={0}
+                offsetBottom={0}
+                offsetHorizontal={0}
+                offsetLeft={0}
+                offsetRight={0}
+                offsetTop={0}
+                offsetVertical={0}
+                throttle={250}
+              >
+                <img
+                  src="brunch.jpg"
+                />
+              </LazyLoad>
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="article"
+              >
+                <h3>
+                  Brunch
+                </h3>
+                <p>
+                  Dimanche 1 Septembre à partir de 11h00. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain
+                </p>
+              </CarouselCaption>
+            </CarouselItem>,
+          ],
+          "controls": true,
+          "direction": null,
+          "indicators": true,
+          "interval": 5000,
+          "nextIcon": <Glyphicon
+            bsClass="glyphicon"
+            glyph="chevron-right"
+          />,
+          "nextLabel": "Next",
+          "onSelect": [Function],
+          "pauseOnHover": true,
+          "prevIcon": <Glyphicon
+            bsClass="glyphicon"
+            glyph="chevron-left"
+          />,
+          "prevLabel": "Previous",
+          "slide": true,
+          "wrap": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "animateIn": false,
+              "animateOut": false,
+              "children": Array [
+                <LazyLoad
+                  debounce={true}
+                  elementType="div"
+                  offset={0}
+                  offsetBottom={0}
+                  offsetHorizontal={0}
+                  offsetLeft={0}
+                  offsetRight={0}
+                  offsetTop={0}
+                  offsetVertical={0}
+                  throttle={250}
+                >
+                  <img
+                    src="union.jpg"
+                  />
+                </LazyLoad>,
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="article"
+                >
+                  <h3>
+                    <Image
+                      bsClass="img"
+                      circle={false}
+                      responsive={true}
+                      rounded={false}
+                      src="union-profile.png"
+                      thumbnail={false}
+                    />
+                    Anouk & Thibault
+                  </h3>
+                  <p>
+                    S’unissent pour le meilleur et pour le pire le 31 Août 2019 au domaine de Saint-Jean de Chépy
+                  </p>
+                </CarouselCaption>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <img
+                    src="union.jpg"
+                  />,
+                  "debounce": true,
+                  "elementType": "div",
+                  "offset": 0,
+                  "offsetBottom": 0,
+                  "offsetHorizontal": 0,
+                  "offsetLeft": 0,
+                  "offsetRight": 0,
+                  "offsetTop": 0,
+                  "offsetVertical": 0,
+                  "throttle": 250,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "src": "union.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "carousel-caption",
+                  "children": Array [
+                    <h3>
+                      <Image
+                        bsClass="img"
+                        circle={false}
+                        responsive={true}
+                        rounded={false}
+                        src="union-profile.png"
+                        thumbnail={false}
+                      />
+                      Anouk & Thibault
+                    </h3>,
+                    <p>
+                      S’unissent pour le meilleur et pour le pire le 31 Août 2019 au domaine de Saint-Jean de Chépy
+                    </p>,
+                  ],
+                  "componentClass": "article",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <Image
+                          bsClass="img"
+                          circle={false}
+                          responsive={true}
+                          rounded={false}
+                          src="union-profile.png"
+                          thumbnail={false}
+                        />,
+                        "Anouk & Thibault",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "bsClass": "img",
+                          "circle": false,
+                          "responsive": true,
+                          "rounded": false,
+                          "src": "union-profile.png",
+                          "thumbnail": false,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "Anouk & Thibault",
+                    ],
+                    "type": "h3",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "S’unissent pour le meilleur et pour le pire le 31 Août 2019 au domaine de Saint-Jean de Chépy",
+                    },
+                    "ref": null,
+                    "rendered": "S’unissent pour le meilleur et pour le pire le 31 Août 2019 au domaine de Saint-Jean de Chépy",
+                    "type": "p",
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "animateIn": false,
+              "animateOut": false,
+              "children": Array [
+                <LazyLoad
+                  debounce={true}
+                  elementType="div"
+                  offset={0}
+                  offsetBottom={0}
+                  offsetHorizontal={0}
+                  offsetLeft={0}
+                  offsetRight={0}
+                  offsetTop={0}
+                  offsetVertical={0}
+                  throttle={250}
+                >
+                  <img
+                    src="ceremonie.jpg"
+                  />
+                </LazyLoad>,
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="article"
+                >
+                  <h3>
+                    Cérémonie
+                  </h3>
+                  <p>
+                    Nous vous donnons rendez-vous à 10h45 au domaine de Saint-Jean de Chépy. La cérémonie débutera à 11h00 sous le chapiteau
+                  </p>
+                </CarouselCaption>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <img
+                    src="ceremonie.jpg"
+                  />,
+                  "debounce": true,
+                  "elementType": "div",
+                  "offset": 0,
+                  "offsetBottom": 0,
+                  "offsetHorizontal": 0,
+                  "offsetLeft": 0,
+                  "offsetRight": 0,
+                  "offsetTop": 0,
+                  "offsetVertical": 0,
+                  "throttle": 250,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "src": "ceremonie.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "carousel-caption",
+                  "children": Array [
+                    <h3>
+                      Cérémonie
+                    </h3>,
+                    <p>
+                      Nous vous donnons rendez-vous à 10h45 au domaine de Saint-Jean de Chépy. La cérémonie débutera à 11h00 sous le chapiteau
+                    </p>,
+                  ],
+                  "componentClass": "article",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Cérémonie",
+                    },
+                    "ref": null,
+                    "rendered": "Cérémonie",
+                    "type": "h3",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Nous vous donnons rendez-vous à 10h45 au domaine de Saint-Jean de Chépy. La cérémonie débutera à 11h00 sous le chapiteau",
+                    },
+                    "ref": null,
+                    "rendered": "Nous vous donnons rendez-vous à 10h45 au domaine de Saint-Jean de Chépy. La cérémonie débutera à 11h00 sous le chapiteau",
+                    "type": "p",
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "animateIn": false,
+              "animateOut": false,
+              "children": Array [
+                <LazyLoad
+                  debounce={true}
+                  elementType="div"
+                  offset={0}
+                  offsetBottom={0}
+                  offsetHorizontal={0}
+                  offsetLeft={0}
+                  offsetRight={0}
+                  offsetTop={0}
+                  offsetVertical={0}
+                  throttle={250}
+                >
+                  <img
+                    src="vin-honneur.jpg"
+                  />
+                </LazyLoad>,
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="article"
+                >
+                  <h3>
+                    Le vin d'honneur
+                  </h3>
+                  <p>
+                    Se déroulera de 13h00 à 15h00. Une activité « guest book » aura lieu dans l’après-midi. Nous aimerions que chaque invité, couple, famille apporte une photo qui lui est chère
+                  </p>
+                </CarouselCaption>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <img
+                    src="vin-honneur.jpg"
+                  />,
+                  "debounce": true,
+                  "elementType": "div",
+                  "offset": 0,
+                  "offsetBottom": 0,
+                  "offsetHorizontal": 0,
+                  "offsetLeft": 0,
+                  "offsetRight": 0,
+                  "offsetTop": 0,
+                  "offsetVertical": 0,
+                  "throttle": 250,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "src": "vin-honneur.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "carousel-caption",
+                  "children": Array [
+                    <h3>
+                      Le vin d'honneur
+                    </h3>,
+                    <p>
+                      Se déroulera de 13h00 à 15h00. Une activité « guest book » aura lieu dans l’après-midi. Nous aimerions que chaque invité, couple, famille apporte une photo qui lui est chère
+                    </p>,
+                  ],
+                  "componentClass": "article",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Le vin d'honneur",
+                    },
+                    "ref": null,
+                    "rendered": "Le vin d'honneur",
+                    "type": "h3",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Se déroulera de 13h00 à 15h00. Une activité « guest book » aura lieu dans l’après-midi. Nous aimerions que chaque invité, couple, famille apporte une photo qui lui est chère",
+                    },
+                    "ref": null,
+                    "rendered": "Se déroulera de 13h00 à 15h00. Une activité « guest book » aura lieu dans l’après-midi. Nous aimerions que chaque invité, couple, famille apporte une photo qui lui est chère",
+                    "type": "p",
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "animateIn": false,
+              "animateOut": false,
+              "children": Array [
+                <LazyLoad
+                  debounce={true}
+                  elementType="div"
+                  offset={0}
+                  offsetBottom={0}
+                  offsetHorizontal={0}
+                  offsetLeft={0}
+                  offsetRight={0}
+                  offsetTop={0}
+                  offsetVertical={0}
+                  throttle={250}
+                >
+                  <img
+                    src="sport.jpg"
+                  />
+                </LazyLoad>,
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="article"
+                >
+                  <h3>
+                    Activités sportives
+                  </h3>
+                  <p>
+                    De 15h00 à 18h00. N’oubliez pas de prévoir une tenue adéquate (Vestiaire et douches sur place)
+                  </p>
+                </CarouselCaption>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <img
+                    src="sport.jpg"
+                  />,
+                  "debounce": true,
+                  "elementType": "div",
+                  "offset": 0,
+                  "offsetBottom": 0,
+                  "offsetHorizontal": 0,
+                  "offsetLeft": 0,
+                  "offsetRight": 0,
+                  "offsetTop": 0,
+                  "offsetVertical": 0,
+                  "throttle": 250,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "src": "sport.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "carousel-caption",
+                  "children": Array [
+                    <h3>
+                      Activités sportives
+                    </h3>,
+                    <p>
+                      De 15h00 à 18h00. N’oubliez pas de prévoir une tenue adéquate (Vestiaire et douches sur place)
+                    </p>,
+                  ],
+                  "componentClass": "article",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Activités sportives",
+                    },
+                    "ref": null,
+                    "rendered": "Activités sportives",
+                    "type": "h3",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "De 15h00 à 18h00. N’oubliez pas de prévoir une tenue adéquate (Vestiaire et douches sur place)",
+                    },
+                    "ref": null,
+                    "rendered": "De 15h00 à 18h00. N’oubliez pas de prévoir une tenue adéquate (Vestiaire et douches sur place)",
+                    "type": "p",
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "animateIn": false,
+              "animateOut": false,
+              "children": Array [
+                <LazyLoad
+                  debounce={true}
+                  elementType="div"
+                  offset={0}
+                  offsetBottom={0}
+                  offsetHorizontal={0}
+                  offsetLeft={0}
+                  offsetRight={0}
+                  offsetTop={0}
+                  offsetVertical={0}
+                  throttle={250}
+                >
+                  <img
+                    src="diner.jpg"
+                  />
+                </LazyLoad>,
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="article"
+                >
+                  <h3>
+                    Diner
+                  </h3>
+                  <p>
+                    Vous pourrez vous installer dans la salle principale à partir de 19h00. Nous vous proposons de déguster un repas 100% végétarien
+                  </p>
+                </CarouselCaption>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <img
+                    src="diner.jpg"
+                  />,
+                  "debounce": true,
+                  "elementType": "div",
+                  "offset": 0,
+                  "offsetBottom": 0,
+                  "offsetHorizontal": 0,
+                  "offsetLeft": 0,
+                  "offsetRight": 0,
+                  "offsetTop": 0,
+                  "offsetVertical": 0,
+                  "throttle": 250,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "src": "diner.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "carousel-caption",
+                  "children": Array [
+                    <h3>
+                      Diner
+                    </h3>,
+                    <p>
+                      Vous pourrez vous installer dans la salle principale à partir de 19h00. Nous vous proposons de déguster un repas 100% végétarien
+                    </p>,
+                  ],
+                  "componentClass": "article",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Diner",
+                    },
+                    "ref": null,
+                    "rendered": "Diner",
+                    "type": "h3",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Vous pourrez vous installer dans la salle principale à partir de 19h00. Nous vous proposons de déguster un repas 100% végétarien",
+                    },
+                    "ref": null,
+                    "rendered": "Vous pourrez vous installer dans la salle principale à partir de 19h00. Nous vous proposons de déguster un repas 100% végétarien",
+                    "type": "p",
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "animateIn": false,
+              "animateOut": false,
+              "children": Array [
+                <LazyLoad
+                  debounce={true}
+                  elementType="div"
+                  offset={0}
+                  offsetBottom={0}
+                  offsetHorizontal={0}
+                  offsetLeft={0}
+                  offsetRight={0}
+                  offsetTop={0}
+                  offsetVertical={0}
+                  throttle={250}
+                >
+                  <img
+                    src="danse.jpg"
+                  />
+                </LazyLoad>,
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="article"
+                >
+                  <h3>
+                    Soirée
+                  </h3>
+                  <p>
+                    C’est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00 (N'oubliez pas de consulter la page hébergements pour savoir ou dormir)
+                  </p>
+                </CarouselCaption>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <img
+                    src="danse.jpg"
+                  />,
+                  "debounce": true,
+                  "elementType": "div",
+                  "offset": 0,
+                  "offsetBottom": 0,
+                  "offsetHorizontal": 0,
+                  "offsetLeft": 0,
+                  "offsetRight": 0,
+                  "offsetTop": 0,
+                  "offsetVertical": 0,
+                  "throttle": 250,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "src": "danse.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "carousel-caption",
+                  "children": Array [
+                    <h3>
+                      Soirée
+                    </h3>,
+                    <p>
+                      C’est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00 (N'oubliez pas de consulter la page hébergements pour savoir ou dormir)
+                    </p>,
+                  ],
+                  "componentClass": "article",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Soirée",
+                    },
+                    "ref": null,
+                    "rendered": "Soirée",
+                    "type": "h3",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "C’est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00 (N'oubliez pas de consulter la page hébergements pour savoir ou dormir)",
+                    },
+                    "ref": null,
+                    "rendered": "C’est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00 (N'oubliez pas de consulter la page hébergements pour savoir ou dormir)",
+                    "type": "p",
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "animateIn": false,
+              "animateOut": false,
+              "children": Array [
+                <LazyLoad
+                  debounce={true}
+                  elementType="div"
+                  offset={0}
+                  offsetBottom={0}
+                  offsetHorizontal={0}
+                  offsetLeft={0}
+                  offsetRight={0}
+                  offsetTop={0}
+                  offsetVertical={0}
+                  throttle={250}
+                >
+                  <img
+                    src="brunch.jpg"
+                  />
+                </LazyLoad>,
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="article"
+                >
+                  <h3>
+                    Brunch
+                  </h3>
+                  <p>
+                    Dimanche 1 Septembre à partir de 11h00. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain
+                  </p>
+                </CarouselCaption>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <img
+                    src="brunch.jpg"
+                  />,
+                  "debounce": true,
+                  "elementType": "div",
+                  "offset": 0,
+                  "offsetBottom": 0,
+                  "offsetHorizontal": 0,
+                  "offsetLeft": 0,
+                  "offsetRight": 0,
+                  "offsetTop": 0,
+                  "offsetVertical": 0,
+                  "throttle": 250,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "src": "brunch.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "carousel-caption",
+                  "children": Array [
+                    <h3>
+                      Brunch
+                    </h3>,
+                    <p>
+                      Dimanche 1 Septembre à partir de 11h00. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain
+                    </p>,
+                  ],
+                  "componentClass": "article",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Brunch",
+                    },
+                    "ref": null,
+                    "rendered": "Brunch",
+                    "type": "h3",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Dimanche 1 Septembre à partir de 11h00. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain",
+                    },
+                    "ref": null,
+                    "rendered": "Dimanche 1 Septembre à partir de 11h00. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain",
+                    "type": "p",
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <PageHeader
+            bsClass="wrapper-title"
+          >
+            Le Jour J
+          </PageHeader>,
+          <Carousel
+            activeIndex={0}
+            bsClass="carousel"
+            controls={true}
+            direction={null}
+            indicators={true}
+            interval={5000}
+            nextIcon={
+              <Glyphicon
+                bsClass="glyphicon"
+                glyph="chevron-right"
+              />
+            }
+            nextLabel="Next"
+            onSelect={[Function]}
+            pauseOnHover={true}
+            prevIcon={
+              <Glyphicon
+                bsClass="glyphicon"
+                glyph="chevron-left"
+              />
+            }
+            prevLabel="Previous"
+            slide={true}
+            wrap={true}
+          >
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <LazyLoad
+                debounce={true}
+                elementType="div"
+                offset={0}
+                offsetBottom={0}
+                offsetHorizontal={0}
+                offsetLeft={0}
+                offsetRight={0}
+                offsetTop={0}
+                offsetVertical={0}
+                throttle={250}
+              >
+                <img
+                  src="union.jpg"
+                />
+              </LazyLoad>
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="article"
+              >
+                <h3>
+                  <Image
+                    bsClass="img"
+                    circle={false}
+                    responsive={true}
+                    rounded={false}
+                    src="union-profile.png"
+                    thumbnail={false}
+                  />
+                  Anouk & Thibault
+                </h3>
+                <p>
+                  S’unissent pour le meilleur et pour le pire le 31 Août 2019 au domaine de Saint-Jean de Chépy
+                </p>
+              </CarouselCaption>
+            </CarouselItem>
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <LazyLoad
+                debounce={true}
+                elementType="div"
+                offset={0}
+                offsetBottom={0}
+                offsetHorizontal={0}
+                offsetLeft={0}
+                offsetRight={0}
+                offsetTop={0}
+                offsetVertical={0}
+                throttle={250}
+              >
+                <img
+                  src="ceremonie.jpg"
+                />
+              </LazyLoad>
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="article"
+              >
+                <h3>
+                  Cérémonie
+                </h3>
+                <p>
+                  Nous vous donnons rendez-vous à 10h45 au domaine de Saint-Jean de Chépy. La cérémonie débutera à 11h00 sous le chapiteau
+                </p>
+              </CarouselCaption>
+            </CarouselItem>
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <LazyLoad
+                debounce={true}
+                elementType="div"
+                offset={0}
+                offsetBottom={0}
+                offsetHorizontal={0}
+                offsetLeft={0}
+                offsetRight={0}
+                offsetTop={0}
+                offsetVertical={0}
+                throttle={250}
+              >
+                <img
+                  src="vin-honneur.jpg"
+                />
+              </LazyLoad>
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="article"
+              >
+                <h3>
+                  Le vin d'honneur
+                </h3>
+                <p>
+                  Se déroulera de 13h00 à 15h00. Une activité « guest book » aura lieu dans l’après-midi. Nous aimerions que chaque invité, couple, famille apporte une photo qui lui est chère
+                </p>
+              </CarouselCaption>
+            </CarouselItem>
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <LazyLoad
+                debounce={true}
+                elementType="div"
+                offset={0}
+                offsetBottom={0}
+                offsetHorizontal={0}
+                offsetLeft={0}
+                offsetRight={0}
+                offsetTop={0}
+                offsetVertical={0}
+                throttle={250}
+              >
+                <img
+                  src="sport.jpg"
+                />
+              </LazyLoad>
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="article"
+              >
+                <h3>
+                  Activités sportives
+                </h3>
+                <p>
+                  De 15h00 à 18h00. N’oubliez pas de prévoir une tenue adéquate (Vestiaire et douches sur place)
+                </p>
+              </CarouselCaption>
+            </CarouselItem>
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <LazyLoad
+                debounce={true}
+                elementType="div"
+                offset={0}
+                offsetBottom={0}
+                offsetHorizontal={0}
+                offsetLeft={0}
+                offsetRight={0}
+                offsetTop={0}
+                offsetVertical={0}
+                throttle={250}
+              >
+                <img
+                  src="diner.jpg"
+                />
+              </LazyLoad>
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="article"
+              >
+                <h3>
+                  Diner
+                </h3>
+                <p>
+                  Vous pourrez vous installer dans la salle principale à partir de 19h00. Nous vous proposons de déguster un repas 100% végétarien
+                </p>
+              </CarouselCaption>
+            </CarouselItem>
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <LazyLoad
+                debounce={true}
+                elementType="div"
+                offset={0}
+                offsetBottom={0}
+                offsetHorizontal={0}
+                offsetLeft={0}
+                offsetRight={0}
+                offsetTop={0}
+                offsetVertical={0}
+                throttle={250}
+              >
+                <img
+                  src="danse.jpg"
+                />
+              </LazyLoad>
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="article"
+              >
+                <h3>
+                  Soirée
+                </h3>
+                <p>
+                  C’est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00 (N'oubliez pas de consulter la page hébergements pour savoir ou dormir)
+                </p>
+              </CarouselCaption>
+            </CarouselItem>
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <LazyLoad
+                debounce={true}
+                elementType="div"
+                offset={0}
+                offsetBottom={0}
+                offsetHorizontal={0}
+                offsetLeft={0}
+                offsetRight={0}
+                offsetTop={0}
+                offsetVertical={0}
+                throttle={250}
+              >
+                <img
+                  src="brunch.jpg"
+                />
+              </LazyLoad>
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="article"
+              >
+                <h3>
+                  Brunch
+                </h3>
+                <p>
+                  Dimanche 1 Septembre à partir de 11h00. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain
+                </p>
+              </CarouselCaption>
+            </CarouselItem>
+          </Carousel>,
+        ],
+        "className": "JourJ",
+        "id": "le-jour-j",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "bsClass": "wrapper-title",
+            "children": "Le Jour J",
+          },
+          "ref": null,
+          "rendered": "Le Jour J",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "activeIndex": 0,
+            "bsClass": "carousel",
+            "children": Array [
+              <CarouselItem
+                active={false}
+                animateIn={false}
+                animateOut={false}
+              >
+                <LazyLoad
+                  debounce={true}
+                  elementType="div"
+                  offset={0}
+                  offsetBottom={0}
+                  offsetHorizontal={0}
+                  offsetLeft={0}
+                  offsetRight={0}
+                  offsetTop={0}
+                  offsetVertical={0}
+                  throttle={250}
+                >
+                  <img
+                    src="union.jpg"
+                  />
+                </LazyLoad>
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="article"
+                >
+                  <h3>
+                    <Image
+                      bsClass="img"
+                      circle={false}
+                      responsive={true}
+                      rounded={false}
+                      src="union-profile.png"
+                      thumbnail={false}
+                    />
+                    Anouk & Thibault
+                  </h3>
+                  <p>
+                    S’unissent pour le meilleur et pour le pire le 31 Août 2019 au domaine de Saint-Jean de Chépy
+                  </p>
+                </CarouselCaption>
+              </CarouselItem>,
+              <CarouselItem
+                active={false}
+                animateIn={false}
+                animateOut={false}
+              >
+                <LazyLoad
+                  debounce={true}
+                  elementType="div"
+                  offset={0}
+                  offsetBottom={0}
+                  offsetHorizontal={0}
+                  offsetLeft={0}
+                  offsetRight={0}
+                  offsetTop={0}
+                  offsetVertical={0}
+                  throttle={250}
+                >
+                  <img
+                    src="ceremonie.jpg"
+                  />
+                </LazyLoad>
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="article"
+                >
+                  <h3>
+                    Cérémonie
+                  </h3>
+                  <p>
+                    Nous vous donnons rendez-vous à 10h45 au domaine de Saint-Jean de Chépy. La cérémonie débutera à 11h00 sous le chapiteau
+                  </p>
+                </CarouselCaption>
+              </CarouselItem>,
+              <CarouselItem
+                active={false}
+                animateIn={false}
+                animateOut={false}
+              >
+                <LazyLoad
+                  debounce={true}
+                  elementType="div"
+                  offset={0}
+                  offsetBottom={0}
+                  offsetHorizontal={0}
+                  offsetLeft={0}
+                  offsetRight={0}
+                  offsetTop={0}
+                  offsetVertical={0}
+                  throttle={250}
+                >
+                  <img
+                    src="vin-honneur.jpg"
+                  />
+                </LazyLoad>
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="article"
+                >
+                  <h3>
+                    Le vin d'honneur
+                  </h3>
+                  <p>
+                    Se déroulera de 13h00 à 15h00. Une activité « guest book » aura lieu dans l’après-midi. Nous aimerions que chaque invité, couple, famille apporte une photo qui lui est chère
+                  </p>
+                </CarouselCaption>
+              </CarouselItem>,
+              <CarouselItem
+                active={false}
+                animateIn={false}
+                animateOut={false}
+              >
+                <LazyLoad
+                  debounce={true}
+                  elementType="div"
+                  offset={0}
+                  offsetBottom={0}
+                  offsetHorizontal={0}
+                  offsetLeft={0}
+                  offsetRight={0}
+                  offsetTop={0}
+                  offsetVertical={0}
+                  throttle={250}
+                >
+                  <img
+                    src="sport.jpg"
+                  />
+                </LazyLoad>
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="article"
+                >
+                  <h3>
+                    Activités sportives
+                  </h3>
+                  <p>
+                    De 15h00 à 18h00. N’oubliez pas de prévoir une tenue adéquate (Vestiaire et douches sur place)
+                  </p>
+                </CarouselCaption>
+              </CarouselItem>,
+              <CarouselItem
+                active={false}
+                animateIn={false}
+                animateOut={false}
+              >
+                <LazyLoad
+                  debounce={true}
+                  elementType="div"
+                  offset={0}
+                  offsetBottom={0}
+                  offsetHorizontal={0}
+                  offsetLeft={0}
+                  offsetRight={0}
+                  offsetTop={0}
+                  offsetVertical={0}
+                  throttle={250}
+                >
+                  <img
+                    src="diner.jpg"
+                  />
+                </LazyLoad>
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="article"
+                >
+                  <h3>
+                    Diner
+                  </h3>
+                  <p>
+                    Vous pourrez vous installer dans la salle principale à partir de 19h00. Nous vous proposons de déguster un repas 100% végétarien
+                  </p>
+                </CarouselCaption>
+              </CarouselItem>,
+              <CarouselItem
+                active={false}
+                animateIn={false}
+                animateOut={false}
+              >
+                <LazyLoad
+                  debounce={true}
+                  elementType="div"
+                  offset={0}
+                  offsetBottom={0}
+                  offsetHorizontal={0}
+                  offsetLeft={0}
+                  offsetRight={0}
+                  offsetTop={0}
+                  offsetVertical={0}
+                  throttle={250}
+                >
+                  <img
+                    src="danse.jpg"
+                  />
+                </LazyLoad>
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="article"
+                >
+                  <h3>
+                    Soirée
+                  </h3>
+                  <p>
+                    C’est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00 (N'oubliez pas de consulter la page hébergements pour savoir ou dormir)
+                  </p>
+                </CarouselCaption>
+              </CarouselItem>,
+              <CarouselItem
+                active={false}
+                animateIn={false}
+                animateOut={false}
+              >
+                <LazyLoad
+                  debounce={true}
+                  elementType="div"
+                  offset={0}
+                  offsetBottom={0}
+                  offsetHorizontal={0}
+                  offsetLeft={0}
+                  offsetRight={0}
+                  offsetTop={0}
+                  offsetVertical={0}
+                  throttle={250}
+                >
+                  <img
+                    src="brunch.jpg"
+                  />
+                </LazyLoad>
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="article"
+                >
+                  <h3>
+                    Brunch
+                  </h3>
+                  <p>
+                    Dimanche 1 Septembre à partir de 11h00. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain
+                  </p>
+                </CarouselCaption>
+              </CarouselItem>,
+            ],
+            "controls": true,
+            "direction": null,
+            "indicators": true,
+            "interval": 5000,
+            "nextIcon": <Glyphicon
+              bsClass="glyphicon"
+              glyph="chevron-right"
+            />,
+            "nextLabel": "Next",
+            "onSelect": [Function],
+            "pauseOnHover": true,
+            "prevIcon": <Glyphicon
+              bsClass="glyphicon"
+              glyph="chevron-left"
+            />,
+            "prevLabel": "Previous",
+            "slide": true,
+            "wrap": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "animateIn": false,
+                "animateOut": false,
+                "children": Array [
+                  <LazyLoad
+                    debounce={true}
+                    elementType="div"
+                    offset={0}
+                    offsetBottom={0}
+                    offsetHorizontal={0}
+                    offsetLeft={0}
+                    offsetRight={0}
+                    offsetTop={0}
+                    offsetVertical={0}
+                    throttle={250}
+                  >
+                    <img
+                      src="union.jpg"
+                    />
+                  </LazyLoad>,
+                  <CarouselCaption
+                    bsClass="carousel-caption"
+                    componentClass="article"
+                  >
+                    <h3>
+                      <Image
+                        bsClass="img"
+                        circle={false}
+                        responsive={true}
+                        rounded={false}
+                        src="union-profile.png"
+                        thumbnail={false}
+                      />
+                      Anouk & Thibault
+                    </h3>
+                    <p>
+                      S’unissent pour le meilleur et pour le pire le 31 Août 2019 au domaine de Saint-Jean de Chépy
+                    </p>
+                  </CarouselCaption>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <img
+                      src="union.jpg"
+                    />,
+                    "debounce": true,
+                    "elementType": "div",
+                    "offset": 0,
+                    "offsetBottom": 0,
+                    "offsetHorizontal": 0,
+                    "offsetLeft": 0,
+                    "offsetRight": 0,
+                    "offsetTop": 0,
+                    "offsetVertical": 0,
+                    "throttle": 250,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "src": "union.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "carousel-caption",
+                    "children": Array [
+                      <h3>
+                        <Image
+                          bsClass="img"
+                          circle={false}
+                          responsive={true}
+                          rounded={false}
+                          src="union-profile.png"
+                          thumbnail={false}
+                        />
+                        Anouk & Thibault
+                      </h3>,
+                      <p>
+                        S’unissent pour le meilleur et pour le pire le 31 Août 2019 au domaine de Saint-Jean de Chépy
+                      </p>,
+                    ],
+                    "componentClass": "article",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <Image
+                            bsClass="img"
+                            circle={false}
+                            responsive={true}
+                            rounded={false}
+                            src="union-profile.png"
+                            thumbnail={false}
+                          />,
+                          "Anouk & Thibault",
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "bsClass": "img",
+                            "circle": false,
+                            "responsive": true,
+                            "rounded": false,
+                            "src": "union-profile.png",
+                            "thumbnail": false,
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "Anouk & Thibault",
+                      ],
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "S’unissent pour le meilleur et pour le pire le 31 Août 2019 au domaine de Saint-Jean de Chépy",
+                      },
+                      "ref": null,
+                      "rendered": "S’unissent pour le meilleur et pour le pire le 31 Août 2019 au domaine de Saint-Jean de Chépy",
+                      "type": "p",
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "animateIn": false,
+                "animateOut": false,
+                "children": Array [
+                  <LazyLoad
+                    debounce={true}
+                    elementType="div"
+                    offset={0}
+                    offsetBottom={0}
+                    offsetHorizontal={0}
+                    offsetLeft={0}
+                    offsetRight={0}
+                    offsetTop={0}
+                    offsetVertical={0}
+                    throttle={250}
+                  >
+                    <img
+                      src="ceremonie.jpg"
+                    />
+                  </LazyLoad>,
+                  <CarouselCaption
+                    bsClass="carousel-caption"
+                    componentClass="article"
+                  >
+                    <h3>
+                      Cérémonie
+                    </h3>
+                    <p>
+                      Nous vous donnons rendez-vous à 10h45 au domaine de Saint-Jean de Chépy. La cérémonie débutera à 11h00 sous le chapiteau
+                    </p>
+                  </CarouselCaption>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <img
+                      src="ceremonie.jpg"
+                    />,
+                    "debounce": true,
+                    "elementType": "div",
+                    "offset": 0,
+                    "offsetBottom": 0,
+                    "offsetHorizontal": 0,
+                    "offsetLeft": 0,
+                    "offsetRight": 0,
+                    "offsetTop": 0,
+                    "offsetVertical": 0,
+                    "throttle": 250,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "src": "ceremonie.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "carousel-caption",
+                    "children": Array [
+                      <h3>
+                        Cérémonie
+                      </h3>,
+                      <p>
+                        Nous vous donnons rendez-vous à 10h45 au domaine de Saint-Jean de Chépy. La cérémonie débutera à 11h00 sous le chapiteau
+                      </p>,
+                    ],
+                    "componentClass": "article",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Cérémonie",
+                      },
+                      "ref": null,
+                      "rendered": "Cérémonie",
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Nous vous donnons rendez-vous à 10h45 au domaine de Saint-Jean de Chépy. La cérémonie débutera à 11h00 sous le chapiteau",
+                      },
+                      "ref": null,
+                      "rendered": "Nous vous donnons rendez-vous à 10h45 au domaine de Saint-Jean de Chépy. La cérémonie débutera à 11h00 sous le chapiteau",
+                      "type": "p",
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "animateIn": false,
+                "animateOut": false,
+                "children": Array [
+                  <LazyLoad
+                    debounce={true}
+                    elementType="div"
+                    offset={0}
+                    offsetBottom={0}
+                    offsetHorizontal={0}
+                    offsetLeft={0}
+                    offsetRight={0}
+                    offsetTop={0}
+                    offsetVertical={0}
+                    throttle={250}
+                  >
+                    <img
+                      src="vin-honneur.jpg"
+                    />
+                  </LazyLoad>,
+                  <CarouselCaption
+                    bsClass="carousel-caption"
+                    componentClass="article"
+                  >
+                    <h3>
+                      Le vin d'honneur
+                    </h3>
+                    <p>
+                      Se déroulera de 13h00 à 15h00. Une activité « guest book » aura lieu dans l’après-midi. Nous aimerions que chaque invité, couple, famille apporte une photo qui lui est chère
+                    </p>
+                  </CarouselCaption>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <img
+                      src="vin-honneur.jpg"
+                    />,
+                    "debounce": true,
+                    "elementType": "div",
+                    "offset": 0,
+                    "offsetBottom": 0,
+                    "offsetHorizontal": 0,
+                    "offsetLeft": 0,
+                    "offsetRight": 0,
+                    "offsetTop": 0,
+                    "offsetVertical": 0,
+                    "throttle": 250,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "src": "vin-honneur.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "carousel-caption",
+                    "children": Array [
+                      <h3>
+                        Le vin d'honneur
+                      </h3>,
+                      <p>
+                        Se déroulera de 13h00 à 15h00. Une activité « guest book » aura lieu dans l’après-midi. Nous aimerions que chaque invité, couple, famille apporte une photo qui lui est chère
+                      </p>,
+                    ],
+                    "componentClass": "article",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Le vin d'honneur",
+                      },
+                      "ref": null,
+                      "rendered": "Le vin d'honneur",
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Se déroulera de 13h00 à 15h00. Une activité « guest book » aura lieu dans l’après-midi. Nous aimerions que chaque invité, couple, famille apporte une photo qui lui est chère",
+                      },
+                      "ref": null,
+                      "rendered": "Se déroulera de 13h00 à 15h00. Une activité « guest book » aura lieu dans l’après-midi. Nous aimerions que chaque invité, couple, famille apporte une photo qui lui est chère",
+                      "type": "p",
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "animateIn": false,
+                "animateOut": false,
+                "children": Array [
+                  <LazyLoad
+                    debounce={true}
+                    elementType="div"
+                    offset={0}
+                    offsetBottom={0}
+                    offsetHorizontal={0}
+                    offsetLeft={0}
+                    offsetRight={0}
+                    offsetTop={0}
+                    offsetVertical={0}
+                    throttle={250}
+                  >
+                    <img
+                      src="sport.jpg"
+                    />
+                  </LazyLoad>,
+                  <CarouselCaption
+                    bsClass="carousel-caption"
+                    componentClass="article"
+                  >
+                    <h3>
+                      Activités sportives
+                    </h3>
+                    <p>
+                      De 15h00 à 18h00. N’oubliez pas de prévoir une tenue adéquate (Vestiaire et douches sur place)
+                    </p>
+                  </CarouselCaption>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <img
+                      src="sport.jpg"
+                    />,
+                    "debounce": true,
+                    "elementType": "div",
+                    "offset": 0,
+                    "offsetBottom": 0,
+                    "offsetHorizontal": 0,
+                    "offsetLeft": 0,
+                    "offsetRight": 0,
+                    "offsetTop": 0,
+                    "offsetVertical": 0,
+                    "throttle": 250,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "src": "sport.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "carousel-caption",
+                    "children": Array [
+                      <h3>
+                        Activités sportives
+                      </h3>,
+                      <p>
+                        De 15h00 à 18h00. N’oubliez pas de prévoir une tenue adéquate (Vestiaire et douches sur place)
+                      </p>,
+                    ],
+                    "componentClass": "article",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Activités sportives",
+                      },
+                      "ref": null,
+                      "rendered": "Activités sportives",
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "De 15h00 à 18h00. N’oubliez pas de prévoir une tenue adéquate (Vestiaire et douches sur place)",
+                      },
+                      "ref": null,
+                      "rendered": "De 15h00 à 18h00. N’oubliez pas de prévoir une tenue adéquate (Vestiaire et douches sur place)",
+                      "type": "p",
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "animateIn": false,
+                "animateOut": false,
+                "children": Array [
+                  <LazyLoad
+                    debounce={true}
+                    elementType="div"
+                    offset={0}
+                    offsetBottom={0}
+                    offsetHorizontal={0}
+                    offsetLeft={0}
+                    offsetRight={0}
+                    offsetTop={0}
+                    offsetVertical={0}
+                    throttle={250}
+                  >
+                    <img
+                      src="diner.jpg"
+                    />
+                  </LazyLoad>,
+                  <CarouselCaption
+                    bsClass="carousel-caption"
+                    componentClass="article"
+                  >
+                    <h3>
+                      Diner
+                    </h3>
+                    <p>
+                      Vous pourrez vous installer dans la salle principale à partir de 19h00. Nous vous proposons de déguster un repas 100% végétarien
+                    </p>
+                  </CarouselCaption>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <img
+                      src="diner.jpg"
+                    />,
+                    "debounce": true,
+                    "elementType": "div",
+                    "offset": 0,
+                    "offsetBottom": 0,
+                    "offsetHorizontal": 0,
+                    "offsetLeft": 0,
+                    "offsetRight": 0,
+                    "offsetTop": 0,
+                    "offsetVertical": 0,
+                    "throttle": 250,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "src": "diner.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "carousel-caption",
+                    "children": Array [
+                      <h3>
+                        Diner
+                      </h3>,
+                      <p>
+                        Vous pourrez vous installer dans la salle principale à partir de 19h00. Nous vous proposons de déguster un repas 100% végétarien
+                      </p>,
+                    ],
+                    "componentClass": "article",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Diner",
+                      },
+                      "ref": null,
+                      "rendered": "Diner",
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Vous pourrez vous installer dans la salle principale à partir de 19h00. Nous vous proposons de déguster un repas 100% végétarien",
+                      },
+                      "ref": null,
+                      "rendered": "Vous pourrez vous installer dans la salle principale à partir de 19h00. Nous vous proposons de déguster un repas 100% végétarien",
+                      "type": "p",
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "animateIn": false,
+                "animateOut": false,
+                "children": Array [
+                  <LazyLoad
+                    debounce={true}
+                    elementType="div"
+                    offset={0}
+                    offsetBottom={0}
+                    offsetHorizontal={0}
+                    offsetLeft={0}
+                    offsetRight={0}
+                    offsetTop={0}
+                    offsetVertical={0}
+                    throttle={250}
+                  >
+                    <img
+                      src="danse.jpg"
+                    />
+                  </LazyLoad>,
+                  <CarouselCaption
+                    bsClass="carousel-caption"
+                    componentClass="article"
+                  >
+                    <h3>
+                      Soirée
+                    </h3>
+                    <p>
+                      C’est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00 (N'oubliez pas de consulter la page hébergements pour savoir ou dormir)
+                    </p>
+                  </CarouselCaption>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <img
+                      src="danse.jpg"
+                    />,
+                    "debounce": true,
+                    "elementType": "div",
+                    "offset": 0,
+                    "offsetBottom": 0,
+                    "offsetHorizontal": 0,
+                    "offsetLeft": 0,
+                    "offsetRight": 0,
+                    "offsetTop": 0,
+                    "offsetVertical": 0,
+                    "throttle": 250,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "src": "danse.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "carousel-caption",
+                    "children": Array [
+                      <h3>
+                        Soirée
+                      </h3>,
+                      <p>
+                        C’est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00 (N'oubliez pas de consulter la page hébergements pour savoir ou dormir)
+                      </p>,
+                    ],
+                    "componentClass": "article",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Soirée",
+                      },
+                      "ref": null,
+                      "rendered": "Soirée",
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "C’est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00 (N'oubliez pas de consulter la page hébergements pour savoir ou dormir)",
+                      },
+                      "ref": null,
+                      "rendered": "C’est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00 (N'oubliez pas de consulter la page hébergements pour savoir ou dormir)",
+                      "type": "p",
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "animateIn": false,
+                "animateOut": false,
+                "children": Array [
+                  <LazyLoad
+                    debounce={true}
+                    elementType="div"
+                    offset={0}
+                    offsetBottom={0}
+                    offsetHorizontal={0}
+                    offsetLeft={0}
+                    offsetRight={0}
+                    offsetTop={0}
+                    offsetVertical={0}
+                    throttle={250}
+                  >
+                    <img
+                      src="brunch.jpg"
+                    />
+                  </LazyLoad>,
+                  <CarouselCaption
+                    bsClass="carousel-caption"
+                    componentClass="article"
+                  >
+                    <h3>
+                      Brunch
+                    </h3>
+                    <p>
+                      Dimanche 1 Septembre à partir de 11h00. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain
+                    </p>
+                  </CarouselCaption>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <img
+                      src="brunch.jpg"
+                    />,
+                    "debounce": true,
+                    "elementType": "div",
+                    "offset": 0,
+                    "offsetBottom": 0,
+                    "offsetHorizontal": 0,
+                    "offsetLeft": 0,
+                    "offsetRight": 0,
+                    "offsetTop": 0,
+                    "offsetVertical": 0,
+                    "throttle": 250,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "src": "brunch.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "carousel-caption",
+                    "children": Array [
+                      <h3>
+                        Brunch
+                      </h3>,
+                      <p>
+                        Dimanche 1 Septembre à partir de 11h00. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain
+                      </p>,
+                    ],
+                    "componentClass": "article",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Brunch",
+                      },
+                      "ref": null,
+                      "rendered": "Brunch",
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Dimanche 1 Septembre à partir de 11h00. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain",
+                      },
+                      "ref": null,
+                      "rendered": "Dimanche 1 Septembre à partir de 11h00. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain",
+                      "type": "p",
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

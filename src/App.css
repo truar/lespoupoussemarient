@@ -1,3 +1,13 @@
+@font-face {
+  font-family: AvenirBook;
+  src: url('./font-family/Avenir-Book/Avenir-Book-01.ttf');
+}
+
+@font-face {
+  font-family: SignPainter;
+  src: url('./font-family/SignPainter/SignPainter.otf');
+}
+
 .App {
   text-align: center;
 }
@@ -30,3 +40,5 @@
     transform: rotate(360deg);
   }
 }
+
+
