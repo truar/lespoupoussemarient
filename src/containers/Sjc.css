@@ -1,0 +1,44 @@
+.Sjc {
+    background: url('../images/sjc.jpg') no-repeat center fixed;
+    background-size: cover; /* version standardisée */
+    height: 100vh;
+}
+
+.Sjc>.WrapperContent {
+    flex-grow: 1;
+}
+
+.Sjc>.WrapperContent>.WrapperContent {
+    flex-grow: 0.1;
+}
+
+.Sjc ul {
+    text-align: left;
+}
+
+.Sjc ul li {
+    list-style: none;
+}
+
+.Sjc>.WrapperContent>.WrapperContent:nth-child(2) {
+    width: 85%;
+    height: 40vh;
+}
+
+@media(min-width: 768px) {
+    .Sjc>.WrapperContent {
+        flex-direction: row;
+    }
+
+    .Sjc>.WrapperContent>.WrapperContent {
+        flex-grow: 0;
+    }
+    
+    .Sjc>.WrapperContent>.WrapperContent {
+        height: 40vh;
+    }
+
+    .Sjc>.WrapperContent>.WrapperContent:nth-child(2) {
+        width: 40%;
+    } 
+}

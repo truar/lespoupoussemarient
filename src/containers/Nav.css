@@ -1,0 +1,85 @@
+nav.bg-dark {
+    background-color: rgba(0,0,0,0.7)!important;
+}
+
+nav.desktop {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    body nav.mobile {
+        display: none;
+    }
+    body nav.desktop.navbar {
+        display: flex;
+        position:fixed;
+        left: -260px;
+        top: 0;
+        width:350px;
+        background-color:rgba(0,0,0,0.5);
+        height:100%;
+        z-index:100;
+        transition-property: left, background-color;
+        transition-delay: 0s;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+        font-size: 2rem;
+        text-align: right;
+        font-family: SignPainter;
+        padding: 0;
+    }
+    
+    body nav.desktop.navbar:hover {
+        transition-property: left, background-color;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+        transition-delay: 0s;
+        left: 0px;
+        background-color:rgba(0,0,0,0.7);
+    }
+
+    nav.desktop>button, nav.desktop>a.navbar-brand {
+        display: none;
+    }
+
+    nav.desktop, nav.desktop>ul {
+        display: flex!important;
+        height:100%;
+        width: 100%;
+    }
+
+    nav.desktop ul {
+        justify-content: space-evenly;
+    }
+
+    nav.desktop ul li a {
+        color: white!important;
+    }
+
+    nav.desktop ul li a:hover {
+        color: rgb(89,89,89)!important;
+    }
+
+    #user_img {
+        background-image: url('../images/icons/user.png');
+        background-position: center top;
+    }
+    
+    .selected #user_img, nav ul li a:hover #user_img {
+        background-image: url('../images/icons/user_select.png');
+    }
+
+    nav.desktop span.img_nav {
+        width: 40px;
+        height: 55px;
+        vertical-align: middle;
+        margin-left: 30px;
+        margin-right: 30px;
+        display: inline-block;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    
+}

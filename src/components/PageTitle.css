@@ -1,0 +1,23 @@
+.PageTitle h1 {
+    display: none;
+    font-size: 3rem;
+    font-family: SignPainter;
+    color: white;
+}
+.PageTitle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 56px;
+}
+
+@media (min-width: 768px) {
+    .PageTitle h1 {
+        display: block;
+        margin-top: 56px;
+        font-size: 4rem;
+    }
+    .PageTitle {
+        height: auto;
+    }
+}

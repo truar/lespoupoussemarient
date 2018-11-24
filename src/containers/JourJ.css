@@ -1,64 +1,63 @@
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
-.JourJ .wrapper-title {
+.JourJ {
+    text-shadow: 1px 2px 2px #1a1a1a; 
+}
+
+.JourJ .PageTitle {
     display: none;
 }
 
-.JourJ h3 img {
-    display: none;
+.JourJ .carousel-item img {
+    width: 100%;
 }
 
-.carousel-inner>.item>div>img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    line-height: 1;
+.carousel .carousel-item:first-child .carousel-caption {
+    bottom: 10%;
 }
 
-@media (max-width: 325px) {
-    .JourJ article {
-        padding: 0px;
+@media (min-width: 768px) {
+    .carousel .carousel-item:first-child h3 {
+        background : url('../images/union-profile.png') no-repeat top;
+        background-size: 25%;
+        padding-top: 25%;
     }
-    .JourJ .item:nth-child(3) article, .JourJ .item:nth-child(6) article {
-        margin-bottom: -17px;
+}
+
+@media (min-width: 992px) {
+    .carousel .carousel-item:first-child h3 {
+        background-size: 30%;
+        padding-top: 31%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .carousel .carousel-item:first-child .carousel-caption {
+        bottom: 20%;
     }
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .JourJ .wrapper-title h1 {
-        font-size: 70px;
-        font-family: SignPainter;
-        color: black;
-    }
-    .JourJ .wrapper-title {
+
+    .JourJ .PageTitle {
         margin-top: 20px;
         position: absolute;
         z-index: 100;
         text-align: center;
         width: 100%;
-    }
-    .JourJ h3 img {
         display: block;
     }
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
 
 }
 
 @media (max-width: 768px) {
-    .JourJ .carousel .item{
-       display: block; 
+    .JourJ .carousel .carousel-item{
+       display: flex; 
+       flex-direction: column;
     }
-    .JourJ .carousel .carousel-indicators, .JourJ .carousel .carousel-control {
+    .JourJ .carousel .carousel-indicators, .JourJ .carousel .carousel-control-prev, .JourJ .carousel .carousel-control-next {
         display: none;
     }
 }

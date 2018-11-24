@@ -1,0 +1,37 @@
+.Profile {
+    background: url('../images/login.jpg') no-repeat center fixed;
+    background-size: cover; /* version standardisée */
+    height: 100vh;
+}
+
+.Profile .WrapperContent {
+    justify-content: center;
+    flex-grow: 2;
+}
+
+.Profile form {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.1;
+    justify-content: center;
+    width: 90%;
+    align-items: center;
+}
+
+.Profile .form-group {
+    width: 100%;
+    justify-content: center;
+}
+
+.Profile .invalid-feedback {
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+@media(min-width: 768px) {
+    .Profile form {
+        width: 25%;
+    }
+}

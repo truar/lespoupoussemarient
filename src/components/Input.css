@@ -1,0 +1,28 @@
+.Input {
+    border: none;
+    border-bottom: 1px solid white;
+    background: none;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    vertical-align: bottom;
+}
+
+.Input::placeholder {
+    color: rgba(255,255,255,.7);
+    font-weight: bold;
+}
+
+.Input:focus {
+    transition: box-shadow .15s ease-in-out;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(255,255,255,.25);
+    outline: 0;
+}
+
+@media(min-width: 768px) {
+    .Input {
+        width: 400px;
+    }
+}

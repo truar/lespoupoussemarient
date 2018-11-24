@@ -1,0 +1,6 @@
+.Contact {
+    background: url('../images/contact.jpg') no-repeat center fixed;
+    background-size: cover; /* version standardisée */
+    height: 100vh;    
+}
+

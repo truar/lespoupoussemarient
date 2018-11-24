@@ -15,21 +15,71 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
-    "props": Object {},
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <Profile
+          isLogged={false}
+          onChange={[Function]}
+          onSubmit={[Function]}
+        />,
+        false,
+      ],
+    },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "error": undefined,
+          "isLogged": false,
+          "onChange": [Function],
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      false,
+    ],
+    "type": Symbol(react.fragment),
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
-      "props": Object {},
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Profile
+            isLogged={false}
+            onChange={[Function]}
+            onSubmit={[Function]}
+          />,
+          false,
+        ],
+      },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "error": undefined,
+            "isLogged": false,
+            "onChange": [Function],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        false,
+      ],
+      "type": Symbol(react.fragment),
     },
   ],
   Symbol(enzyme.__options__): Object {

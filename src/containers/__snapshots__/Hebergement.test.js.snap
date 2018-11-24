@@ -1,0 +1,1251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Hebergement />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <PageTitle
+          title="Hébergement"
+        />,
+        <WrapperContent>
+          <article
+            id="chalet"
+          >
+            <h2>
+              Chalets
+            </h2>
+            <div
+              className="content"
+            >
+              <p>
+                Sur place
+              </p>
+              <p>
+                Prix pour la nuit : 35€/pers
+              </p>
+            </div>
+            <div
+              className="content"
+            >
+              <p>
+                Place limitées
+              </p>
+              <p>
+                Capacité : 7 personnes
+              </p>
+            </div>
+          </article>
+          <article
+            id="tente"
+          >
+            <h2>
+              Tentes*
+            </h2>
+            <div
+              className="content"
+            >
+              <p>
+                Sur place
+              </p>
+              <p>
+                Prix pour la nuit : gratuit
+              </p>
+            </div>
+            <div
+              className="content"
+            >
+              <p>
+                Place limitées
+              </p>
+              <p>
+                *matériel non fourni par les mariés
+              </p>
+            </div>
+          </article>
+          <article
+            id="gite"
+          >
+            <h2>
+              Gites*
+            </h2>
+            <div
+              className="content"
+            >
+              <p>
+                Aux alentours
+              </p>
+              <p>
+                Prix pour la nuit : 35€/pers
+              </p>
+            </div>
+            <div
+              className="content"
+            >
+              <p>
+                A réserver
+              </p>
+              <p>
+                *prix moyens
+              </p>
+            </div>
+          </article>
+        </WrapperContent>,
+      ],
+      "className": "Hebergement",
+      "id": "Hebergement",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "title": "Hébergement",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <article
+              id="chalet"
+            >
+              <h2>
+                Chalets
+              </h2>
+              <div
+                className="content"
+              >
+                <p>
+                  Sur place
+                </p>
+                <p>
+                  Prix pour la nuit : 35€/pers
+                </p>
+              </div>
+              <div
+                className="content"
+              >
+                <p>
+                  Place limitées
+                </p>
+                <p>
+                  Capacité : 7 personnes
+                </p>
+              </div>
+            </article>,
+            <article
+              id="tente"
+            >
+              <h2>
+                Tentes*
+              </h2>
+              <div
+                className="content"
+              >
+                <p>
+                  Sur place
+                </p>
+                <p>
+                  Prix pour la nuit : gratuit
+                </p>
+              </div>
+              <div
+                className="content"
+              >
+                <p>
+                  Place limitées
+                </p>
+                <p>
+                  *matériel non fourni par les mariés
+                </p>
+              </div>
+            </article>,
+            <article
+              id="gite"
+            >
+              <h2>
+                Gites*
+              </h2>
+              <div
+                className="content"
+              >
+                <p>
+                  Aux alentours
+                </p>
+                <p>
+                  Prix pour la nuit : 35€/pers
+                </p>
+              </div>
+              <div
+                className="content"
+              >
+                <p>
+                  A réserver
+                </p>
+                <p>
+                  *prix moyens
+                </p>
+              </div>
+            </article>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2>
+                  Chalets
+                </h2>,
+                Array [
+                  <div
+                    className="content"
+                  >
+                    <p>
+                      Sur place
+                    </p>
+                    <p>
+                      Prix pour la nuit : 35€/pers
+                    </p>
+                  </div>,
+                  <div
+                    className="content"
+                  >
+                    <p>
+                      Place limitées
+                    </p>
+                    <p>
+                      Capacité : 7 personnes
+                    </p>
+                  </div>,
+                ],
+              ],
+              "id": "chalet",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Chalets",
+                },
+                "ref": null,
+                "rendered": "Chalets",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <p>
+                      Sur place
+                    </p>,
+                    <p>
+                      Prix pour la nuit : 35€/pers
+                    </p>,
+                  ],
+                  "className": "content",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Sur place",
+                    },
+                    "ref": null,
+                    "rendered": "Sur place",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Prix pour la nuit : 35€/pers",
+                    },
+                    "ref": null,
+                    "rendered": "Prix pour la nuit : 35€/pers",
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <p>
+                      Place limitées
+                    </p>,
+                    <p>
+                      Capacité : 7 personnes
+                    </p>,
+                  ],
+                  "className": "content",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Place limitées",
+                    },
+                    "ref": null,
+                    "rendered": "Place limitées",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Capacité : 7 personnes",
+                    },
+                    "ref": null,
+                    "rendered": "Capacité : 7 personnes",
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "article",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2>
+                  Tentes*
+                </h2>,
+                Array [
+                  <div
+                    className="content"
+                  >
+                    <p>
+                      Sur place
+                    </p>
+                    <p>
+                      Prix pour la nuit : gratuit
+                    </p>
+                  </div>,
+                  <div
+                    className="content"
+                  >
+                    <p>
+                      Place limitées
+                    </p>
+                    <p>
+                      *matériel non fourni par les mariés
+                    </p>
+                  </div>,
+                ],
+              ],
+              "id": "tente",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Tentes*",
+                },
+                "ref": null,
+                "rendered": "Tentes*",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <p>
+                      Sur place
+                    </p>,
+                    <p>
+                      Prix pour la nuit : gratuit
+                    </p>,
+                  ],
+                  "className": "content",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Sur place",
+                    },
+                    "ref": null,
+                    "rendered": "Sur place",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Prix pour la nuit : gratuit",
+                    },
+                    "ref": null,
+                    "rendered": "Prix pour la nuit : gratuit",
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <p>
+                      Place limitées
+                    </p>,
+                    <p>
+                      *matériel non fourni par les mariés
+                    </p>,
+                  ],
+                  "className": "content",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Place limitées",
+                    },
+                    "ref": null,
+                    "rendered": "Place limitées",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "*matériel non fourni par les mariés",
+                    },
+                    "ref": null,
+                    "rendered": "*matériel non fourni par les mariés",
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "article",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2>
+                  Gites*
+                </h2>,
+                Array [
+                  <div
+                    className="content"
+                  >
+                    <p>
+                      Aux alentours
+                    </p>
+                    <p>
+                      Prix pour la nuit : 35€/pers
+                    </p>
+                  </div>,
+                  <div
+                    className="content"
+                  >
+                    <p>
+                      A réserver
+                    </p>
+                    <p>
+                      *prix moyens
+                    </p>
+                  </div>,
+                ],
+              ],
+              "id": "gite",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Gites*",
+                },
+                "ref": null,
+                "rendered": "Gites*",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <p>
+                      Aux alentours
+                    </p>,
+                    <p>
+                      Prix pour la nuit : 35€/pers
+                    </p>,
+                  ],
+                  "className": "content",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Aux alentours",
+                    },
+                    "ref": null,
+                    "rendered": "Aux alentours",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Prix pour la nuit : 35€/pers",
+                    },
+                    "ref": null,
+                    "rendered": "Prix pour la nuit : 35€/pers",
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <p>
+                      A réserver
+                    </p>,
+                    <p>
+                      *prix moyens
+                    </p>,
+                  ],
+                  "className": "content",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "A réserver",
+                    },
+                    "ref": null,
+                    "rendered": "A réserver",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "*prix moyens",
+                    },
+                    "ref": null,
+                    "rendered": "*prix moyens",
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "article",
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <PageTitle
+            title="Hébergement"
+          />,
+          <WrapperContent>
+            <article
+              id="chalet"
+            >
+              <h2>
+                Chalets
+              </h2>
+              <div
+                className="content"
+              >
+                <p>
+                  Sur place
+                </p>
+                <p>
+                  Prix pour la nuit : 35€/pers
+                </p>
+              </div>
+              <div
+                className="content"
+              >
+                <p>
+                  Place limitées
+                </p>
+                <p>
+                  Capacité : 7 personnes
+                </p>
+              </div>
+            </article>
+            <article
+              id="tente"
+            >
+              <h2>
+                Tentes*
+              </h2>
+              <div
+                className="content"
+              >
+                <p>
+                  Sur place
+                </p>
+                <p>
+                  Prix pour la nuit : gratuit
+                </p>
+              </div>
+              <div
+                className="content"
+              >
+                <p>
+                  Place limitées
+                </p>
+                <p>
+                  *matériel non fourni par les mariés
+                </p>
+              </div>
+            </article>
+            <article
+              id="gite"
+            >
+              <h2>
+                Gites*
+              </h2>
+              <div
+                className="content"
+              >
+                <p>
+                  Aux alentours
+                </p>
+                <p>
+                  Prix pour la nuit : 35€/pers
+                </p>
+              </div>
+              <div
+                className="content"
+              >
+                <p>
+                  A réserver
+                </p>
+                <p>
+                  *prix moyens
+                </p>
+              </div>
+            </article>
+          </WrapperContent>,
+        ],
+        "className": "Hebergement",
+        "id": "Hebergement",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "title": "Hébergement",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <article
+                id="chalet"
+              >
+                <h2>
+                  Chalets
+                </h2>
+                <div
+                  className="content"
+                >
+                  <p>
+                    Sur place
+                  </p>
+                  <p>
+                    Prix pour la nuit : 35€/pers
+                  </p>
+                </div>
+                <div
+                  className="content"
+                >
+                  <p>
+                    Place limitées
+                  </p>
+                  <p>
+                    Capacité : 7 personnes
+                  </p>
+                </div>
+              </article>,
+              <article
+                id="tente"
+              >
+                <h2>
+                  Tentes*
+                </h2>
+                <div
+                  className="content"
+                >
+                  <p>
+                    Sur place
+                  </p>
+                  <p>
+                    Prix pour la nuit : gratuit
+                  </p>
+                </div>
+                <div
+                  className="content"
+                >
+                  <p>
+                    Place limitées
+                  </p>
+                  <p>
+                    *matériel non fourni par les mariés
+                  </p>
+                </div>
+              </article>,
+              <article
+                id="gite"
+              >
+                <h2>
+                  Gites*
+                </h2>
+                <div
+                  className="content"
+                >
+                  <p>
+                    Aux alentours
+                  </p>
+                  <p>
+                    Prix pour la nuit : 35€/pers
+                  </p>
+                </div>
+                <div
+                  className="content"
+                >
+                  <p>
+                    A réserver
+                  </p>
+                  <p>
+                    *prix moyens
+                  </p>
+                </div>
+              </article>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h2>
+                    Chalets
+                  </h2>,
+                  Array [
+                    <div
+                      className="content"
+                    >
+                      <p>
+                        Sur place
+                      </p>
+                      <p>
+                        Prix pour la nuit : 35€/pers
+                      </p>
+                    </div>,
+                    <div
+                      className="content"
+                    >
+                      <p>
+                        Place limitées
+                      </p>
+                      <p>
+                        Capacité : 7 personnes
+                      </p>
+                    </div>,
+                  ],
+                ],
+                "id": "chalet",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Chalets",
+                  },
+                  "ref": null,
+                  "rendered": "Chalets",
+                  "type": "h2",
+                },
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <p>
+                        Sur place
+                      </p>,
+                      <p>
+                        Prix pour la nuit : 35€/pers
+                      </p>,
+                    ],
+                    "className": "content",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "0",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Sur place",
+                      },
+                      "ref": null,
+                      "rendered": "Sur place",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Prix pour la nuit : 35€/pers",
+                      },
+                      "ref": null,
+                      "rendered": "Prix pour la nuit : 35€/pers",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <p>
+                        Place limitées
+                      </p>,
+                      <p>
+                        Capacité : 7 personnes
+                      </p>,
+                    ],
+                    "className": "content",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "0",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Place limitées",
+                      },
+                      "ref": null,
+                      "rendered": "Place limitées",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Capacité : 7 personnes",
+                      },
+                      "ref": null,
+                      "rendered": "Capacité : 7 personnes",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "article",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h2>
+                    Tentes*
+                  </h2>,
+                  Array [
+                    <div
+                      className="content"
+                    >
+                      <p>
+                        Sur place
+                      </p>
+                      <p>
+                        Prix pour la nuit : gratuit
+                      </p>
+                    </div>,
+                    <div
+                      className="content"
+                    >
+                      <p>
+                        Place limitées
+                      </p>
+                      <p>
+                        *matériel non fourni par les mariés
+                      </p>
+                    </div>,
+                  ],
+                ],
+                "id": "tente",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Tentes*",
+                  },
+                  "ref": null,
+                  "rendered": "Tentes*",
+                  "type": "h2",
+                },
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <p>
+                        Sur place
+                      </p>,
+                      <p>
+                        Prix pour la nuit : gratuit
+                      </p>,
+                    ],
+                    "className": "content",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "0",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Sur place",
+                      },
+                      "ref": null,
+                      "rendered": "Sur place",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Prix pour la nuit : gratuit",
+                      },
+                      "ref": null,
+                      "rendered": "Prix pour la nuit : gratuit",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <p>
+                        Place limitées
+                      </p>,
+                      <p>
+                        *matériel non fourni par les mariés
+                      </p>,
+                    ],
+                    "className": "content",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "0",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Place limitées",
+                      },
+                      "ref": null,
+                      "rendered": "Place limitées",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "*matériel non fourni par les mariés",
+                      },
+                      "ref": null,
+                      "rendered": "*matériel non fourni par les mariés",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "article",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h2>
+                    Gites*
+                  </h2>,
+                  Array [
+                    <div
+                      className="content"
+                    >
+                      <p>
+                        Aux alentours
+                      </p>
+                      <p>
+                        Prix pour la nuit : 35€/pers
+                      </p>
+                    </div>,
+                    <div
+                      className="content"
+                    >
+                      <p>
+                        A réserver
+                      </p>
+                      <p>
+                        *prix moyens
+                      </p>
+                    </div>,
+                  ],
+                ],
+                "id": "gite",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Gites*",
+                  },
+                  "ref": null,
+                  "rendered": "Gites*",
+                  "type": "h2",
+                },
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <p>
+                        Aux alentours
+                      </p>,
+                      <p>
+                        Prix pour la nuit : 35€/pers
+                      </p>,
+                    ],
+                    "className": "content",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "0",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Aux alentours",
+                      },
+                      "ref": null,
+                      "rendered": "Aux alentours",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Prix pour la nuit : 35€/pers",
+                      },
+                      "ref": null,
+                      "rendered": "Prix pour la nuit : 35€/pers",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <p>
+                        A réserver
+                      </p>,
+                      <p>
+                        *prix moyens
+                      </p>,
+                    ],
+                    "className": "content",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "0",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "A réserver",
+                      },
+                      "ref": null,
+                      "rendered": "A réserver",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "*prix moyens",
+                      },
+                      "ref": null,
+                      "rendered": "*prix moyens",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "article",
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

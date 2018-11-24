@@ -1,0 +1,399 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Profile />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <WrapperContent
+        title="Les poupous se marient !"
+      >
+        <Form
+          id="login-form"
+          tag="form"
+        >
+          <FormGroup
+            tag="div"
+          >
+            <Input
+              id="guestCode"
+              name="guestCode"
+              placeholder="Entrez votre code..."
+              type="text"
+            />
+            <FormFeedback
+              tag="div"
+            >
+              Code incorrect
+            </FormFeedback>
+          </FormGroup>
+          <Button
+            color="secondary"
+            tag="button"
+          >
+            Se connecter
+          </Button>
+        </Form>
+      </WrapperContent>,
+      "className": "Profile",
+      "id": "Profile",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <Form
+          id="login-form"
+          tag="form"
+        >
+          <FormGroup
+            tag="div"
+          >
+            <Input
+              id="guestCode"
+              name="guestCode"
+              placeholder="Entrez votre code..."
+              type="text"
+            />
+            <FormFeedback
+              tag="div"
+            >
+              Code incorrect
+            </FormFeedback>
+          </FormGroup>
+          <Button
+            color="secondary"
+            tag="button"
+          >
+            Se connecter
+          </Button>
+        </Form>,
+        "title": "Les poupous se marient !",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <FormGroup
+              tag="div"
+            >
+              <Input
+                id="guestCode"
+                name="guestCode"
+                placeholder="Entrez votre code..."
+                type="text"
+              />
+              <FormFeedback
+                tag="div"
+              >
+                Code incorrect
+              </FormFeedback>
+            </FormGroup>,
+            <Button
+              color="secondary"
+              tag="button"
+            >
+              Se connecter
+            </Button>,
+          ],
+          "id": "login-form",
+          "onSubmit": undefined,
+          "tag": "form",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <Input
+                  id="guestCode"
+                  name="guestCode"
+                  placeholder="Entrez votre code..."
+                  type="text"
+                />,
+                <FormFeedback
+                  tag="div"
+                >
+                  Code incorrect
+                </FormFeedback>,
+              ],
+              "tag": "div",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "id": "guestCode",
+                  "invalid": undefined,
+                  "name": "guestCode",
+                  "onChange": undefined,
+                  "placeholder": "Entrez votre code...",
+                  "type": "text",
+                  "value": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Code incorrect",
+                  "tag": "div",
+                  "valid": undefined,
+                },
+                "ref": null,
+                "rendered": "Code incorrect",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Se connecter",
+              "color": "secondary",
+              "tag": "button",
+            },
+            "ref": null,
+            "rendered": "Se connecter",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <WrapperContent
+          title="Les poupous se marient !"
+        >
+          <Form
+            id="login-form"
+            tag="form"
+          >
+            <FormGroup
+              tag="div"
+            >
+              <Input
+                id="guestCode"
+                name="guestCode"
+                placeholder="Entrez votre code..."
+                type="text"
+              />
+              <FormFeedback
+                tag="div"
+              >
+                Code incorrect
+              </FormFeedback>
+            </FormGroup>
+            <Button
+              color="secondary"
+              tag="button"
+            >
+              Se connecter
+            </Button>
+          </Form>
+        </WrapperContent>,
+        "className": "Profile",
+        "id": "Profile",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <Form
+            id="login-form"
+            tag="form"
+          >
+            <FormGroup
+              tag="div"
+            >
+              <Input
+                id="guestCode"
+                name="guestCode"
+                placeholder="Entrez votre code..."
+                type="text"
+              />
+              <FormFeedback
+                tag="div"
+              >
+                Code incorrect
+              </FormFeedback>
+            </FormGroup>
+            <Button
+              color="secondary"
+              tag="button"
+            >
+              Se connecter
+            </Button>
+          </Form>,
+          "title": "Les poupous se marient !",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <FormGroup
+                tag="div"
+              >
+                <Input
+                  id="guestCode"
+                  name="guestCode"
+                  placeholder="Entrez votre code..."
+                  type="text"
+                />
+                <FormFeedback
+                  tag="div"
+                >
+                  Code incorrect
+                </FormFeedback>
+              </FormGroup>,
+              <Button
+                color="secondary"
+                tag="button"
+              >
+                Se connecter
+              </Button>,
+            ],
+            "id": "login-form",
+            "onSubmit": undefined,
+            "tag": "form",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <Input
+                    id="guestCode"
+                    name="guestCode"
+                    placeholder="Entrez votre code..."
+                    type="text"
+                  />,
+                  <FormFeedback
+                    tag="div"
+                  >
+                    Code incorrect
+                  </FormFeedback>,
+                ],
+                "tag": "div",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "id": "guestCode",
+                    "invalid": undefined,
+                    "name": "guestCode",
+                    "onChange": undefined,
+                    "placeholder": "Entrez votre code...",
+                    "type": "text",
+                    "value": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": "Code incorrect",
+                    "tag": "div",
+                    "valid": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "Code incorrect",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Se connecter",
+                "color": "secondary",
+                "tag": "button",
+              },
+              "ref": null,
+              "rendered": "Se connecter",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
