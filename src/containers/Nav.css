@@ -81,5 +81,47 @@ nav.desktop {
         background-position: center center;
     }
 
+    #jourj_img {
+        background-image: url('../images/icons/jourj.png');
+    }
+    
+    .selected #jourj_img, nav ul li a:hover #jourj_img {
+        background-image: url('../images/icons/jourj_select.png');
+    }
+    
+    #invitation_img {
+        background-image: url('../images/icons/invitation.png');
+    }
+    
+    .selected #invitation_img, nav ul li a:hover #invitation_img {
+        background-image: url('../images/icons/invitation_select.png');
+    }
+    
+    #hebergement_img {
+        background-image: url('../images/icons/hebergement.png');
+    }
+    
+    .selected #hebergement_img, nav ul li a:hover #hebergement_img {
+        background-image: url('../images/icons/hebergement_select.png');
+    }
+    
+    #SJC_img {
+        background-image: url('../images/icons/sjc.png');
+    }
+    
+    .selected #SJC_img, nav ul li a:hover #SJC_img {
+        background-image: url('../images/icons/sjc_select.png');
+    }
+    
+    #phone_img {
+        background-image: url('../images/icons/phone.png');
+        background-position: center top;
+        height: 70px;
+    }
+    
+    .selected #phone_img, nav ul li a:hover #phone_img {
+        background-image: url('../images/icons/phone_select.png');
+    }
+
     
 }

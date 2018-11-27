@@ -32,59 +32,7 @@ ShallowWrapper {
         >
           <CarouselIndicators
             activeIndex={0}
-            items={
-              Array [
-                Object {
-                  "category": 1,
-                  "header": "Anouk & Thibault",
-                  "key": 1,
-                  "picture": "union.jpg",
-                  "text": "S’unissent pour le meilleur et pour le pire le 31 Août 2019 au domaine de Saint-Jean de Chépy",
-                },
-                Object {
-                  "category": 1,
-                  "header": "Cérémonie",
-                  "key": 2,
-                  "picture": "ceremonie.jpg",
-                  "text": "Nous vous donnons rendez-vous à 10h45 au domaine de Saint-Jean de Chépy. La cérémonie débutera à 11h00 sous le chapiteau",
-                },
-                Object {
-                  "category": 1,
-                  "header": "Le vin d'honneur",
-                  "key": 3,
-                  "picture": "vin-honneur.jpg",
-                  "text": "Se déroulera de 13h00 à 15h00. Une activité « guest book » aura lieu dans l’après-midi. Nous aimerions que chaque invité, couple, famille apporte une photo qui lui est chère",
-                },
-                Object {
-                  "category": 1,
-                  "header": "Activités sportives",
-                  "key": 4,
-                  "picture": "sport.jpg",
-                  "text": "De 15h00 à 18h00. N’oubliez pas de prévoir une tenue adéquate (Vestiaire et douches sur place)",
-                },
-                Object {
-                  "category": 2,
-                  "header": "Diner",
-                  "key": 5,
-                  "picture": "diner.jpg",
-                  "text": "Vous pourrez vous installer dans la salle principale à partir de 19h00. Nous vous proposons de déguster un repas 100% végétarien",
-                },
-                Object {
-                  "category": 2,
-                  "header": "Soirée",
-                  "key": 6,
-                  "picture": "soiree.jpg",
-                  "text": "C'est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00 (N'oubliez pas de consulter la page hébergements pour savoir ou dormir)",
-                },
-                Object {
-                  "category": 3,
-                  "header": "Brunch",
-                  "key": 7,
-                  "picture": "brunch.jpg",
-                  "text": "Dimanche 1 Septembre à partir de 11h00. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain",
-                },
-              ]
-            }
+            items={Array []}
             onClickHandler={[Function]}
           />
           <CarouselControl
@@ -124,59 +72,7 @@ ShallowWrapper {
           "children": Array [
             <CarouselIndicators
               activeIndex={0}
-              items={
-                Array [
-                  Object {
-                    "category": 1,
-                    "header": "Anouk & Thibault",
-                    "key": 1,
-                    "picture": "union.jpg",
-                    "text": "S’unissent pour le meilleur et pour le pire le 31 Août 2019 au domaine de Saint-Jean de Chépy",
-                  },
-                  Object {
-                    "category": 1,
-                    "header": "Cérémonie",
-                    "key": 2,
-                    "picture": "ceremonie.jpg",
-                    "text": "Nous vous donnons rendez-vous à 10h45 au domaine de Saint-Jean de Chépy. La cérémonie débutera à 11h00 sous le chapiteau",
-                  },
-                  Object {
-                    "category": 1,
-                    "header": "Le vin d'honneur",
-                    "key": 3,
-                    "picture": "vin-honneur.jpg",
-                    "text": "Se déroulera de 13h00 à 15h00. Une activité « guest book » aura lieu dans l’après-midi. Nous aimerions que chaque invité, couple, famille apporte une photo qui lui est chère",
-                  },
-                  Object {
-                    "category": 1,
-                    "header": "Activités sportives",
-                    "key": 4,
-                    "picture": "sport.jpg",
-                    "text": "De 15h00 à 18h00. N’oubliez pas de prévoir une tenue adéquate (Vestiaire et douches sur place)",
-                  },
-                  Object {
-                    "category": 2,
-                    "header": "Diner",
-                    "key": 5,
-                    "picture": "diner.jpg",
-                    "text": "Vous pourrez vous installer dans la salle principale à partir de 19h00. Nous vous proposons de déguster un repas 100% végétarien",
-                  },
-                  Object {
-                    "category": 2,
-                    "header": "Soirée",
-                    "key": 6,
-                    "picture": "soiree.jpg",
-                    "text": "C'est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00 (N'oubliez pas de consulter la page hébergements pour savoir ou dormir)",
-                  },
-                  Object {
-                    "category": 3,
-                    "header": "Brunch",
-                    "key": 7,
-                    "picture": "brunch.jpg",
-                    "text": "Dimanche 1 Septembre à partir de 11h00. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain",
-                  },
-                ]
-              }
+              items={Array []}
               onClickHandler={[Function]}
             />,
             Array [],
@@ -206,57 +102,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "activeIndex": 0,
-              "items": Array [
-                Object {
-                  "category": 1,
-                  "header": "Anouk & Thibault",
-                  "key": 1,
-                  "picture": "union.jpg",
-                  "text": "S’unissent pour le meilleur et pour le pire le 31 Août 2019 au domaine de Saint-Jean de Chépy",
-                },
-                Object {
-                  "category": 1,
-                  "header": "Cérémonie",
-                  "key": 2,
-                  "picture": "ceremonie.jpg",
-                  "text": "Nous vous donnons rendez-vous à 10h45 au domaine de Saint-Jean de Chépy. La cérémonie débutera à 11h00 sous le chapiteau",
-                },
-                Object {
-                  "category": 1,
-                  "header": "Le vin d'honneur",
-                  "key": 3,
-                  "picture": "vin-honneur.jpg",
-                  "text": "Se déroulera de 13h00 à 15h00. Une activité « guest book » aura lieu dans l’après-midi. Nous aimerions que chaque invité, couple, famille apporte une photo qui lui est chère",
-                },
-                Object {
-                  "category": 1,
-                  "header": "Activités sportives",
-                  "key": 4,
-                  "picture": "sport.jpg",
-                  "text": "De 15h00 à 18h00. N’oubliez pas de prévoir une tenue adéquate (Vestiaire et douches sur place)",
-                },
-                Object {
-                  "category": 2,
-                  "header": "Diner",
-                  "key": 5,
-                  "picture": "diner.jpg",
-                  "text": "Vous pourrez vous installer dans la salle principale à partir de 19h00. Nous vous proposons de déguster un repas 100% végétarien",
-                },
-                Object {
-                  "category": 2,
-                  "header": "Soirée",
-                  "key": 6,
-                  "picture": "soiree.jpg",
-                  "text": "C'est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00 (N'oubliez pas de consulter la page hébergements pour savoir ou dormir)",
-                },
-                Object {
-                  "category": 3,
-                  "header": "Brunch",
-                  "key": 7,
-                  "picture": "brunch.jpg",
-                  "text": "Dimanche 1 Septembre à partir de 11h00. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain",
-                },
-              ],
+              "items": Array [],
               "onClickHandler": [Function],
             },
             "ref": null,
@@ -316,59 +162,7 @@ ShallowWrapper {
           >
             <CarouselIndicators
               activeIndex={0}
-              items={
-                Array [
-                  Object {
-                    "category": 1,
-                    "header": "Anouk & Thibault",
-                    "key": 1,
-                    "picture": "union.jpg",
-                    "text": "S’unissent pour le meilleur et pour le pire le 31 Août 2019 au domaine de Saint-Jean de Chépy",
-                  },
-                  Object {
-                    "category": 1,
-                    "header": "Cérémonie",
-                    "key": 2,
-                    "picture": "ceremonie.jpg",
-                    "text": "Nous vous donnons rendez-vous à 10h45 au domaine de Saint-Jean de Chépy. La cérémonie débutera à 11h00 sous le chapiteau",
-                  },
-                  Object {
-                    "category": 1,
-                    "header": "Le vin d'honneur",
-                    "key": 3,
-                    "picture": "vin-honneur.jpg",
-                    "text": "Se déroulera de 13h00 à 15h00. Une activité « guest book » aura lieu dans l’après-midi. Nous aimerions que chaque invité, couple, famille apporte une photo qui lui est chère",
-                  },
-                  Object {
-                    "category": 1,
-                    "header": "Activités sportives",
-                    "key": 4,
-                    "picture": "sport.jpg",
-                    "text": "De 15h00 à 18h00. N’oubliez pas de prévoir une tenue adéquate (Vestiaire et douches sur place)",
-                  },
-                  Object {
-                    "category": 2,
-                    "header": "Diner",
-                    "key": 5,
-                    "picture": "diner.jpg",
-                    "text": "Vous pourrez vous installer dans la salle principale à partir de 19h00. Nous vous proposons de déguster un repas 100% végétarien",
-                  },
-                  Object {
-                    "category": 2,
-                    "header": "Soirée",
-                    "key": 6,
-                    "picture": "soiree.jpg",
-                    "text": "C'est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00 (N'oubliez pas de consulter la page hébergements pour savoir ou dormir)",
-                  },
-                  Object {
-                    "category": 3,
-                    "header": "Brunch",
-                    "key": 7,
-                    "picture": "brunch.jpg",
-                    "text": "Dimanche 1 Septembre à partir de 11h00. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain",
-                  },
-                ]
-              }
+              items={Array []}
               onClickHandler={[Function]}
             />
             <CarouselControl
@@ -408,59 +202,7 @@ ShallowWrapper {
             "children": Array [
               <CarouselIndicators
                 activeIndex={0}
-                items={
-                  Array [
-                    Object {
-                      "category": 1,
-                      "header": "Anouk & Thibault",
-                      "key": 1,
-                      "picture": "union.jpg",
-                      "text": "S’unissent pour le meilleur et pour le pire le 31 Août 2019 au domaine de Saint-Jean de Chépy",
-                    },
-                    Object {
-                      "category": 1,
-                      "header": "Cérémonie",
-                      "key": 2,
-                      "picture": "ceremonie.jpg",
-                      "text": "Nous vous donnons rendez-vous à 10h45 au domaine de Saint-Jean de Chépy. La cérémonie débutera à 11h00 sous le chapiteau",
-                    },
-                    Object {
-                      "category": 1,
-                      "header": "Le vin d'honneur",
-                      "key": 3,
-                      "picture": "vin-honneur.jpg",
-                      "text": "Se déroulera de 13h00 à 15h00. Une activité « guest book » aura lieu dans l’après-midi. Nous aimerions que chaque invité, couple, famille apporte une photo qui lui est chère",
-                    },
-                    Object {
-                      "category": 1,
-                      "header": "Activités sportives",
-                      "key": 4,
-                      "picture": "sport.jpg",
-                      "text": "De 15h00 à 18h00. N’oubliez pas de prévoir une tenue adéquate (Vestiaire et douches sur place)",
-                    },
-                    Object {
-                      "category": 2,
-                      "header": "Diner",
-                      "key": 5,
-                      "picture": "diner.jpg",
-                      "text": "Vous pourrez vous installer dans la salle principale à partir de 19h00. Nous vous proposons de déguster un repas 100% végétarien",
-                    },
-                    Object {
-                      "category": 2,
-                      "header": "Soirée",
-                      "key": 6,
-                      "picture": "soiree.jpg",
-                      "text": "C'est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00 (N'oubliez pas de consulter la page hébergements pour savoir ou dormir)",
-                    },
-                    Object {
-                      "category": 3,
-                      "header": "Brunch",
-                      "key": 7,
-                      "picture": "brunch.jpg",
-                      "text": "Dimanche 1 Septembre à partir de 11h00. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain",
-                    },
-                  ]
-                }
+                items={Array []}
                 onClickHandler={[Function]}
               />,
               Array [],
@@ -490,57 +232,7 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "activeIndex": 0,
-                "items": Array [
-                  Object {
-                    "category": 1,
-                    "header": "Anouk & Thibault",
-                    "key": 1,
-                    "picture": "union.jpg",
-                    "text": "S’unissent pour le meilleur et pour le pire le 31 Août 2019 au domaine de Saint-Jean de Chépy",
-                  },
-                  Object {
-                    "category": 1,
-                    "header": "Cérémonie",
-                    "key": 2,
-                    "picture": "ceremonie.jpg",
-                    "text": "Nous vous donnons rendez-vous à 10h45 au domaine de Saint-Jean de Chépy. La cérémonie débutera à 11h00 sous le chapiteau",
-                  },
-                  Object {
-                    "category": 1,
-                    "header": "Le vin d'honneur",
-                    "key": 3,
-                    "picture": "vin-honneur.jpg",
-                    "text": "Se déroulera de 13h00 à 15h00. Une activité « guest book » aura lieu dans l’après-midi. Nous aimerions que chaque invité, couple, famille apporte une photo qui lui est chère",
-                  },
-                  Object {
-                    "category": 1,
-                    "header": "Activités sportives",
-                    "key": 4,
-                    "picture": "sport.jpg",
-                    "text": "De 15h00 à 18h00. N’oubliez pas de prévoir une tenue adéquate (Vestiaire et douches sur place)",
-                  },
-                  Object {
-                    "category": 2,
-                    "header": "Diner",
-                    "key": 5,
-                    "picture": "diner.jpg",
-                    "text": "Vous pourrez vous installer dans la salle principale à partir de 19h00. Nous vous proposons de déguster un repas 100% végétarien",
-                  },
-                  Object {
-                    "category": 2,
-                    "header": "Soirée",
-                    "key": 6,
-                    "picture": "soiree.jpg",
-                    "text": "C'est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00 (N'oubliez pas de consulter la page hébergements pour savoir ou dormir)",
-                  },
-                  Object {
-                    "category": 3,
-                    "header": "Brunch",
-                    "key": 7,
-                    "picture": "brunch.jpg",
-                    "text": "Dimanche 1 Septembre à partir de 11h00. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain",
-                  },
-                ],
+                "items": Array [],
                 "onClickHandler": [Function],
               },
               "ref": null,

@@ -6,28 +6,25 @@ import JourJ from './JourJ';
 import Hebergement from './Hebergement';
 import Sjc from './Sjc';
 import Contact from './Contact';
-import { configureAnchors } from 'react-scrollable-anchor';
-
-configureAnchors({offset: 0, scrollDuration: 400})
 
 const navItems = [{
-    href:'#anchor-Profile',
+    href:'#Profile',
     label:'Bienvenue',
     spanId: 'user_img'
   },{
-    href:'#anchor-JourJ',
+    href:'#JourJ',
     label:'Le Jour J',
     spanId: 'jourj_img'
   },{
-    href:'#anchor-Hebergement',
+    href:'#Hebergement',
     label:'Hébergement',
     spanId: 'hebergement_img'
   },{
-    href:'#anchor-Sjc',
+    href:'#Sjc',
     label:'Saint-Jean de chépy',
     spanId: 'SJC_img'
   },{
-    href:'#anchor-Contact',
+    href:'#Contact',
     label:'Coordonnées',
     spanId: 'phone_img'
 }];
@@ -63,15 +60,8 @@ class Wedding extends Component {
     }
 
     handleScroll = _.debounce((event) => {
-        var url = window.location.href;
-        var anchor = url.split('#')[1];
-        var selectedNavItem = navItems.find((item) => {
-            return item.href === "#" + anchor;
-        });
-        this.setState({
-            selectedNavItem : selectedNavItem
-        });
-    }, 410);
+
+    }, 100);
 
     handleSubmit(event) {
         const {guestCode} = this.state;
