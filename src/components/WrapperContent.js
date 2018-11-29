@@ -1,9 +1,11 @@
 import React from 'react';
-import './WrapperContent.css'
+import './WrapperContent.css';
+
 function WrapperContent(props) {
-    const {children, title} = props;
+    const {children, id, title} = props;
+
     return (
-        <div className="WrapperContent">
+        <div id={id} className="WrapperContent">
             {title &&
                 <h2>
                     {title}

@@ -26,6 +26,7 @@ ShallowWrapper {
         undefined,
       ],
       "className": "WrapperContent",
+      "id": undefined,
     },
     "ref": null,
     "rendered": Array [
@@ -57,6 +58,7 @@ ShallowWrapper {
           undefined,
         ],
         "className": "WrapperContent",
+        "id": undefined,
       },
       "ref": null,
       "rendered": Array [
@@ -118,6 +120,7 @@ ShallowWrapper {
         undefined,
       ],
       "className": "WrapperContent",
+      "id": undefined,
     },
     "ref": null,
     "rendered": Array [
@@ -137,6 +140,7 @@ ShallowWrapper {
           undefined,
         ],
         "className": "WrapperContent",
+        "id": undefined,
       },
       "ref": null,
       "rendered": Array [
