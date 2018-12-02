@@ -57,11 +57,13 @@ ShallowWrapper {
           >
             <p>
               <img
+                alt="avion"
                 src="avion.png"
               />
             </p>
             <p>
               <img
+                alt="world"
                 src="world.png"
               />
             </p>
@@ -76,12 +78,12 @@ ShallowWrapper {
             </p>
             <ul>
               <li
-                class="mail"
+                className="mail"
               >
                 anouk.poitevin@gmail.com
               </li>
               <li
-                class="phone"
+                className="phone"
               >
                 06.85.28.45.72
               </li>
@@ -93,12 +95,12 @@ ShallowWrapper {
             </p>
             <ul>
               <li
-                class="mail"
+                className="mail"
               >
                 thibault.ruaro@gmail.com
               </li>
               <li
-                class="phone"
+                className="phone"
               >
                 06.25.56.27.53
               </li>
@@ -110,7 +112,7 @@ ShallowWrapper {
             </p>
             <ul>
               <li
-                class="address"
+                className="address"
               >
                 10 route du Bouchet
                 <br />
@@ -177,11 +179,13 @@ ShallowWrapper {
             >
               <p>
                 <img
+                  alt="avion"
                   src="avion.png"
                 />
               </p>
               <p>
                 <img
+                  alt="world"
                   src="world.png"
                 />
               </p>
@@ -196,12 +200,12 @@ ShallowWrapper {
               </p>
               <ul>
                 <li
-                  class="mail"
+                  className="mail"
                 >
                   anouk.poitevin@gmail.com
                 </li>
                 <li
-                  class="phone"
+                  className="phone"
                 >
                   06.85.28.45.72
                 </li>
@@ -213,12 +217,12 @@ ShallowWrapper {
               </p>
               <ul>
                 <li
-                  class="mail"
+                  className="mail"
                 >
                   thibault.ruaro@gmail.com
                 </li>
                 <li
-                  class="phone"
+                  className="phone"
                 >
                   06.25.56.27.53
                 </li>
@@ -230,7 +234,7 @@ ShallowWrapper {
               </p>
               <ul>
                 <li
-                  class="address"
+                  className="address"
                 >
                   10 route du Bouchet
                   <br />
@@ -389,11 +393,13 @@ ShallowWrapper {
               "children": Array [
                 <p>
                   <img
+                    alt="avion"
                     src="avion.png"
                   />
                 </p>,
                 <p>
                   <img
+                    alt="world"
                     src="world.png"
                   />
                 </p>,
@@ -409,6 +415,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": <img
+                    alt="avion"
                     src="avion.png"
                   />,
                 },
@@ -418,6 +425,7 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
+                    "alt": "avion",
                     "src": "avion.png",
                   },
                   "ref": null,
@@ -432,6 +440,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": <img
+                    alt="world"
                     src="world.png"
                   />,
                 },
@@ -441,6 +450,7 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
+                    "alt": "world",
                     "src": "world.png",
                   },
                   "ref": null,
@@ -465,12 +475,12 @@ ShallowWrapper {
                 </p>,
                 <ul>
                   <li
-                    class="mail"
+                    className="mail"
                   >
                     anouk.poitevin@gmail.com
                   </li>
                   <li
-                    class="phone"
+                    className="phone"
                   >
                     06.85.28.45.72
                   </li>
@@ -482,12 +492,12 @@ ShallowWrapper {
                 </p>,
                 <ul>
                   <li
-                    class="mail"
+                    className="mail"
                   >
                     thibault.ruaro@gmail.com
                   </li>
                   <li
-                    class="phone"
+                    className="phone"
                   >
                     06.25.56.27.53
                   </li>
@@ -499,7 +509,7 @@ ShallowWrapper {
                 </p>,
                 <ul>
                   <li
-                    class="address"
+                    className="address"
                   >
                     10 route du Bouchet
                     <br />
@@ -541,12 +551,12 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <li
-                      class="mail"
+                      className="mail"
                     >
                       anouk.poitevin@gmail.com
                     </li>,
                     <li
-                      class="phone"
+                      className="phone"
                     >
                       06.85.28.45.72
                     </li>,
@@ -560,7 +570,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "anouk.poitevin@gmail.com",
-                      "class": "mail",
+                      "className": "mail",
                     },
                     "ref": null,
                     "rendered": "anouk.poitevin@gmail.com",
@@ -572,7 +582,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "06.85.28.45.72",
-                      "class": "phone",
+                      "className": "phone",
                     },
                     "ref": null,
                     "rendered": "06.85.28.45.72",
@@ -611,12 +621,12 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <li
-                      class="mail"
+                      className="mail"
                     >
                       thibault.ruaro@gmail.com
                     </li>,
                     <li
-                      class="phone"
+                      className="phone"
                     >
                       06.25.56.27.53
                     </li>,
@@ -630,7 +640,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "thibault.ruaro@gmail.com",
-                      "class": "mail",
+                      "className": "mail",
                     },
                     "ref": null,
                     "rendered": "thibault.ruaro@gmail.com",
@@ -642,7 +652,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "06.25.56.27.53",
-                      "class": "phone",
+                      "className": "phone",
                     },
                     "ref": null,
                     "rendered": "06.25.56.27.53",
@@ -680,7 +690,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": <li
-                    class="address"
+                    className="address"
                   >
                     10 route du Bouchet
                     <br />
@@ -698,7 +708,7 @@ ShallowWrapper {
                       <br />,
                       "74150 Rumilly",
                     ],
-                    "class": "address",
+                    "className": "address",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -773,11 +783,13 @@ ShallowWrapper {
             >
               <p>
                 <img
+                  alt="avion"
                   src="avion.png"
                 />
               </p>
               <p>
                 <img
+                  alt="world"
                   src="world.png"
                 />
               </p>
@@ -792,12 +804,12 @@ ShallowWrapper {
               </p>
               <ul>
                 <li
-                  class="mail"
+                  className="mail"
                 >
                   anouk.poitevin@gmail.com
                 </li>
                 <li
-                  class="phone"
+                  className="phone"
                 >
                   06.85.28.45.72
                 </li>
@@ -809,12 +821,12 @@ ShallowWrapper {
               </p>
               <ul>
                 <li
-                  class="mail"
+                  className="mail"
                 >
                   thibault.ruaro@gmail.com
                 </li>
                 <li
-                  class="phone"
+                  className="phone"
                 >
                   06.25.56.27.53
                 </li>
@@ -826,7 +838,7 @@ ShallowWrapper {
               </p>
               <ul>
                 <li
-                  class="address"
+                  className="address"
                 >
                   10 route du Bouchet
                   <br />
@@ -893,11 +905,13 @@ ShallowWrapper {
               >
                 <p>
                   <img
+                    alt="avion"
                     src="avion.png"
                   />
                 </p>
                 <p>
                   <img
+                    alt="world"
                     src="world.png"
                   />
                 </p>
@@ -912,12 +926,12 @@ ShallowWrapper {
                 </p>
                 <ul>
                   <li
-                    class="mail"
+                    className="mail"
                   >
                     anouk.poitevin@gmail.com
                   </li>
                   <li
-                    class="phone"
+                    className="phone"
                   >
                     06.85.28.45.72
                   </li>
@@ -929,12 +943,12 @@ ShallowWrapper {
                 </p>
                 <ul>
                   <li
-                    class="mail"
+                    className="mail"
                   >
                     thibault.ruaro@gmail.com
                   </li>
                   <li
-                    class="phone"
+                    className="phone"
                   >
                     06.25.56.27.53
                   </li>
@@ -946,7 +960,7 @@ ShallowWrapper {
                 </p>
                 <ul>
                   <li
-                    class="address"
+                    className="address"
                   >
                     10 route du Bouchet
                     <br />
@@ -1105,11 +1119,13 @@ ShallowWrapper {
                 "children": Array [
                   <p>
                     <img
+                      alt="avion"
                       src="avion.png"
                     />
                   </p>,
                   <p>
                     <img
+                      alt="world"
                       src="world.png"
                     />
                   </p>,
@@ -1125,6 +1141,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": <img
+                      alt="avion"
                       src="avion.png"
                     />,
                   },
@@ -1134,6 +1151,7 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
+                      "alt": "avion",
                       "src": "avion.png",
                     },
                     "ref": null,
@@ -1148,6 +1166,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": <img
+                      alt="world"
                       src="world.png"
                     />,
                   },
@@ -1157,6 +1176,7 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
+                      "alt": "world",
                       "src": "world.png",
                     },
                     "ref": null,
@@ -1181,12 +1201,12 @@ ShallowWrapper {
                   </p>,
                   <ul>
                     <li
-                      class="mail"
+                      className="mail"
                     >
                       anouk.poitevin@gmail.com
                     </li>
                     <li
-                      class="phone"
+                      className="phone"
                     >
                       06.85.28.45.72
                     </li>
@@ -1198,12 +1218,12 @@ ShallowWrapper {
                   </p>,
                   <ul>
                     <li
-                      class="mail"
+                      className="mail"
                     >
                       thibault.ruaro@gmail.com
                     </li>
                     <li
-                      class="phone"
+                      className="phone"
                     >
                       06.25.56.27.53
                     </li>
@@ -1215,7 +1235,7 @@ ShallowWrapper {
                   </p>,
                   <ul>
                     <li
-                      class="address"
+                      className="address"
                     >
                       10 route du Bouchet
                       <br />
@@ -1257,12 +1277,12 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <li
-                        class="mail"
+                        className="mail"
                       >
                         anouk.poitevin@gmail.com
                       </li>,
                       <li
-                        class="phone"
+                        className="phone"
                       >
                         06.85.28.45.72
                       </li>,
@@ -1276,7 +1296,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "anouk.poitevin@gmail.com",
-                        "class": "mail",
+                        "className": "mail",
                       },
                       "ref": null,
                       "rendered": "anouk.poitevin@gmail.com",
@@ -1288,7 +1308,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "06.85.28.45.72",
-                        "class": "phone",
+                        "className": "phone",
                       },
                       "ref": null,
                       "rendered": "06.85.28.45.72",
@@ -1327,12 +1347,12 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <li
-                        class="mail"
+                        className="mail"
                       >
                         thibault.ruaro@gmail.com
                       </li>,
                       <li
-                        class="phone"
+                        className="phone"
                       >
                         06.25.56.27.53
                       </li>,
@@ -1346,7 +1366,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "thibault.ruaro@gmail.com",
-                        "class": "mail",
+                        "className": "mail",
                       },
                       "ref": null,
                       "rendered": "thibault.ruaro@gmail.com",
@@ -1358,7 +1378,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "06.25.56.27.53",
-                        "class": "phone",
+                        "className": "phone",
                       },
                       "ref": null,
                       "rendered": "06.25.56.27.53",
@@ -1396,7 +1416,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": <li
-                      class="address"
+                      className="address"
                     >
                       10 route du Bouchet
                       <br />
@@ -1414,7 +1434,7 @@ ShallowWrapper {
                         <br />,
                         "74150 Rumilly",
                       ],
-                      "class": "address",
+                      "className": "address",
                     },
                     "ref": null,
                     "rendered": Array [

@@ -2,19 +2,79 @@
 /* No media query since this is the default in Bootstrap */
 
 .JourJ {
-    text-shadow: 1px 2px 2px #1a1a1a; 
+    text-shadow: none;
+    color: black;
+}
+
+.JourJ .carousel-caption {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 2px;
+    padding: 20px;
+    bottom: auto!important;
 }
 
 .JourJ .PageTitle {
     display: none;
+    text-shadow: 1px 2px 2px black;
 }
 
 .JourJ .carousel-item img {
     width: 100%;
 }
 
-.carousel .carousel-item:first-child .carousel-caption {
-    bottom: 10%;
+.JourJ .carousel-control-next, .JourJ .carousel-control-prev {
+    cursor: pointer;
+}
+
+.JourJ .carousel-item {
+    height: 50vh;
+}
+
+.JourJ .Union {
+    background-image: url('../images/union.jpg');
+}
+
+.JourJ .Ceremonie {
+    background-image: url('../images/ceremonie.jpg');
+}
+
+.JourJ .VinHonneur {
+    background-image: url('../images/vin-honneur.jpg');
+}
+
+.JourJ .Sport {
+    background-image: url('../images/sport.jpg');
+}
+
+.JourJ .Diner {
+    background-image: url('../images/diner.jpg');
+}
+
+.JourJ .Soiree {
+    background-image: url('../images/soiree.jpg');
+}
+.JourJ .Brunch {
+    background-image: url('../images/brunch.jpg');
+}
+
+.JourJ .carousel .carousel-indicators, .JourJ .carousel .carousel-control-prev, .JourJ .carousel .carousel-control-next {
+    display: none;
+}
+
+.JourJ .carousel-caption img {
+    display: none;
+}
+
+.JourJ .carousel-caption h3 {
+    font-size: 25px;
+}
+
+.JourJ .carousel-caption p {
+    font-size: 14px;
+}
+
+.JourJ .d-none {
+    display: block!important;
 }
 
 @media (min-width: 768px) {
@@ -23,24 +83,7 @@
         background-size: 25%;
         padding-top: 25%;
     }
-}
-
-@media (min-width: 992px) {
-    .carousel .carousel-item:first-child h3 {
-        background-size: 30%;
-        padding-top: 31%;
-    }
-}
-
-@media (min-width: 1200px) {
-    .carousel .carousel-item:first-child .carousel-caption {
-        bottom: 20%;
-    }
-}
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
+    
     .JourJ .PageTitle {
         margin-top: 20px;
         position: absolute;
@@ -50,14 +93,64 @@
         display: block;
     }
 
+    .JourJ .carousel-caption h3 {
+        font-size: 40px;
+    }
+
+    .JourJ .carousel-caption p {
+        font-size: 25px;
+    }
 }
 
-@media (max-width: 768px) {
-    .JourJ .carousel .carousel-item{
-       display: flex; 
-       flex-direction: column;
+@media (min-width: 992px) {
+    .JourJ .carousel .carousel-item:first-child h3 {
+        background-size: 30%;
+        padding-top: 31%;
     }
+    
+    .JourJ .PageTitle {
+        margin-left: 45px;
+    }
+
+    .JourJ .carousel-indicators li:nth-child(1) {
+        margin-left: 90px;
+    }
+
+    .JourJ .carousel-item {
+        height: 100vh;
+    }
+
     .JourJ .carousel .carousel-indicators, .JourJ .carousel .carousel-control-prev, .JourJ .carousel .carousel-control-next {
-        display: none;
+        display: flex;
     }
+
+    .JourJ .carousel .carousel-control-prev {
+        margin-left: 90px;
+    }
+
+    .JourJ .carousel-caption {
+        position: relative;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 70%;
+        margin-left: 90px;
+    }
+
+    .JourJ .carousel-item-next, .JourJ .carousel-item-prev, .JourJ .carousel-item.active {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .JourJ .carousel .carousel-item{
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+        bottom: auto!important;
+    }
+
 }

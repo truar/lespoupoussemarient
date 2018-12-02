@@ -20,15 +20,24 @@ class Nav extends Component {
   }
 
   render() {
+    const {selectedNavItem} = this.props;
+
     const renderNavItems = this.navItems.map((item, i) => {
       return (
         <NavItem key={i}>
-          <NavLink onClick={this.toggleNavbar} href={item.href}>{item.label} <span id={item.spanId} className='img_nav' /></NavLink>
+          <NavLink onClick={this.toggleNavbar} href={item.href}>{item.label}</NavLink>
         </NavItem>
       );
     });
 
-    const {selectedNavItem} = this.props;
+    const renderNavItemsDesk = this.navItems.map((item, i) => {
+      const isSelected = selectedNavItem.href === item.href;
+      return (
+        <NavItem key={i}>
+          <NavLink active={isSelected} href={item.href}>{item.label} <span id={item.spanId} className='img_nav' /></NavLink>
+        </NavItem>
+      );
+    });    
 
     return (
       <>
@@ -43,9 +52,8 @@ class Nav extends Component {
         </Navbar>
         <Navbar color="dark" className="desktop" dark fixed="top">
           <NavbarBrand href="/" className="mr-auto">{selectedNavItem.label}</NavbarBrand>
-          <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <NavStrap navbar>
-              {renderNavItems}
+              {renderNavItemsDesk}
           </NavStrap>
         </Navbar>
       </>

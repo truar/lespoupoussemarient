@@ -86,10 +86,6 @@ ShallowWrapper {
                   tag="a"
                 >
                   test
-                   
-                  <span
-                    className="img_nav"
-                  />
                 </NavLink>
               </NavItem>
             </Nav>
@@ -110,12 +106,6 @@ ShallowWrapper {
           >
             test
           </NavbarBrand>
-          <NavbarToggler
-            className="mr-2"
-            onClick={[Function]}
-            tag="button"
-            type="button"
-          />
           <Nav
             navbar={true}
             tag="ul"
@@ -125,8 +115,8 @@ ShallowWrapper {
               tag="li"
             >
               <NavLink
+                active={true}
                 href="test"
-                onClick={[Function]}
                 tag="a"
               >
                 test
@@ -193,10 +183,6 @@ ShallowWrapper {
                     tag="a"
                   >
                     test
-                     
-                    <span
-                      className="img_nav"
-                    />
                   </NavLink>
                 </NavItem>
               </Nav>
@@ -259,10 +245,6 @@ ShallowWrapper {
                     tag="a"
                   >
                     test
-                     
-                    <span
-                      className="img_nav"
-                    />
                   </NavLink>
                 </NavItem>
               </Nav>,
@@ -298,10 +280,6 @@ ShallowWrapper {
                       tag="a"
                     >
                       test
-                       
-                      <span
-                        className="img_nav"
-                      />
                     </NavLink>
                   </NavItem>,
                 ],
@@ -322,10 +300,6 @@ ShallowWrapper {
                       tag="a"
                     >
                       test
-                       
-                      <span
-                        className="img_nav"
-                      />
                     </NavLink>,
                     "tag": "li",
                   },
@@ -335,34 +309,13 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "class",
                     "props": Object {
-                      "children": Array [
-                        "test",
-                        " ",
-                        <span
-                          className="img_nav"
-                        />,
-                      ],
+                      "children": "test",
                       "href": "test",
                       "onClick": [Function],
                       "tag": "a",
                     },
                     "ref": null,
-                    "rendered": Array [
-                      "test",
-                      " ",
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "className": "img_nav",
-                          "id": undefined,
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": "span",
-                      },
-                    ],
+                    "rendered": "test",
                     "type": [Function],
                   },
                   "type": [Function],
@@ -388,12 +341,6 @@ ShallowWrapper {
             >
               test
             </NavbarBrand>,
-            <NavbarToggler
-              className="mr-2"
-              onClick={[Function]}
-              tag="button"
-              type="button"
-            />,
             <Nav
               navbar={true}
               tag="ul"
@@ -403,8 +350,8 @@ ShallowWrapper {
                 tag="li"
               >
                 <NavLink
+                  active={true}
                   href="test"
-                  onClick={[Function]}
                   tag="a"
                 >
                   test
@@ -444,27 +391,13 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "className": "mr-2",
-              "onClick": [Function],
-              "tag": "button",
-              "type": "button",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
               "children": Array [
                 <NavItem
                   tag="li"
                 >
                   <NavLink
+                    active={true}
                     href="test"
-                    onClick={[Function]}
                     tag="a"
                   >
                     test
@@ -487,8 +420,8 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "children": <NavLink
+                    active={true}
                     href="test"
-                    onClick={[Function]}
                     tag="a"
                   >
                     test
@@ -505,6 +438,7 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "class",
                   "props": Object {
+                    "active": true,
                     "children": Array [
                       "test",
                       " ",
@@ -513,7 +447,6 @@ ShallowWrapper {
                       />,
                     ],
                     "href": "test",
-                    "onClick": [Function],
                     "tag": "a",
                   },
                   "ref": null,
@@ -606,10 +539,6 @@ ShallowWrapper {
                     tag="a"
                   >
                     test
-                     
-                    <span
-                      className="img_nav"
-                    />
                   </NavLink>
                 </NavItem>
               </Nav>
@@ -630,12 +559,6 @@ ShallowWrapper {
             >
               test
             </NavbarBrand>
-            <NavbarToggler
-              className="mr-2"
-              onClick={[Function]}
-              tag="button"
-              type="button"
-            />
             <Nav
               navbar={true}
               tag="ul"
@@ -645,8 +568,8 @@ ShallowWrapper {
                 tag="li"
               >
                 <NavLink
+                  active={true}
                   href="test"
-                  onClick={[Function]}
                   tag="a"
                 >
                   test
@@ -713,10 +636,6 @@ ShallowWrapper {
                       tag="a"
                     >
                       test
-                       
-                      <span
-                        className="img_nav"
-                      />
                     </NavLink>
                   </NavItem>
                 </Nav>
@@ -779,10 +698,6 @@ ShallowWrapper {
                       tag="a"
                     >
                       test
-                       
-                      <span
-                        className="img_nav"
-                      />
                     </NavLink>
                   </NavItem>
                 </Nav>,
@@ -818,10 +733,6 @@ ShallowWrapper {
                         tag="a"
                       >
                         test
-                         
-                        <span
-                          className="img_nav"
-                        />
                       </NavLink>
                     </NavItem>,
                   ],
@@ -842,10 +753,6 @@ ShallowWrapper {
                         tag="a"
                       >
                         test
-                         
-                        <span
-                          className="img_nav"
-                        />
                       </NavLink>,
                       "tag": "li",
                     },
@@ -855,34 +762,13 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "class",
                       "props": Object {
-                        "children": Array [
-                          "test",
-                          " ",
-                          <span
-                            className="img_nav"
-                          />,
-                        ],
+                        "children": "test",
                         "href": "test",
                         "onClick": [Function],
                         "tag": "a",
                       },
                       "ref": null,
-                      "rendered": Array [
-                        "test",
-                        " ",
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "className": "img_nav",
-                            "id": undefined,
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": "span",
-                        },
-                      ],
+                      "rendered": "test",
                       "type": [Function],
                     },
                     "type": [Function],
@@ -908,12 +794,6 @@ ShallowWrapper {
               >
                 test
               </NavbarBrand>,
-              <NavbarToggler
-                className="mr-2"
-                onClick={[Function]}
-                tag="button"
-                type="button"
-              />,
               <Nav
                 navbar={true}
                 tag="ul"
@@ -923,8 +803,8 @@ ShallowWrapper {
                   tag="li"
                 >
                   <NavLink
+                    active={true}
                     href="test"
-                    onClick={[Function]}
                     tag="a"
                   >
                     test
@@ -964,27 +844,13 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "className": "mr-2",
-                "onClick": [Function],
-                "tag": "button",
-                "type": "button",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
                 "children": Array [
                   <NavItem
                     tag="li"
                   >
                     <NavLink
+                      active={true}
                       href="test"
-                      onClick={[Function]}
                       tag="a"
                     >
                       test
@@ -1007,8 +873,8 @@ ShallowWrapper {
                   "nodeType": "function",
                   "props": Object {
                     "children": <NavLink
+                      active={true}
                       href="test"
-                      onClick={[Function]}
                       tag="a"
                     >
                       test
@@ -1025,6 +891,7 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "class",
                     "props": Object {
+                      "active": true,
                       "children": Array [
                         "test",
                         " ",
@@ -1033,7 +900,6 @@ ShallowWrapper {
                         />,
                       ],
                       "href": "test",
-                      "onClick": [Function],
                       "tag": "a",
                     },
                     "ref": null,

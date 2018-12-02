@@ -63,7 +63,7 @@ class Hebergement extends Component {
         });
 
         return (
-            <Section id="Hebergement" className="Hebergement">
+            <Section id="Hebergement" className="Hebergement" {...this.props}>
                 <PageTitle title="Hébergement" />
                 <WrapperContent>
                     {contents}

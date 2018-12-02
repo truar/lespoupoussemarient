@@ -43,12 +43,14 @@ class Wedding extends Component {
             isLogged: false,
             error: undefined,
             profile: 0,
-            selectedNavItem: navItems[0]
+            selectedNavItem: navItems[0],
+            visibilities: [true, false, false, false, false]
         };
 
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleChange = this.handleChange.bind(this);
         this.handleScroll = this.handleScroll.bind(this);
+        this.handleVisibilityChange = this.handleVisibilityChange.bind(this);
     }
 
     componentDidMount() {
@@ -95,19 +97,30 @@ class Wedding extends Component {
         });
     }
 
+    handleVisibilityChange(isVisible, sectionIndex) {
+        const visibilities = this.state.visibilities;
+        visibilities[sectionIndex] = isVisible;
+        let currentSectionVisible = visibilities.indexOf(true);
+        this.setState({
+            selectedNavItem: navItems[currentSectionVisible] || navItems[sectionIndex], 
+            visibilities: visibilities
+        });
+    }
+
     render() {
         const {selectedNavItem, isLogged, error, profile} = this.state;
 
         return (
             <>
-                <Profile error={error} isLogged={isLogged} onChange={this.handleChange} onSubmit={this.handleSubmit} />
+                <Profile error={error} isLogged={isLogged} onChange={this.handleChange} onSubmit={this.handleSubmit} 
+                    onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 0)}/>
                 { isLogged && 
                     <>
                         <Nav navItems={navItems} selectedNavItem={selectedNavItem} />
-                        <JourJ profile={profile}/>
-                        <Hebergement />
-                        <Sjc />
-                        <Contact />
+                        <JourJ profile={profile} onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 1)}/>
+                        <Hebergement onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 2)}/>
+                        <Sjc onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 3)}/>
+                        <Contact onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 4)}/>
                     </>
                 }
             </>

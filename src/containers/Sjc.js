@@ -3,7 +3,6 @@ import PageTitle from '../components/PageTitle';
 import Section from '../components/Section';
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps";
 import WrapperContent from '../components/WrapperContent';
-import EnvVariables from '../libs/EnvVariables';
 import 'open-iconic/font/css/open-iconic-bootstrap.min.css';
 import './Sjc.css';
 
@@ -20,7 +19,7 @@ class Sjc extends Component {
         const GOOGLE_API_KEY = process.env.REACT_APP_GOOGLE_API_KEY || 'mySecretKey';
         const googleMapUrl = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_API_KEY}`;
         return (
-            <Section id="Sjc" className="Sjc">
+            <Section id="Sjc" className="Sjc" {...this.props}>
                 <PageTitle title="Saint-Jean de Chépy" />
                 <WrapperContent>
                     <WrapperContent>

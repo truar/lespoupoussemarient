@@ -21,10 +21,10 @@ class Profile extends Component {
     }
 
     render() {
-        const {isLogged} = this.props;
+        const {isLogged, ...attributes} = this.props;
         const toRender = (isLogged) ? this.renderLogged() : this.renderAuthenticationForm();
         return (
-            <Section id="Profile" className="Profile">
+            <Section id="Profile" className="Profile" {...attributes}>
                 {toRender}
             </Section>
         );

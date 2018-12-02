@@ -21,3 +21,10 @@
         height: auto;
     }
 }
+
+@media (min-width: 992px) {
+    .PageTitle {
+        height: auto;
+        margin-left: 90px;
+    }
+}

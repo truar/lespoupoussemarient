@@ -56,17 +56,8 @@ nav.desktop {
         color: white!important;
     }
 
-    nav.desktop ul li a:hover {
+    nav.desktop ul li a:hover, nav.desktop ul li a.active {
         color: rgb(89,89,89)!important;
-    }
-
-    #user_img {
-        background-image: url('../images/icons/user.png');
-        background-position: center top;
-    }
-    
-    .selected #user_img, nav ul li a:hover #user_img {
-        background-image: url('../images/icons/user_select.png');
     }
 
     nav.desktop span.img_nav {
@@ -81,11 +72,20 @@ nav.desktop {
         background-position: center center;
     }
 
+    #user_img {
+        background-image: url('../images/icons/user.png');
+        background-position: center top;
+    }
+    
+    .active #user_img, nav ul li a:hover #user_img {
+        background-image: url('../images/icons/user_select.png');
+    }
+
     #jourj_img {
         background-image: url('../images/icons/jourj.png');
     }
     
-    .selected #jourj_img, nav ul li a:hover #jourj_img {
+    .active #jourj_img, nav ul li a:hover #jourj_img {
         background-image: url('../images/icons/jourj_select.png');
     }
     
@@ -93,7 +93,7 @@ nav.desktop {
         background-image: url('../images/icons/invitation.png');
     }
     
-    .selected #invitation_img, nav ul li a:hover #invitation_img {
+    .active #invitation_img, nav ul li a:hover #invitation_img {
         background-image: url('../images/icons/invitation_select.png');
     }
     
@@ -101,7 +101,7 @@ nav.desktop {
         background-image: url('../images/icons/hebergement.png');
     }
     
-    .selected #hebergement_img, nav ul li a:hover #hebergement_img {
+    .active #hebergement_img, nav ul li a:hover #hebergement_img {
         background-image: url('../images/icons/hebergement_select.png');
     }
     
@@ -109,7 +109,7 @@ nav.desktop {
         background-image: url('../images/icons/sjc.png');
     }
     
-    .selected #SJC_img, nav ul li a:hover #SJC_img {
+    .active #SJC_img, nav ul li a:hover #SJC_img {
         background-image: url('../images/icons/sjc_select.png');
     }
     
@@ -119,7 +119,7 @@ nav.desktop {
         height: 70px;
     }
     
-    .selected #phone_img, nav ul li a:hover #phone_img {
+    .active #phone_img, nav ul li a:hover #phone_img {
         background-image: url('../images/icons/phone_select.png');
     }
 
