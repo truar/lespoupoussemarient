@@ -51,7 +51,6 @@ class Nav extends Component {
           </Collapse>
         </Navbar>
         <Navbar color="dark" className="desktop" dark fixed="top">
-          <NavbarBrand href="/" className="mr-auto">{selectedNavItem.label}</NavbarBrand>
           <NavStrap navbar>
               {renderNavItemsDesk}
           </NavStrap>

@@ -99,13 +99,6 @@ ShallowWrapper {
           fixed="top"
           tag="nav"
         >
-          <NavbarBrand
-            className="mr-auto"
-            href="/"
-            tag="a"
-          >
-            test
-          </NavbarBrand>
           <Nav
             navbar={true}
             tag="ul"
@@ -333,19 +326,41 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": Array [
-            <NavbarBrand
-              className="mr-auto"
-              href="/"
-              tag="a"
+          "children": <Nav
+            navbar={true}
+            tag="ul"
+            vertical={false}
+          >
+            <NavItem
+              tag="li"
             >
-              test
-            </NavbarBrand>,
-            <Nav
-              navbar={true}
-              tag="ul"
-              vertical={false}
-            >
+              <NavLink
+                active={true}
+                href="test"
+                tag="a"
+              >
+                test
+                 
+                <span
+                  className="img_nav"
+                />
+              </NavLink>
+            </NavItem>
+          </Nav>,
+          "className": "desktop",
+          "color": "dark",
+          "dark": true,
+          "expand": false,
+          "fixed": "top",
+          "tag": "nav",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
               <NavItem
                 tag="li"
               >
@@ -360,120 +375,73 @@ ShallowWrapper {
                     className="img_nav"
                   />
                 </NavLink>
-              </NavItem>
-            </Nav>,
-          ],
-          "className": "desktop",
-          "color": "dark",
-          "dark": true,
-          "expand": false,
-          "fixed": "top",
-          "tag": "nav",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": "test",
-              "className": "mr-auto",
-              "href": "/",
-              "tag": "a",
-            },
-            "ref": null,
-            "rendered": "test",
-            "type": [Function],
+              </NavItem>,
+            ],
+            "navbar": true,
+            "tag": "ul",
+            "vertical": false,
           },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": Array [
-                <NavItem
-                  tag="li"
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "function",
+              "props": Object {
+                "children": <NavLink
+                  active={true}
+                  href="test"
+                  tag="a"
                 >
-                  <NavLink
-                    active={true}
-                    href="test"
-                    tag="a"
-                  >
-                    test
-                     
-                    <span
-                      className="img_nav"
-                    />
-                  </NavLink>
-                </NavItem>,
-              ],
-              "navbar": true,
-              "tag": "ul",
-              "vertical": false,
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
+                  test
+                   
+                  <span
+                    className="img_nav"
+                  />
+                </NavLink>,
+                "tag": "li",
+              },
+              "ref": null,
+              "rendered": Object {
                 "instance": null,
-                "key": "0",
-                "nodeType": "function",
+                "key": undefined,
+                "nodeType": "class",
                 "props": Object {
-                  "children": <NavLink
-                    active={true}
-                    href="test"
-                    tag="a"
-                  >
-                    test
-                     
-                    <span
-                      className="img_nav"
-                    />
-                  </NavLink>,
-                  "tag": "li",
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "class",
-                  "props": Object {
-                    "active": true,
-                    "children": Array [
-                      "test",
-                      " ",
-                      <span
-                        className="img_nav"
-                      />,
-                    ],
-                    "href": "test",
-                    "tag": "a",
-                  },
-                  "ref": null,
-                  "rendered": Array [
+                  "active": true,
+                  "children": Array [
                     "test",
                     " ",
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "className": "img_nav",
-                        "id": undefined,
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "span",
-                    },
+                    <span
+                      className="img_nav"
+                    />,
                   ],
-                  "type": [Function],
+                  "href": "test",
+                  "tag": "a",
                 },
+                "ref": null,
+                "rendered": Array [
+                  "test",
+                  " ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "img_nav",
+                      "id": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "span",
+                  },
+                ],
                 "type": [Function],
               },
-            ],
-            "type": [Function],
-          },
-        ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
         "type": [Function],
       },
     ],
@@ -552,13 +520,6 @@ ShallowWrapper {
             fixed="top"
             tag="nav"
           >
-            <NavbarBrand
-              className="mr-auto"
-              href="/"
-              tag="a"
-            >
-              test
-            </NavbarBrand>
             <Nav
               navbar={true}
               tag="ul"
@@ -786,19 +747,41 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": Array [
-              <NavbarBrand
-                className="mr-auto"
-                href="/"
-                tag="a"
+            "children": <Nav
+              navbar={true}
+              tag="ul"
+              vertical={false}
+            >
+              <NavItem
+                tag="li"
               >
-                test
-              </NavbarBrand>,
-              <Nav
-                navbar={true}
-                tag="ul"
-                vertical={false}
-              >
+                <NavLink
+                  active={true}
+                  href="test"
+                  tag="a"
+                >
+                  test
+                   
+                  <span
+                    className="img_nav"
+                  />
+                </NavLink>
+              </NavItem>
+            </Nav>,
+            "className": "desktop",
+            "color": "dark",
+            "dark": true,
+            "expand": false,
+            "fixed": "top",
+            "tag": "nav",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
                 <NavItem
                   tag="li"
                 >
@@ -813,120 +796,73 @@ ShallowWrapper {
                       className="img_nav"
                     />
                   </NavLink>
-                </NavItem>
-              </Nav>,
-            ],
-            "className": "desktop",
-            "color": "dark",
-            "dark": true,
-            "expand": false,
-            "fixed": "top",
-            "tag": "nav",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "children": "test",
-                "className": "mr-auto",
-                "href": "/",
-                "tag": "a",
-              },
-              "ref": null,
-              "rendered": "test",
-              "type": [Function],
+                </NavItem>,
+              ],
+              "navbar": true,
+              "tag": "ul",
+              "vertical": false,
             },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "children": Array [
-                  <NavItem
-                    tag="li"
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "function",
+                "props": Object {
+                  "children": <NavLink
+                    active={true}
+                    href="test"
+                    tag="a"
                   >
-                    <NavLink
-                      active={true}
-                      href="test"
-                      tag="a"
-                    >
-                      test
-                       
-                      <span
-                        className="img_nav"
-                      />
-                    </NavLink>
-                  </NavItem>,
-                ],
-                "navbar": true,
-                "tag": "ul",
-                "vertical": false,
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
+                    test
+                     
+                    <span
+                      className="img_nav"
+                    />
+                  </NavLink>,
+                  "tag": "li",
+                },
+                "ref": null,
+                "rendered": Object {
                   "instance": null,
-                  "key": "0",
-                  "nodeType": "function",
+                  "key": undefined,
+                  "nodeType": "class",
                   "props": Object {
-                    "children": <NavLink
-                      active={true}
-                      href="test"
-                      tag="a"
-                    >
-                      test
-                       
-                      <span
-                        className="img_nav"
-                      />
-                    </NavLink>,
-                    "tag": "li",
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "class",
-                    "props": Object {
-                      "active": true,
-                      "children": Array [
-                        "test",
-                        " ",
-                        <span
-                          className="img_nav"
-                        />,
-                      ],
-                      "href": "test",
-                      "tag": "a",
-                    },
-                    "ref": null,
-                    "rendered": Array [
+                    "active": true,
+                    "children": Array [
                       "test",
                       " ",
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "className": "img_nav",
-                          "id": undefined,
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": "span",
-                      },
+                      <span
+                        className="img_nav"
+                      />,
                     ],
-                    "type": [Function],
+                    "href": "test",
+                    "tag": "a",
                   },
+                  "ref": null,
+                  "rendered": Array [
+                    "test",
+                    " ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "img_nav",
+                        "id": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "span",
+                    },
+                  ],
                   "type": [Function],
                 },
-              ],
-              "type": [Function],
-            },
-          ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
           "type": [Function],
         },
       ],

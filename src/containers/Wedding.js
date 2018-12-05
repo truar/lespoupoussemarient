@@ -6,25 +6,28 @@ import JourJ from './JourJ';
 import Hebergement from './Hebergement';
 import Sjc from './Sjc';
 import Contact from './Contact';
+import { configureAnchors } from 'react-scrollable-anchor';
+
+configureAnchors({offset: 1, scrollDuration: 400})
 
 const navItems = [{
-    href:'#Profile',
+    href:'#view-Profile',
     label:'Bienvenue',
     spanId: 'user_img'
   },{
-    href:'#JourJ',
+    href:'#view-JourJ',
     label:'Le Jour J',
     spanId: 'jourj_img'
   },{
-    href:'#Hebergement',
+    href:'#view-Hebergement',
     label:'Hébergement',
     spanId: 'hebergement_img'
   },{
-    href:'#Sjc',
+    href:'#view-Sjc',
     label:'Saint-Jean de chépy',
     spanId: 'SJC_img'
   },{
-    href:'#Contact',
+    href:'#view-Contact',
     label:'Coordonnées',
     spanId: 'phone_img'
 }];
