@@ -1,0 +1,64 @@
+.Reponse {
+    background: url('../images/invitation.jpg') no-repeat center fixed;
+    background-size: cover; /* version standardisée */
+    height: 100vh;
+    align-items: center;
+    color: black;
+    text-shadow: none;
+}
+
+.Reponse h1 {
+    color: black;
+}
+
+.Reponse>.WrapperContent {
+    width: 95%;
+    padding: 5px 10px;
+    height: 85%;
+    justify-content: space-between;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.Reponse>.WrapperContent>.WrapperContent>.WrapperContent, .Reponse>.WrapperContent>.WrapperContent>.WrapperContent>.WrapperContent {
+    flex-direction: row;
+    width: 100%;
+}
+
+.Reponse textarea.form-control {
+    height: 20vh;
+}
+
+.Reponse #hebergementGroup {
+    flex-direction: column;
+}
+
+.Reponse .invalid-feedback {
+    text-align: center;
+}
+
+@media(min-width: 768px) {
+    .Reponse>.WrapperContent>.WrapperContent:nth-child(2){
+        width: 85%;
+    }
+    .Reponse .WrapperContent label {
+        font-size: 1.5rem;
+    }
+    .Reponse input[type='radio'] {
+        margin-top: .7rem;
+    }
+}
+@media(min-width: 992px) {
+    .Reponse>.WrapperContent {
+        padding: 20px 10px;
+        margin-bottom: 10px;
+    }
+    .Reponse .WrapperContent label {
+        font-size: 1.75rem;
+    }
+}
+
+@media(min-width: 1440px) {
+    .Reponse>.WrapperContent>.WrapperContent:nth-child(2){
+        width: 70%;
+    }
+}

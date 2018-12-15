@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import _ from 'lodash';
 import Nav from './Nav';
 import Profile from './Profile';
 import JourJ from './JourJ';
@@ -7,6 +6,7 @@ import Hebergement from './Hebergement';
 import Sjc from './Sjc';
 import Contact from './Contact';
 import { configureAnchors } from 'react-scrollable-anchor';
+import Reponse from './Reponse';
 
 configureAnchors({offset: 1, scrollDuration: 400})
 
@@ -22,6 +22,10 @@ const navItems = [{
     href:'#view-Hebergement',
     label:'Hébergement',
     spanId: 'hebergement_img'
+  },{
+    href:'#view-Reponse',
+    label:'Répondre à l\'invitation',
+    spanId: 'invitation_img'
   },{
     href:'#view-Sjc',
     label:'Saint-Jean de chépy',
@@ -52,21 +56,8 @@ class Wedding extends Component {
 
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleChange = this.handleChange.bind(this);
-        this.handleScroll = this.handleScroll.bind(this);
         this.handleVisibilityChange = this.handleVisibilityChange.bind(this);
     }
-
-    componentDidMount() {
-        window.addEventListener('scroll', this.handleScroll);
-    }
-
-    componentWillUnmount() {
-        window.removeEventListener('scroll', this.handleScroll);
-    }
-
-    handleScroll = _.debounce((event) => {
-
-    }, 100);
 
     handleSubmit(event) {
         const {guestCode} = this.state;
@@ -122,8 +113,9 @@ class Wedding extends Component {
                         <Nav navItems={navItems} selectedNavItem={selectedNavItem} />
                         <JourJ profile={profile} onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 1)}/>
                         <Hebergement onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 2)}/>
-                        <Sjc onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 3)}/>
-                        <Contact onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 4)}/>
+                        <Reponse profile={profile} onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 3)}/>
+                        <Sjc onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 4)}/>
+                        <Contact onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 5)}/>
                     </>
                 }
             </>

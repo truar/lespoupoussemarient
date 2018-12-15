@@ -81,7 +81,7 @@
 
     .Contact h1 {
         margin-top: 5%;
-        margin-left: 35%;
+        margin-left: 33%;
     }
 
     .Contact>.WrapperContent {
@@ -168,7 +168,7 @@
 
 @media(min-width: 1440px) {
     .Contact h1 {
-        margin-left: 30%;
+        margin-left: 28%;
     }
     .Contact>.WrapperContent {
         margin-left: 19.5%;
@@ -192,6 +192,9 @@
 }
 
 @media(min-width: 1680px) {
+    .Contact h1 {
+        margin-left: 25%;
+    }
     .Contact>.WrapperContent {
         margin-left: 22%;
     }
