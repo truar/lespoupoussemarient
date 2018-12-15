@@ -171,8 +171,8 @@
         margin-left: 28%;
     }
     .Contact>.WrapperContent {
-        margin-left: 19.5%;
-        padding-bottom: 6%;
+        margin-left: 22.5%;
+        padding-bottom: 4%;
     }
 
     .Contact article#todoList h2 {
@@ -181,7 +181,7 @@
     }
 
     .Contact>.WrapperContent>.WrapperContent {
-        height: 620px;
+        height: 560px;
         margin-left: 12%;
     }
 
@@ -197,10 +197,12 @@
     }
     .Contact>.WrapperContent {
         margin-left: 22%;
+        padding-bottom: 6%;
     }
 
     .Contact>.WrapperContent>.WrapperContent {
         margin-left: 10%;
+        height: 620px;
     }
 
     .Contact article#images {
