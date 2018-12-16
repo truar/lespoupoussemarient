@@ -4,6 +4,7 @@
 .JourJ {
     text-shadow: none;
     color: black;
+    position: relative;
 }
 
 .JourJ .carousel-caption {
@@ -24,6 +25,19 @@
 
 .JourJ .carousel-control-next, .JourJ .carousel-control-prev {
     cursor: pointer;
+    width: 10%;
+}
+
+.JourJ .carousel-control-next:focus, .JourJ .carousel-control-next:hover, .JourJ .carousel-control-prev:focus, .JourJ .carousel-control-prev:hover {
+    opacity: .5;
+}
+
+.JourJ .carousel-control-prev {
+    background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1));
+}
+
+.JourJ .carousel-control-next {
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1));
 }
 
 .JourJ .carousel-item {
@@ -77,6 +91,12 @@
     display: block!important;
 }
 
+@keyframes moveUpAndDown {
+    0% {margin-top: -50px;}
+    50% {margin-top: -30px;}
+    100% {margin-top: -50px;}
+}
+
 @media (min-width: 768px) {
     .carousel .carousel-item:first-child h3 {
         background : url('../images/union-profile.png') no-repeat top;
@@ -103,6 +123,16 @@
 }
 
 @media (min-width: 992px) {
+    .JourJ div.upAndDown {
+        color: white;
+        animation: moveUpAndDown 3s infinite;
+        position: absolute;
+        width: 8%;
+        margin-top: -20px;
+        right: 0%;
+        font-size: 1.2rem;
+        top: 48%;
+    }
     .JourJ .carousel .carousel-item:first-child h3 {
         background-size: 30%;
         padding-top: 31%;

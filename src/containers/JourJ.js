@@ -59,7 +59,10 @@ const items = [
 class JourJ extends Component {
     constructor(props) {
         super(props);
-        this.state = { activeIndex: 0 };
+        this.state = { 
+            activeIndex: 0,
+            firstVisit: true
+        };
         this.keyboard = true;
         this.interval = false;
         this.next = this.next.bind(this);
@@ -83,13 +86,13 @@ class JourJ extends Component {
       next() {
         if (this.animating) return;
         const nextIndex = this.state.activeIndex === this.itemsForProfile.length - 1 ? 0 : this.state.activeIndex + 1;
-        this.setState({ activeIndex: nextIndex });
+        this.setState({ activeIndex: nextIndex, firstVisit: false });
       }
     
       previous() {
         if (this.animating) return;
         const nextIndex = this.state.activeIndex === 0 ? this.itemsForProfile.length - 1 : this.state.activeIndex - 1;
-        this.setState({ activeIndex: nextIndex });
+        this.setState({ activeIndex: nextIndex, firstVisit: false});
       }
     
       goToIndex(newIndex) {
@@ -98,7 +101,7 @@ class JourJ extends Component {
       }
 
       render() {
-        const { activeIndex } = this.state;
+        const { activeIndex, firstVisit } = this.state;
         
         const slides = this.itemsForProfile.map((item, i) => {
             return (
@@ -128,6 +131,9 @@ class JourJ extends Component {
                     <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
                     <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
                 </Carousel>
+                {firstVisit && <div className="upAndDown">
+                    Cliquez ici
+                </div>}
             </Section>
         );
       }

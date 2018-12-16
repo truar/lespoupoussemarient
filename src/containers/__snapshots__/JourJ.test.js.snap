@@ -46,6 +46,11 @@ ShallowWrapper {
             onClickHandler={[Function]}
           />
         </Carousel>,
+        <div
+          className="upAndDown"
+        >
+          Cliquez ici
+        </div>,
       ],
       "className": "JourJ",
       "id": "JourJ",
@@ -138,6 +143,18 @@ ShallowWrapper {
         ],
         "type": [Function],
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Cliquez ici",
+          "className": "upAndDown",
+        },
+        "ref": null,
+        "rendered": "Cliquez ici",
+        "type": "div",
+      },
     ],
     "type": [Function],
   },
@@ -176,6 +193,11 @@ ShallowWrapper {
               onClickHandler={[Function]}
             />
           </Carousel>,
+          <div
+            className="upAndDown"
+          >
+            Cliquez ici
+          </div>,
         ],
         "className": "JourJ",
         "id": "JourJ",
@@ -267,6 +289,18 @@ ShallowWrapper {
             },
           ],
           "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Cliquez ici",
+            "className": "upAndDown",
+          },
+          "ref": null,
+          "rendered": "Cliquez ici",
+          "type": "div",
         },
       ],
       "type": [Function],
