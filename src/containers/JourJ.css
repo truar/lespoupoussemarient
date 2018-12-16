@@ -123,7 +123,7 @@
 }
 
 @media (min-width: 992px) {
-    .JourJ div.upAndDown {
+    .JourJ div.upAndDown { 
         color: white;
         animation: moveUpAndDown 3s infinite;
         position: absolute;
