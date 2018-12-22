@@ -96,7 +96,7 @@
     .Contact>.WrapperContent>.WrapperContent {
         margin-top: 0%;
         margin-left: 14%;
-        height: 550px;
+        /* height: 550px; */
     }
 
     .Contact .hidden-mobile {
@@ -156,7 +156,7 @@
     }
 
     .Contact>.WrapperContent>.WrapperContent {
-        height: 535px;
+        /* height: 535px; */
         margin-left: 12%;
     }
 
@@ -181,7 +181,7 @@
     }
 
     .Contact>.WrapperContent>.WrapperContent {
-        height: 560px;
+        /* height: 560px; */
         margin-left: 12%;
     }
 
@@ -202,7 +202,7 @@
 
     .Contact>.WrapperContent>.WrapperContent {
         margin-left: 10%;
-        height: 620px;
+        /* height: 620px; */
     }
 
     .Contact article#images {
@@ -225,7 +225,7 @@
     }
 
     .Contact>.WrapperContent>.WrapperContent {
-        height: 750px;
+        /* height: 750px; */
         margin-left: 12%;
     }
 

@@ -35,7 +35,11 @@ ShallowWrapper {
       >
         <section
           className="undefined Section"
-        />
+        >
+          <div
+            className="transparent-background"
+          />
+        </section>
       </VisibilitySensor>,
       "id": "view-undefined",
     },
@@ -48,7 +52,11 @@ ShallowWrapper {
         "active": true,
         "children": <section
           className="undefined Section"
-        />,
+        >
+          <div
+            className="transparent-background"
+          />
+        </section>,
         "containment": null,
         "delayedCall": false,
         "intervalCheck": true,
@@ -70,12 +78,30 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
+          "children": Array [
+            <div
+              className="transparent-background"
+            />,
+            undefined,
+          ],
           "className": "undefined Section",
           "id": undefined,
         },
         "ref": null,
-        "rendered": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "transparent-background",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          undefined,
+        ],
         "type": "section",
       },
       "type": [Function],
@@ -106,7 +132,11 @@ ShallowWrapper {
         >
           <section
             className="undefined Section"
-          />
+          >
+            <div
+              className="transparent-background"
+            />
+          </section>
         </VisibilitySensor>,
         "id": "view-undefined",
       },
@@ -119,7 +149,11 @@ ShallowWrapper {
           "active": true,
           "children": <section
             className="undefined Section"
-          />,
+          >
+            <div
+              className="transparent-background"
+            />
+          </section>,
           "containment": null,
           "delayedCall": false,
           "intervalCheck": true,
@@ -141,12 +175,30 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
+            "children": Array [
+              <div
+                className="transparent-background"
+              />,
+              undefined,
+            ],
             "className": "undefined Section",
             "id": undefined,
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "transparent-background",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            undefined,
+          ],
           "type": "section",
         },
         "type": [Function],

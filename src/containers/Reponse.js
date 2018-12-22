@@ -3,6 +3,7 @@ import {
     Alert,
     UncontrolledAlert,
     FormFeedback,
+    FormGroup,
     Label,
     Input,
   } from 'reactstrap';
@@ -12,6 +13,22 @@ import PageTitle from '../components/PageTitle';
 import WrapperContent from '../components/WrapperContent';
 import * as emailjs from 'emailjs-com';
 import './Reponse.css';
+
+const hebergementRadios = [
+    {
+        value: "chalet",
+        label: "Chalet"
+    },{
+        value: "tente",
+        label: "Tente"
+    },{
+        value: "gite",
+        label: "Gîte"
+    },{
+        value: "autre",
+        label: "Autre"
+    }
+];
 
 class Reponse extends Component {
     constructor(props) {
@@ -185,10 +202,21 @@ class Reponse extends Component {
 
     getSecondPart = () => {
         const {isPresentField: {value: isPresent}, 
-            guestListField: {value: guestList, error: guestListError}, 
-            hebergementField: {value: hebergement, error: hebergementError}, 
-            success} = this.state;
+        guestListField: {value: guestList, error: guestListError}, 
+        hebergementField: {value: hebergement, error: hebergementError}, 
+        success} = this.state;
         let secondPart = '';
+        const hebergementDisplay = hebergementRadios.map((radio) => {
+            return (
+                <FormGroup key={radio.value} >
+                    <Input id={radio.value + "Id"} disabled={success} 
+                        type="radio" name="hebergement" value={radio.value}
+                            onChange={this.handleOptionChange}
+                            checked={hebergement === radio.value} />   
+                    <Label htmlFor={radio.value + "Id"}>{radio.label}</Label>
+                </FormGroup>
+            );
+        });
         if(isPresent === 'true') {
             secondPart = (<>
                 <WrapperContent>
@@ -201,26 +229,7 @@ class Reponse extends Component {
                         <p>Sélectionnez votre type d'hébergement préféré pour la nuit</p>
                         <WrapperContent id="hebergementGroup">
                             <WrapperContent>
-                                    <Label>
-                                    <Input disabled={success} type="radio" name="hebergement" value="chalet"
-                                        onChange={this.handleOptionChange}
-                                        checked={hebergement === 'chalet'} />Chalet                            
-                                </Label>
-                                <Label>
-                                    <Input disabled={success} type="radio" name="hebergement" value="tente"
-                                        onChange={this.handleOptionChange}
-                                        checked={hebergement === 'tente'} />Tente                            
-                                </Label>
-                                <Label>
-                                    <Input disabled={success} type="radio" name="hebergement" value="gite"
-                                        onChange={this.handleOptionChange}
-                                        checked={hebergement === 'gite'} />Gîte                            
-                                </Label>
-                                <Label>
-                                    <Input disabled={success} type="radio" name="hebergement" value="autre"
-                                        onChange={this.handleOptionChange}
-                                        checked={hebergement === 'autre'} />Autre                            
-                                </Label>
+                                {hebergementDisplay}
                             </WrapperContent>
                             {hebergementError && <FormFeedback style={{display: 'block'}}>Veuillez sélectionner un hébergement</FormFeedback>}
                         </WrapperContent>
@@ -251,16 +260,18 @@ class Reponse extends Component {
                     <WrapperContent>
                         <p>Seriez-vous diponible le Jour-J ?</p>
                         <WrapperContent>
-                            <Label>
-                                <Input disabled={success} type="radio" name="isPresent" value={true}
+                            <FormGroup>
+                                <Input id="yesInput" disabled={success} type="radio" name="isPresent" value={true}
+                                onChange={this.handleOptionChange}
+                                checked={isPresent === 'true'} />
+                                <Label htmlFor="yesInput">Oui</Label>
+                            </FormGroup>
+                            <FormGroup>
+                                <Input id="noInput" disabled={success} type="radio" name="isPresent" value={false}
                                     onChange={this.handleOptionChange}
-                                    checked={isPresent === 'true'} />Yes
-                            </Label>
-                            <Label>
-                                <Input disabled={success} type="radio" name="isPresent" value={false}
-                                    onChange={this.handleOptionChange}
-                                    checked={isPresent === 'false'} />No
-                            </Label>
+                                    checked={isPresent === 'false'} />
+                                <Label htmlFor="noInput">Non</Label>
+                            </FormGroup>
                         </WrapperContent>
                         {isPresentError && <FormFeedback style={{display: 'block'}}>Veuillez sélectionner une réponse</FormFeedback>}
                     </WrapperContent>
