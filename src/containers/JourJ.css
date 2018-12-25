@@ -7,6 +7,10 @@
     position: relative;
 }
 
+.JourJ .transparent-background {
+    display: none;
+}
+
 .JourJ .carousel-caption {
     background-color: rgba(0,0,0,0.5);
     border-radius: 2px;
@@ -91,6 +95,10 @@
     display: block!important;
 }
 
+.JourJ .upAndDown {
+    display: none;
+}
+
 @keyframes moveUpAndDown {
     0% {margin-top: -50px;}
     50% {margin-top: -30px;}
@@ -101,7 +109,7 @@
     .carousel .carousel-item:first-child h3 {
         background : url('../images/union-profile.png') no-repeat top;
         background-size: 25%;
-        padding-top: 25%;
+        padding-top: 27%;
     }
     
     .JourJ .PageTitle {

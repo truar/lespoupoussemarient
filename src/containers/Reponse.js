@@ -73,16 +73,16 @@ class Reponse extends Component {
             isPresentField.error = true;
         } else {
             isPresentField.error = false;
-        }
-        if(guestListField.value === '') {
-            guestListField.error = true;
-        } else {
-            guestListField.error = false;
-        }
-        if(profile > 1 && hebergementField.value === 'N/A' && isPresentField.value === 'true') {
-            hebergementField.error = true;
-        } else {
-            hebergementField.error = false;
+            if(guestListField.value === '') {
+                guestListField.error = true;
+            } else {
+                guestListField.error = false;
+            }
+            if(profile > 1 && hebergementField.value === 'N/A' && isPresentField.value === 'true') {
+                hebergementField.error = true;
+            } else {
+                hebergementField.error = false;
+            }
         }
 
         this.setState({
@@ -202,9 +202,9 @@ class Reponse extends Component {
 
     getSecondPart = () => {
         const {isPresentField: {value: isPresent}, 
-        guestListField: {value: guestList, error: guestListError}, 
-        hebergementField: {value: hebergement, error: hebergementError}, 
-        success} = this.state;
+            guestListField: {value: guestList, error: guestListError}, 
+            hebergementField: {value: hebergement, error: hebergementError}, 
+            success} = this.state;
         let secondPart = '';
         const hebergementDisplay = hebergementRadios.map((radio) => {
             return (
@@ -220,13 +220,13 @@ class Reponse extends Component {
         if(isPresent === 'true') {
             secondPart = (<>
                 <WrapperContent>
-                    <p>Veuillez renseigner la liste des personnes qui seront présentes ainsi que toutes informations dont vous souhaiteriez nous faire part</p>
+                    <p className="spaceDown">Veuillez renseigner la liste des personnes qui seront présentes ainsi que toutes informations dont vous souhaiteriez nous faire part.</p>
                     <Input invalid={guestListError} disabled={success} type="textarea" name="guestList" id="guestList" placeholder="Prénom nom" 
                         value={guestList} onChange={this.handleChange}/>
                 </WrapperContent>
                 {this.props.profile > 1 &&
                     <WrapperContent>
-                        <p>Sélectionnez votre type d'hébergement préféré pour la nuit</p>
+                        <p className="spaceDown">Merci de nous indiquer le type de logement que vous souhaiteriez avoir pour la nuit.</p>
                         <WrapperContent id="hebergementGroup">
                             <WrapperContent>
                                 {hebergementDisplay}
@@ -239,7 +239,7 @@ class Reponse extends Component {
         } else if(isPresent === 'false') {
             secondPart = (
                 <WrapperContent>
-                    <p>Veuillez renseigner votre nom et prénom afin de ne pas vous compter dans la liste d'invité</p>
+                    <p className="spaceDown">Merci de renseigner votre nom et prénom.</p>
                     <Input invalid={guestListError} disabled={success} type="text" name="guestList" id="guestList" placeholder="Nom prénom" 
                         value={guestList} onChange={this.handleChange}/>
                 </WrapperContent>
@@ -258,7 +258,7 @@ class Reponse extends Component {
                 <PageTitle title="Répondre à l'invitation" />
                 <WrapperContent>
                     <WrapperContent>
-                        <p>Seriez-vous diponible le Jour-J ?</p>
+                        <p>Serez-vous diponible le Jour-J ?</p>
                         <WrapperContent>
                             <FormGroup>
                                 <Input id="yesInput" disabled={success} type="radio" name="isPresent" value={true}

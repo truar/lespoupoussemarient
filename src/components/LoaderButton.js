@@ -16,6 +16,6 @@ export default ({
     disabled={disabled || isLoading}
     {...props}
   >
-    {isLoading && <span class="spinning oi oi-reload"></span>}
+    {isLoading && <span className="spinning oi oi-reload"></span>}
     {!isLoading ? text : loadingText}
   </Button>;

@@ -55,6 +55,10 @@
     z-index: 1;
 }
 
+.Reponse .spaceDown {
+    margin-bottom: 2%;
+}
+
 @media(min-width: 768px) {
     .Reponse>.WrapperContent>.WrapperContent:nth-child(2){
         width: 85%;
