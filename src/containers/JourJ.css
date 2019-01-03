@@ -111,15 +111,6 @@
         background-size: 25%;
         padding-top: 27%;
     }
-    
-    .JourJ .PageTitle {
-        margin-top: 1rem;
-        position: absolute;
-        z-index: 100;
-        text-align: center;
-        width: 100%;
-        display: block;
-    }
 
     .JourJ .carousel-caption h3 {
         font-size: 40px;
@@ -132,10 +123,11 @@
 
 @media (min-width: 992px) {
     .JourJ div.upAndDown { 
+        display: block;
         color: white;
         animation: moveUpAndDown 3s infinite;
         position: absolute;
-        width: 8%;
+        width: 9%;
         margin-top: -20px;
         right: 0%;
         font-size: 1.2rem;
@@ -144,6 +136,12 @@
 
     .JourJ .PageTitle {
         margin-left: 45px;
+        margin-top: 1rem;
+        position: absolute;
+        z-index: 100;
+        text-align: center;
+        width: 100%;
+        display: block;
     }
 
     .JourJ .carousel-indicators li:nth-child(1) {
