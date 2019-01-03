@@ -1,7 +1,13 @@
 nav.bg-dark {
     background-color: rgba(0,0,0,0.7)!important;
 }
+nav {
+    font-family: SignPainter;
+}
 
+nav.mobile .navbar-brand, nav.mobile a {
+    font-size: 1.6rem;
+}
 nav.desktop {
     display: none;
 }
@@ -25,7 +31,6 @@ nav.desktop {
         transition-timing-function: ease-in;
         font-size: 2rem;
         text-align: right;
-        font-family: SignPainter;
         padding: 0;
     }
     
