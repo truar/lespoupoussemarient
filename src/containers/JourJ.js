@@ -131,7 +131,7 @@ class JourJ extends Component {
                     <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
                     <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
                 </Carousel>
-                {firstVisit && <div className="upAndDown">
+                {firstVisit && <div className="upAndDown" onClick={this.next}>
                     Cliquez ici
                 </div>}
             </Section>

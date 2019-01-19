@@ -89,7 +89,7 @@ ShallowWrapper {
                 Aux alentours
               </p>
               <p>
-                Prix pour la nuit : 40€/pers
+                Prix moyen par nuit : 40€/pers
               </p>
             </div>
             <div
@@ -199,7 +199,7 @@ ShallowWrapper {
                   Aux alentours
                 </p>
                 <p>
-                  Prix pour la nuit : 40€/pers
+                  Prix moyen par nuit : 40€/pers
                 </p>
               </div>
               <div
@@ -507,7 +507,7 @@ ShallowWrapper {
                       Aux alentours
                     </p>
                     <p>
-                      Prix pour la nuit : 40€/pers
+                      Prix moyen par nuit : 40€/pers
                     </p>
                   </div>,
                   <div
@@ -552,7 +552,7 @@ ShallowWrapper {
                       Aux alentours
                     </p>,
                     <p>
-                      Prix pour la nuit : 40€/pers
+                      Prix moyen par nuit : 40€/pers
                     </p>,
                   ],
                   "className": "content",
@@ -575,10 +575,10 @@ ShallowWrapper {
                     "key": "1",
                     "nodeType": "host",
                     "props": Object {
-                      "children": "Prix pour la nuit : 40€/pers",
+                      "children": "Prix moyen par nuit : 40€/pers",
                     },
                     "ref": null,
-                    "rendered": "Prix pour la nuit : 40€/pers",
+                    "rendered": "Prix moyen par nuit : 40€/pers",
                     "type": "p",
                   },
                 ],
@@ -735,7 +735,7 @@ ShallowWrapper {
                   Aux alentours
                 </p>
                 <p>
-                  Prix pour la nuit : 40€/pers
+                  Prix moyen par nuit : 40€/pers
                 </p>
               </div>
               <div
@@ -845,7 +845,7 @@ ShallowWrapper {
                     Aux alentours
                   </p>
                   <p>
-                    Prix pour la nuit : 40€/pers
+                    Prix moyen par nuit : 40€/pers
                   </p>
                 </div>
                 <div
@@ -1153,7 +1153,7 @@ ShallowWrapper {
                         Aux alentours
                       </p>
                       <p>
-                        Prix pour la nuit : 40€/pers
+                        Prix moyen par nuit : 40€/pers
                       </p>
                     </div>,
                     <div
@@ -1198,7 +1198,7 @@ ShallowWrapper {
                         Aux alentours
                       </p>,
                       <p>
-                        Prix pour la nuit : 40€/pers
+                        Prix moyen par nuit : 40€/pers
                       </p>,
                     ],
                     "className": "content",
@@ -1221,10 +1221,10 @@ ShallowWrapper {
                       "key": "1",
                       "nodeType": "host",
                       "props": Object {
-                        "children": "Prix pour la nuit : 40€/pers",
+                        "children": "Prix moyen par nuit : 40€/pers",
                       },
                       "ref": null,
-                      "rendered": "Prix pour la nuit : 40€/pers",
+                      "rendered": "Prix moyen par nuit : 40€/pers",
                       "type": "p",
                     },
                   ],

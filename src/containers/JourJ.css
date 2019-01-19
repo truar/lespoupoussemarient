@@ -124,7 +124,7 @@
 @media (min-width: 992px) {
     .JourJ div.upAndDown { 
         display: block;
-        color: white;
+        color: black;
         animation: moveUpAndDown 3s infinite;
         position: absolute;
         width: 9%;
@@ -132,6 +132,12 @@
         right: 0%;
         font-size: 1.2rem;
         top: 48%;
+        cursor: pointer;
+    }
+
+    .JourJ .carousel-indicators li {
+        width: 50px;
+        height: 10px;
     }
 
     .JourJ .PageTitle {
@@ -172,6 +178,10 @@
     .JourJ .carousel-item-next, .JourJ .carousel-item-prev, .JourJ .carousel-item.active {
         display: flex;
         justify-content: center;
+    }
+    .JourJ .carousel-control-next-icon, .JourJ .carousel-control-prev-icon {
+        width: 40px;
+        height: 40px;
     }
 }
 

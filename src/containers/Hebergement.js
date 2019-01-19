@@ -31,7 +31,7 @@ const lodgingTypes = [
         title: 'Gites',
         infos: [[
             'Aux alentours',
-            'Prix pour la nuit : 40€/pers'
+            'Prix moyen par nuit : 40€/pers'
         ], [
             'A réserver',
             <a href={pdf} download>Informations hébergement (pdf)</a>

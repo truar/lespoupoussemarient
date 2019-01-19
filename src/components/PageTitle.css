@@ -12,20 +12,14 @@
     z-index: 10;
 }
 
-@media (min-width: 768px) {
-    .PageTitle h1 {
-        display: block;
-        margin-top: 1rem;
-        font-size: 4rem;
-    }
-    .PageTitle {
-        height: auto;
-    }
-}
-
 @media (min-width: 992px) {
     .PageTitle {
         height: auto;
         margin-left: 90px;
+    }
+    .PageTitle h1 {
+        display: block;
+        margin-top: 1rem;
+        font-size: 4rem;
     }
 }

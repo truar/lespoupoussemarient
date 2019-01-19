@@ -7,10 +7,6 @@
     overflow: hidden;
 }
 
-.Contact h1 {
-    display: none;
-}
-
 .Contact>.WrapperContent {
     align-items: flex-start;
     margin-left: 3%;
@@ -45,12 +41,13 @@
     .Contact {
         align-items: center;
     }
-    .Contact h1 {
-        display: block;
-    }
     .Contact>.WrapperContent {
         margin-top: calc(1% + 1vw);
         margin-left: 0%;
         margin-left: 90px;
+    }
+    .Contact h1 {
+        color: black;
+        text-shadow: none;
     }
 }
