@@ -35,7 +35,7 @@ ShallowWrapper {
                 Sur place
               </p>
               <p>
-                Prix pour la nuit : 35€/pers
+                Prix pour la nuit : 40€/pers
               </p>
             </div>
             <div
@@ -80,7 +80,7 @@ ShallowWrapper {
             id="gite"
           >
             <h2>
-              Gites*
+              Gites
             </h2>
             <div
               className="content"
@@ -89,7 +89,7 @@ ShallowWrapper {
                 Aux alentours
               </p>
               <p>
-                Prix pour la nuit : 35€/pers
+                Prix pour la nuit : 40€/pers
               </p>
             </div>
             <div
@@ -99,7 +99,12 @@ ShallowWrapper {
                 A réserver
               </p>
               <p>
-                *prix moyens
+                <a
+                  download={true}
+                  href="hebergements.pdf"
+                >
+                  Informations hébergement (pdf)
+                </a>
               </p>
             </div>
           </article>
@@ -140,7 +145,7 @@ ShallowWrapper {
                   Sur place
                 </p>
                 <p>
-                  Prix pour la nuit : 35€/pers
+                  Prix pour la nuit : 40€/pers
                 </p>
               </div>
               <div
@@ -185,7 +190,7 @@ ShallowWrapper {
               id="gite"
             >
               <h2>
-                Gites*
+                Gites
               </h2>
               <div
                 className="content"
@@ -194,7 +199,7 @@ ShallowWrapper {
                   Aux alentours
                 </p>
                 <p>
-                  Prix pour la nuit : 35€/pers
+                  Prix pour la nuit : 40€/pers
                 </p>
               </div>
               <div
@@ -204,7 +209,12 @@ ShallowWrapper {
                   A réserver
                 </p>
                 <p>
-                  *prix moyens
+                  <a
+                    download={true}
+                    href="hebergements.pdf"
+                  >
+                    Informations hébergement (pdf)
+                  </a>
                 </p>
               </div>
             </article>,
@@ -229,7 +239,7 @@ ShallowWrapper {
                       Sur place
                     </p>
                     <p>
-                      Prix pour la nuit : 35€/pers
+                      Prix pour la nuit : 40€/pers
                     </p>
                   </div>,
                   <div
@@ -269,7 +279,7 @@ ShallowWrapper {
                       Sur place
                     </p>,
                     <p>
-                      Prix pour la nuit : 35€/pers
+                      Prix pour la nuit : 40€/pers
                     </p>,
                   ],
                   "className": "content",
@@ -292,10 +302,10 @@ ShallowWrapper {
                     "key": "1",
                     "nodeType": "host",
                     "props": Object {
-                      "children": "Prix pour la nuit : 35€/pers",
+                      "children": "Prix pour la nuit : 40€/pers",
                     },
                     "ref": null,
-                    "rendered": "Prix pour la nuit : 35€/pers",
+                    "rendered": "Prix pour la nuit : 40€/pers",
                     "type": "p",
                   },
                 ],
@@ -487,7 +497,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <h2>
-                  Gites*
+                  Gites
                 </h2>,
                 Array [
                   <div
@@ -497,7 +507,7 @@ ShallowWrapper {
                       Aux alentours
                     </p>
                     <p>
-                      Prix pour la nuit : 35€/pers
+                      Prix pour la nuit : 40€/pers
                     </p>
                   </div>,
                   <div
@@ -507,7 +517,12 @@ ShallowWrapper {
                       A réserver
                     </p>
                     <p>
-                      *prix moyens
+                      <a
+                        download={true}
+                        href="hebergements.pdf"
+                      >
+                        Informations hébergement (pdf)
+                      </a>
                     </p>
                   </div>,
                 ],
@@ -521,10 +536,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Gites*",
+                  "children": "Gites",
                 },
                 "ref": null,
-                "rendered": "Gites*",
+                "rendered": "Gites",
                 "type": "h2",
               },
               Object {
@@ -537,7 +552,7 @@ ShallowWrapper {
                       Aux alentours
                     </p>,
                     <p>
-                      Prix pour la nuit : 35€/pers
+                      Prix pour la nuit : 40€/pers
                     </p>,
                   ],
                   "className": "content",
@@ -560,10 +575,10 @@ ShallowWrapper {
                     "key": "1",
                     "nodeType": "host",
                     "props": Object {
-                      "children": "Prix pour la nuit : 35€/pers",
+                      "children": "Prix pour la nuit : 40€/pers",
                     },
                     "ref": null,
-                    "rendered": "Prix pour la nuit : 35€/pers",
+                    "rendered": "Prix pour la nuit : 40€/pers",
                     "type": "p",
                   },
                 ],
@@ -579,7 +594,12 @@ ShallowWrapper {
                       A réserver
                     </p>,
                     <p>
-                      *prix moyens
+                      <a
+                        download={true}
+                        href="hebergements.pdf"
+                      >
+                        Informations hébergement (pdf)
+                      </a>
                     </p>,
                   ],
                   "className": "content",
@@ -602,10 +622,27 @@ ShallowWrapper {
                     "key": "1",
                     "nodeType": "host",
                     "props": Object {
-                      "children": "*prix moyens",
+                      "children": <a
+                        download={true}
+                        href="hebergements.pdf"
+                      >
+                        Informations hébergement (pdf)
+                      </a>,
                     },
                     "ref": null,
-                    "rendered": "*prix moyens",
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Informations hébergement (pdf)",
+                        "download": true,
+                        "href": "hebergements.pdf",
+                      },
+                      "ref": null,
+                      "rendered": "Informations hébergement (pdf)",
+                      "type": "a",
+                    },
                     "type": "p",
                   },
                 ],
@@ -644,7 +681,7 @@ ShallowWrapper {
                   Sur place
                 </p>
                 <p>
-                  Prix pour la nuit : 35€/pers
+                  Prix pour la nuit : 40€/pers
                 </p>
               </div>
               <div
@@ -689,7 +726,7 @@ ShallowWrapper {
               id="gite"
             >
               <h2>
-                Gites*
+                Gites
               </h2>
               <div
                 className="content"
@@ -698,7 +735,7 @@ ShallowWrapper {
                   Aux alentours
                 </p>
                 <p>
-                  Prix pour la nuit : 35€/pers
+                  Prix pour la nuit : 40€/pers
                 </p>
               </div>
               <div
@@ -708,7 +745,12 @@ ShallowWrapper {
                   A réserver
                 </p>
                 <p>
-                  *prix moyens
+                  <a
+                    download={true}
+                    href="hebergements.pdf"
+                  >
+                    Informations hébergement (pdf)
+                  </a>
                 </p>
               </div>
             </article>
@@ -749,7 +791,7 @@ ShallowWrapper {
                     Sur place
                   </p>
                   <p>
-                    Prix pour la nuit : 35€/pers
+                    Prix pour la nuit : 40€/pers
                   </p>
                 </div>
                 <div
@@ -794,7 +836,7 @@ ShallowWrapper {
                 id="gite"
               >
                 <h2>
-                  Gites*
+                  Gites
                 </h2>
                 <div
                   className="content"
@@ -803,7 +845,7 @@ ShallowWrapper {
                     Aux alentours
                   </p>
                   <p>
-                    Prix pour la nuit : 35€/pers
+                    Prix pour la nuit : 40€/pers
                   </p>
                 </div>
                 <div
@@ -813,7 +855,12 @@ ShallowWrapper {
                     A réserver
                   </p>
                   <p>
-                    *prix moyens
+                    <a
+                      download={true}
+                      href="hebergements.pdf"
+                    >
+                      Informations hébergement (pdf)
+                    </a>
                   </p>
                 </div>
               </article>,
@@ -838,7 +885,7 @@ ShallowWrapper {
                         Sur place
                       </p>
                       <p>
-                        Prix pour la nuit : 35€/pers
+                        Prix pour la nuit : 40€/pers
                       </p>
                     </div>,
                     <div
@@ -878,7 +925,7 @@ ShallowWrapper {
                         Sur place
                       </p>,
                       <p>
-                        Prix pour la nuit : 35€/pers
+                        Prix pour la nuit : 40€/pers
                       </p>,
                     ],
                     "className": "content",
@@ -901,10 +948,10 @@ ShallowWrapper {
                       "key": "1",
                       "nodeType": "host",
                       "props": Object {
-                        "children": "Prix pour la nuit : 35€/pers",
+                        "children": "Prix pour la nuit : 40€/pers",
                       },
                       "ref": null,
-                      "rendered": "Prix pour la nuit : 35€/pers",
+                      "rendered": "Prix pour la nuit : 40€/pers",
                       "type": "p",
                     },
                   ],
@@ -1096,7 +1143,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <h2>
-                    Gites*
+                    Gites
                   </h2>,
                   Array [
                     <div
@@ -1106,7 +1153,7 @@ ShallowWrapper {
                         Aux alentours
                       </p>
                       <p>
-                        Prix pour la nuit : 35€/pers
+                        Prix pour la nuit : 40€/pers
                       </p>
                     </div>,
                     <div
@@ -1116,7 +1163,12 @@ ShallowWrapper {
                         A réserver
                       </p>
                       <p>
-                        *prix moyens
+                        <a
+                          download={true}
+                          href="hebergements.pdf"
+                        >
+                          Informations hébergement (pdf)
+                        </a>
                       </p>
                     </div>,
                   ],
@@ -1130,10 +1182,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Gites*",
+                    "children": "Gites",
                   },
                   "ref": null,
-                  "rendered": "Gites*",
+                  "rendered": "Gites",
                   "type": "h2",
                 },
                 Object {
@@ -1146,7 +1198,7 @@ ShallowWrapper {
                         Aux alentours
                       </p>,
                       <p>
-                        Prix pour la nuit : 35€/pers
+                        Prix pour la nuit : 40€/pers
                       </p>,
                     ],
                     "className": "content",
@@ -1169,10 +1221,10 @@ ShallowWrapper {
                       "key": "1",
                       "nodeType": "host",
                       "props": Object {
-                        "children": "Prix pour la nuit : 35€/pers",
+                        "children": "Prix pour la nuit : 40€/pers",
                       },
                       "ref": null,
-                      "rendered": "Prix pour la nuit : 35€/pers",
+                      "rendered": "Prix pour la nuit : 40€/pers",
                       "type": "p",
                     },
                   ],
@@ -1188,7 +1240,12 @@ ShallowWrapper {
                         A réserver
                       </p>,
                       <p>
-                        *prix moyens
+                        <a
+                          download={true}
+                          href="hebergements.pdf"
+                        >
+                          Informations hébergement (pdf)
+                        </a>
                       </p>,
                     ],
                     "className": "content",
@@ -1211,10 +1268,27 @@ ShallowWrapper {
                       "key": "1",
                       "nodeType": "host",
                       "props": Object {
-                        "children": "*prix moyens",
+                        "children": <a
+                          download={true}
+                          href="hebergements.pdf"
+                        >
+                          Informations hébergement (pdf)
+                        </a>,
                       },
                       "ref": null,
-                      "rendered": "*prix moyens",
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Informations hébergement (pdf)",
+                          "download": true,
+                          "href": "hebergements.pdf",
+                        },
+                        "ref": null,
+                        "rendered": "Informations hébergement (pdf)",
+                        "type": "a",
+                      },
                       "type": "p",
                     },
                   ],

@@ -11,7 +11,7 @@ const lodgingTypes = [
         title: 'Chalets',
         infos: [[
             'Sur place',
-            'Prix pour la nuit : 35€/pers'
+            'Prix pour la nuit : 40€/pers'
         ], [
             'Place limitées',
             'Capacité : 7 personnes'
@@ -28,13 +28,13 @@ const lodgingTypes = [
         ]]
     }, {
         id: 'gite',
-        title: 'Gites*',
+        title: 'Gites',
         infos: [[
             'Aux alentours',
             'Prix pour la nuit : 40€/pers'
         ], [
             'A réserver',
-            <a href={pdf} download>Informations hébergement</a>
+            <a href={pdf} download>Informations hébergement (pdf)</a>
         ]]
     }
 ]

@@ -42,6 +42,10 @@
     font-size: 1.7rem;
 }
 
+.Hebergement a, .Hebergement a:hover {
+    color: white!important;
+}
+
 @media (min-width: 768px) {
     .Hebergement article {
         width: 80%;
