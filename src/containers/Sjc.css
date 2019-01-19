@@ -34,6 +34,11 @@
     min-height: 40vh;
 }
 
+
+.Sjc .oi-arrow-thick-right:before {
+    content: '\2A20';
+}
+
 @media(min-width: 768px) {
     .Sjc>.WrapperContent {
         flex-direction: row;
