@@ -3,6 +3,7 @@ import PageTitle from '../components/PageTitle';
 import Section from '../components/Section';
 import WrapperContent from '../components/WrapperContent';
 import './Hebergement.css';
+import pdf from '../files/hebergements.pdf'
 
 const lodgingTypes = [
     {
@@ -30,10 +31,10 @@ const lodgingTypes = [
         title: 'Gites*',
         infos: [[
             'Aux alentours',
-            'Prix pour la nuit : 35€/pers'
+            'Prix pour la nuit : 40€/pers'
         ], [
             'A réserver',
-            '*prix moyens'
+            <a href={pdf} download>Informations hébergement</a>
         ]]
     }
 ]

@@ -34,10 +34,10 @@
         margin-left: 15%;
     }
     .Contact p {
-        font-size: 1.75rem;
+        font-size: calc(1rem + 0.5vw);
     }
     .Contact ul {
-        font-size: 1.5rem;
+        font-size: calc(1rem + 0.25vw);
     }
 }
 
@@ -49,7 +49,7 @@
         display: block;
     }
     .Contact>.WrapperContent {
-        margin-top: 3%;
+        margin-top: calc(1% + 1vw);
         margin-left: 0%;
         margin-left: 90px;
     }
