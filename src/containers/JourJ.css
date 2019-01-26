@@ -71,6 +71,11 @@
 .JourJ .Soiree {
     background-image: url('../images/soiree.jpg');
 }
+
+.JourJ .Petit-dejeuner {
+    background-image: url('../images/breakfast.jpg');
+}
+
 .JourJ .Brunch {
     background-image: url('../images/brunch.jpg');
 }

@@ -49,6 +49,12 @@ const items = [
         category: 2
     }, {
         key: 7,
+        className: 'Petit-dejeuner',
+        header: 'Petit déjeuner de 9h à 11h',
+        text: 'Nous demandons aux invités de libérer les chalets pour 11h',
+        category: 2
+    }, {
+        key: 8,
         className: 'Brunch',
         header: 'Brunch',
         text: 'Dimanche 1 Septembre à partir de 11h00. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain.',
