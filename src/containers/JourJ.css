@@ -7,6 +7,10 @@
     position: relative;
 }
 
+.JourJ .transparent-background {
+    display: none;
+}
+
 .JourJ .carousel-caption {
     background-color: rgba(0,0,0,0.5);
     border-radius: 2px;
@@ -67,6 +71,11 @@
 .JourJ .Soiree {
     background-image: url('../images/soiree.jpg');
 }
+
+.JourJ .Petit-dejeuner {
+    background-image: url('../images/breakfast.jpg');
+}
+
 .JourJ .Brunch {
     background-image: url('../images/brunch.jpg');
 }
@@ -91,6 +100,10 @@
     display: block!important;
 }
 
+.JourJ .upAndDown {
+    display: none;
+}
+
 @keyframes moveUpAndDown {
     0% {margin-top: -50px;}
     50% {margin-top: -30px;}
@@ -101,16 +114,7 @@
     .carousel .carousel-item:first-child h3 {
         background : url('../images/union-profile.png') no-repeat top;
         background-size: 25%;
-        padding-top: 25%;
-    }
-    
-    .JourJ .PageTitle {
-        margin-top: 20px;
-        position: absolute;
-        z-index: 100;
-        text-align: center;
-        width: 100%;
-        display: block;
+        padding-top: 27%;
     }
 
     .JourJ .carousel-caption h3 {
@@ -123,23 +127,32 @@
 }
 
 @media (min-width: 992px) {
-    .JourJ div.upAndDown {
-        color: white;
+    .JourJ div.upAndDown { 
+        display: block;
+        color: black;
         animation: moveUpAndDown 3s infinite;
         position: absolute;
-        width: 8%;
+        width: 9%;
         margin-top: -20px;
         right: 0%;
         font-size: 1.2rem;
         top: 48%;
+        cursor: pointer;
     }
-    .JourJ .carousel .carousel-item:first-child h3 {
-        background-size: 30%;
-        padding-top: 31%;
+
+    .JourJ .carousel-indicators li {
+        width: 50px;
+        height: 10px;
     }
-    
+
     .JourJ .PageTitle {
         margin-left: 45px;
+        margin-top: 1rem;
+        position: absolute;
+        z-index: 100;
+        text-align: center;
+        width: 100%;
+        display: block;
     }
 
     .JourJ .carousel-indicators li:nth-child(1) {
@@ -170,6 +183,10 @@
     .JourJ .carousel-item-next, .JourJ .carousel-item-prev, .JourJ .carousel-item.active {
         display: flex;
         justify-content: center;
+    }
+    .JourJ .carousel-control-next-icon, .JourJ .carousel-control-prev-icon {
+        width: 40px;
+        height: 40px;
     }
 }
 

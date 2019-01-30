@@ -31,7 +31,12 @@
 
 .Sjc>.WrapperContent>.WrapperContent:nth-child(2) {
     width: 85%;
-    height: 40vh;
+    min-height: 40vh;
+}
+
+
+.Sjc .oi-arrow-thick-right:before {
+    content: '\2A20';
 }
 
 @media(min-width: 768px) {
@@ -44,7 +49,7 @@
     }
     
     .Sjc>.WrapperContent>.WrapperContent {
-        height: 40vh;
+        min-height: 40vh;
     }
 
     .Sjc>.WrapperContent>.WrapperContent:nth-child(2) {
@@ -54,6 +59,6 @@
 
 @media(min-width: 992px) {
     .Sjc>.WrapperContent>.WrapperContent, .Sjc>.WrapperContent>.WrapperContent:nth-child(2) {
-        height: 50vh;
+        min-height: 50vh;
     }
 }

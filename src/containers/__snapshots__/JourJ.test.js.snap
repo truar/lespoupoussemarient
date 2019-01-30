@@ -48,6 +48,7 @@ ShallowWrapper {
         </Carousel>,
         <div
           className="upAndDown"
+          onClick={[Function]}
         >
           Cliquez ici
         </div>,
@@ -150,6 +151,7 @@ ShallowWrapper {
         "props": Object {
           "children": "Cliquez ici",
           "className": "upAndDown",
+          "onClick": [Function],
         },
         "ref": null,
         "rendered": "Cliquez ici",
@@ -195,6 +197,7 @@ ShallowWrapper {
           </Carousel>,
           <div
             className="upAndDown"
+            onClick={[Function]}
           >
             Cliquez ici
           </div>,
@@ -297,6 +300,7 @@ ShallowWrapper {
           "props": Object {
             "children": "Cliquez ici",
             "className": "upAndDown",
+            "onClick": [Function],
           },
           "ref": null,
           "rendered": "Cliquez ici",

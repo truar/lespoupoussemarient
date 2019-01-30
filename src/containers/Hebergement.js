@@ -3,6 +3,7 @@ import PageTitle from '../components/PageTitle';
 import Section from '../components/Section';
 import WrapperContent from '../components/WrapperContent';
 import './Hebergement.css';
+import pdf from '../files/hebergements.pdf'
 
 const lodgingTypes = [
     {
@@ -10,7 +11,7 @@ const lodgingTypes = [
         title: 'Chalets',
         infos: [[
             'Sur place',
-            'Prix pour la nuit : 35€/pers'
+            'Prix pour la nuit : 40€/pers'
         ], [
             'Place limitées',
             'Capacité : 7 personnes'
@@ -27,13 +28,13 @@ const lodgingTypes = [
         ]]
     }, {
         id: 'gite',
-        title: 'Gites*',
+        title: 'Gites',
         infos: [[
             'Aux alentours',
-            'Prix pour la nuit : 35€/pers'
+            'Prix moyen par nuit : 40€/pers'
         ], [
             'A réserver',
-            '*prix moyens'
+            <a href={pdf} download>Informations hébergement (pdf)</a>
         ]]
     }
 ]

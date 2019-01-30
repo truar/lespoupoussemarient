@@ -15,43 +15,49 @@ const items = [
         key: 1,
         className: 'Union',
         header: 'Anouk & Thibault',
-        text: 'S’unissent pour le meilleur et pour le pire le 31 Août 2019 au domaine de Saint-Jean de Chépy',
+        text: 'S’unissent pour le meilleur et pour le pire le 31 Août 2019 au domaine de Saint-Jean de Chépy.',
         category: 1
     }, {
         key: 2,
         className: 'Ceremonie',
         header: 'Cérémonie',
-        text: 'Nous vous donnons rendez-vous à 10h45 au domaine de Saint-Jean de Chépy. La cérémonie débutera à 11h00 sous le chapiteau',
+        text: 'Nous vous donnons rendez-vous à 14h au domaine de Saint-Jean de Chépy. La cérémonie débutera à 14h30 sous le chapiteau.',
         category: 1
     }, {
         key: 3,
         className: 'VinHonneur',
         header: 'Le vin d\'honneur',
-        text: 'Se déroulera de 13h00 à 15h00. Une activité « guest book » aura lieu dans l’après-midi. Nous aimerions que chaque invité, couple, famille apporte une photo qui lui est chère',
+        text: 'Se déroulera de 15h30 à 18h30. Nous aimerions que chaque invité, couple, famille apporte une photo (avec ou sans les mariés) pour l\'activité « guest book ».',
         category: 1
     }, {
         key: 4,
         className: 'Sport',
         header: 'Activités sportives',
-        text: 'De 15h00 à 18h00. N’oubliez pas de prévoir une tenue adéquate (Vestiaire et douches sur place)',
+        text: 'Pendant le vin d\'honneur, vous pourrez participer à des activités sportives (vestiaire et douches sur place).',
         category: 1
     }, {
         key: 5,
         className: 'Diner',
         header: 'Diner',
-        text: 'Vous pourrez vous installer dans la salle principale à partir de 19h00. Nous vous proposons de déguster un repas 100% végétarien',
+        text: 'Vous pourrez vous installer dans la salle principale à partir de 19h30. Nous vous proposons de déguster un repas 100% végétarien.',
         category: 2
     }, {
         key: 6,
         className: 'Soiree',
         header: 'Soirée',
-        text: 'C\'est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00 (N\'oubliez pas de consulter la page hébergements pour savoir ou dormir)',
+        text: 'C\'est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00. (N\'oubliez pas de consulter la page hébergements pour savoir ou dormir).',
         category: 2
     }, {
         key: 7,
+        className: 'Petit-dejeuner',
+        header: 'Petit déjeuner',
+        text: 'Pour ceux qui arriveront à se réveiller, viennoiseries et cafés vous attendront de 9h à 11h. (Merci de libérer les logements pour 11h).',
+        category: 2
+    }, {
+        key: 8,
         className: 'Brunch',
         header: 'Brunch',
-        text: 'Dimanche 1 Septembre à partir de 11h00. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain',
+        text: 'Dimanche 1 Septembre à partir de 12h30. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain.',
         category: 3
     }
 ];
@@ -131,7 +137,7 @@ class JourJ extends Component {
                     <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
                     <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
                 </Carousel>
-                {firstVisit && <div className="upAndDown">
+                {firstVisit && <div className="upAndDown" onClick={this.next}>
                     Cliquez ici
                 </div>}
             </Section>

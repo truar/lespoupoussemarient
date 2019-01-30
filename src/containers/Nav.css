@@ -1,7 +1,13 @@
 nav.bg-dark {
     background-color: rgba(0,0,0,0.7)!important;
 }
+nav {
+    font-family: SignPainter;
+}
 
+nav.mobile .navbar-brand, nav.mobile a {
+    font-size: 1.6rem;
+}
 nav.desktop {
     display: none;
 }
@@ -17,7 +23,7 @@ nav.desktop {
         left: -260px;
         top: 0;
         width:350px;
-        background-color:rgba(0,0,0,0.5);
+        background-color:rgba(0,0,0,0.7)!important;
         height:100%;
         transition-property: left, background-color;
         transition-delay: 0s;
@@ -25,7 +31,6 @@ nav.desktop {
         transition-timing-function: ease-in;
         font-size: 2rem;
         text-align: right;
-        font-family: SignPainter;
         padding: 0;
     }
     
@@ -36,7 +41,7 @@ nav.desktop {
         transition-timing-function: ease-in;
         transition-delay: 0s;
         left: 0px;
-        background-color:rgba(0,0,0,0.7);
+        background-color:rgb(0,0,0,1)!important;
     }
 
     nav.desktop>button, nav.desktop>a.navbar-brand {

@@ -24,53 +24,65 @@ ShallowWrapper {
         <WrapperContent>
           <WrapperContent>
             <p>
-              Seriez-vous diponible le Jour-J ?
+              Serez-vous diponible le Jour-J ?
             </p>
             <WrapperContent>
-              <Label
-                tag="label"
-                widths={
-                  Array [
-                    "xs",
-                    "sm",
-                    "md",
-                    "lg",
-                    "xl",
-                  ]
-                }
+              <FormGroup
+                tag="div"
               >
                 <Input
                   checked={false}
                   disabled={false}
+                  id="yesInput"
                   name="isPresent"
                   onChange={[Function]}
                   type="radio"
                   value={true}
                 />
-                Yes
-              </Label>
-              <Label
-                tag="label"
-                widths={
-                  Array [
-                    "xs",
-                    "sm",
-                    "md",
-                    "lg",
-                    "xl",
-                  ]
-                }
+                <Label
+                  htmlFor="yesInput"
+                  tag="label"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                >
+                  Oui
+                </Label>
+              </FormGroup>
+              <FormGroup
+                tag="div"
               >
                 <Input
                   checked={false}
                   disabled={false}
+                  id="noInput"
                   name="isPresent"
                   onChange={[Function]}
                   type="radio"
                   value={false}
                 />
-                No
-              </Label>
+                <Label
+                  htmlFor="noInput"
+                  tag="label"
+                  widths={
+                    Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ]
+                  }
+                >
+                  Non
+                </Label>
+              </FormGroup>
             </WrapperContent>
           </WrapperContent>
           
@@ -109,53 +121,65 @@ ShallowWrapper {
           "children": Array [
             <WrapperContent>
               <p>
-                Seriez-vous diponible le Jour-J ?
+                Serez-vous diponible le Jour-J ?
               </p>
               <WrapperContent>
-                <Label
-                  tag="label"
-                  widths={
-                    Array [
-                      "xs",
-                      "sm",
-                      "md",
-                      "lg",
-                      "xl",
-                    ]
-                  }
+                <FormGroup
+                  tag="div"
                 >
                   <Input
                     checked={false}
                     disabled={false}
+                    id="yesInput"
                     name="isPresent"
                     onChange={[Function]}
                     type="radio"
                     value={true}
                   />
-                  Yes
-                </Label>
-                <Label
-                  tag="label"
-                  widths={
-                    Array [
-                      "xs",
-                      "sm",
-                      "md",
-                      "lg",
-                      "xl",
-                    ]
-                  }
+                  <Label
+                    htmlFor="yesInput"
+                    tag="label"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    Oui
+                  </Label>
+                </FormGroup>
+                <FormGroup
+                  tag="div"
                 >
                   <Input
                     checked={false}
                     disabled={false}
+                    id="noInput"
                     name="isPresent"
                     onChange={[Function]}
                     type="radio"
                     value={false}
                   />
-                  No
-                </Label>
+                  <Label
+                    htmlFor="noInput"
+                    tag="label"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    Non
+                  </Label>
+                </FormGroup>
               </WrapperContent>
             </WrapperContent>,
             "",
@@ -179,53 +203,65 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <p>
-                  Seriez-vous diponible le Jour-J ?
+                  Serez-vous diponible le Jour-J ?
                 </p>,
                 <WrapperContent>
-                  <Label
-                    tag="label"
-                    widths={
-                      Array [
-                        "xs",
-                        "sm",
-                        "md",
-                        "lg",
-                        "xl",
-                      ]
-                    }
+                  <FormGroup
+                    tag="div"
                   >
                     <Input
                       checked={false}
                       disabled={false}
+                      id="yesInput"
                       name="isPresent"
                       onChange={[Function]}
                       type="radio"
                       value={true}
                     />
-                    Yes
-                  </Label>
-                  <Label
-                    tag="label"
-                    widths={
-                      Array [
-                        "xs",
-                        "sm",
-                        "md",
-                        "lg",
-                        "xl",
-                      ]
-                    }
+                    <Label
+                      htmlFor="yesInput"
+                      tag="label"
+                      widths={
+                        Array [
+                          "xs",
+                          "sm",
+                          "md",
+                          "lg",
+                          "xl",
+                        ]
+                      }
+                    >
+                      Oui
+                    </Label>
+                  </FormGroup>
+                  <FormGroup
+                    tag="div"
                   >
                     <Input
                       checked={false}
                       disabled={false}
+                      id="noInput"
                       name="isPresent"
                       onChange={[Function]}
                       type="radio"
                       value={false}
                     />
-                    No
-                  </Label>
+                    <Label
+                      htmlFor="noInput"
+                      tag="label"
+                      widths={
+                        Array [
+                          "xs",
+                          "sm",
+                          "md",
+                          "lg",
+                          "xl",
+                        ]
+                      }
+                    >
+                      Non
+                    </Label>
+                  </FormGroup>
                 </WrapperContent>,
                 false,
               ],
@@ -237,10 +273,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Seriez-vous diponible le Jour-J ?",
+                  "children": "Serez-vous diponible le Jour-J ?",
                 },
                 "ref": null,
-                "rendered": "Seriez-vous diponible le Jour-J ?",
+                "rendered": "Serez-vous diponible le Jour-J ?",
                 "type": "p",
               },
               Object {
@@ -249,50 +285,62 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "children": Array [
-                    <Label
-                      tag="label"
-                      widths={
-                        Array [
-                          "xs",
-                          "sm",
-                          "md",
-                          "lg",
-                          "xl",
-                        ]
-                      }
+                    <FormGroup
+                      tag="div"
                     >
                       <Input
                         checked={false}
                         disabled={false}
+                        id="yesInput"
                         name="isPresent"
                         onChange={[Function]}
                         type="radio"
                         value={true}
                       />
-                      Yes
-                    </Label>,
-                    <Label
-                      tag="label"
-                      widths={
-                        Array [
-                          "xs",
-                          "sm",
-                          "md",
-                          "lg",
-                          "xl",
-                        ]
-                      }
+                      <Label
+                        htmlFor="yesInput"
+                        tag="label"
+                        widths={
+                          Array [
+                            "xs",
+                            "sm",
+                            "md",
+                            "lg",
+                            "xl",
+                          ]
+                        }
+                      >
+                        Oui
+                      </Label>
+                    </FormGroup>,
+                    <FormGroup
+                      tag="div"
                     >
                       <Input
                         checked={false}
                         disabled={false}
+                        id="noInput"
                         name="isPresent"
                         onChange={[Function]}
                         type="radio"
                         value={false}
                       />
-                      No
-                    </Label>,
+                      <Label
+                        htmlFor="noInput"
+                        tag="label"
+                        widths={
+                          Array [
+                            "xs",
+                            "sm",
+                            "md",
+                            "lg",
+                            "xl",
+                          ]
+                        }
+                      >
+                        Non
+                      </Label>
+                    </FormGroup>,
                   ],
                 },
                 "ref": null,
@@ -306,21 +354,29 @@ ShallowWrapper {
                         <Input
                           checked={false}
                           disabled={false}
+                          id="yesInput"
                           name="isPresent"
                           onChange={[Function]}
                           type="radio"
                           value={true}
                         />,
-                        "Yes",
+                        <Label
+                          htmlFor="yesInput"
+                          tag="label"
+                          widths={
+                            Array [
+                              "xs",
+                              "sm",
+                              "md",
+                              "lg",
+                              "xl",
+                            ]
+                          }
+                        >
+                          Oui
+                        </Label>,
                       ],
-                      "tag": "label",
-                      "widths": Array [
-                        "xs",
-                        "sm",
-                        "md",
-                        "lg",
-                        "xl",
-                      ],
+                      "tag": "div",
                     },
                     "ref": null,
                     "rendered": Array [
@@ -331,6 +387,7 @@ ShallowWrapper {
                         "props": Object {
                           "checked": false,
                           "disabled": false,
+                          "id": "yesInput",
                           "name": "isPresent",
                           "onChange": [Function],
                           "type": "radio",
@@ -340,7 +397,26 @@ ShallowWrapper {
                         "rendered": null,
                         "type": [Function],
                       },
-                      "Yes",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "children": "Oui",
+                          "htmlFor": "yesInput",
+                          "tag": "label",
+                          "widths": Array [
+                            "xs",
+                            "sm",
+                            "md",
+                            "lg",
+                            "xl",
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": "Oui",
+                        "type": [Function],
+                      },
                     ],
                     "type": [Function],
                   },
@@ -353,21 +429,29 @@ ShallowWrapper {
                         <Input
                           checked={false}
                           disabled={false}
+                          id="noInput"
                           name="isPresent"
                           onChange={[Function]}
                           type="radio"
                           value={false}
                         />,
-                        "No",
+                        <Label
+                          htmlFor="noInput"
+                          tag="label"
+                          widths={
+                            Array [
+                              "xs",
+                              "sm",
+                              "md",
+                              "lg",
+                              "xl",
+                            ]
+                          }
+                        >
+                          Non
+                        </Label>,
                       ],
-                      "tag": "label",
-                      "widths": Array [
-                        "xs",
-                        "sm",
-                        "md",
-                        "lg",
-                        "xl",
-                      ],
+                      "tag": "div",
                     },
                     "ref": null,
                     "rendered": Array [
@@ -378,6 +462,7 @@ ShallowWrapper {
                         "props": Object {
                           "checked": false,
                           "disabled": false,
+                          "id": "noInput",
                           "name": "isPresent",
                           "onChange": [Function],
                           "type": "radio",
@@ -387,7 +472,26 @@ ShallowWrapper {
                         "rendered": null,
                         "type": [Function],
                       },
-                      "No",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "children": "Non",
+                          "htmlFor": "noInput",
+                          "tag": "label",
+                          "widths": Array [
+                            "xs",
+                            "sm",
+                            "md",
+                            "lg",
+                            "xl",
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": "Non",
+                        "type": [Function],
+                      },
                     ],
                     "type": [Function],
                   },
@@ -449,53 +553,65 @@ ShallowWrapper {
           <WrapperContent>
             <WrapperContent>
               <p>
-                Seriez-vous diponible le Jour-J ?
+                Serez-vous diponible le Jour-J ?
               </p>
               <WrapperContent>
-                <Label
-                  tag="label"
-                  widths={
-                    Array [
-                      "xs",
-                      "sm",
-                      "md",
-                      "lg",
-                      "xl",
-                    ]
-                  }
+                <FormGroup
+                  tag="div"
                 >
                   <Input
                     checked={false}
                     disabled={false}
+                    id="yesInput"
                     name="isPresent"
                     onChange={[Function]}
                     type="radio"
                     value={true}
                   />
-                  Yes
-                </Label>
-                <Label
-                  tag="label"
-                  widths={
-                    Array [
-                      "xs",
-                      "sm",
-                      "md",
-                      "lg",
-                      "xl",
-                    ]
-                  }
+                  <Label
+                    htmlFor="yesInput"
+                    tag="label"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    Oui
+                  </Label>
+                </FormGroup>
+                <FormGroup
+                  tag="div"
                 >
                   <Input
                     checked={false}
                     disabled={false}
+                    id="noInput"
                     name="isPresent"
                     onChange={[Function]}
                     type="radio"
                     value={false}
                   />
-                  No
-                </Label>
+                  <Label
+                    htmlFor="noInput"
+                    tag="label"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    Non
+                  </Label>
+                </FormGroup>
               </WrapperContent>
             </WrapperContent>
             
@@ -534,53 +650,65 @@ ShallowWrapper {
             "children": Array [
               <WrapperContent>
                 <p>
-                  Seriez-vous diponible le Jour-J ?
+                  Serez-vous diponible le Jour-J ?
                 </p>
                 <WrapperContent>
-                  <Label
-                    tag="label"
-                    widths={
-                      Array [
-                        "xs",
-                        "sm",
-                        "md",
-                        "lg",
-                        "xl",
-                      ]
-                    }
+                  <FormGroup
+                    tag="div"
                   >
                     <Input
                       checked={false}
                       disabled={false}
+                      id="yesInput"
                       name="isPresent"
                       onChange={[Function]}
                       type="radio"
                       value={true}
                     />
-                    Yes
-                  </Label>
-                  <Label
-                    tag="label"
-                    widths={
-                      Array [
-                        "xs",
-                        "sm",
-                        "md",
-                        "lg",
-                        "xl",
-                      ]
-                    }
+                    <Label
+                      htmlFor="yesInput"
+                      tag="label"
+                      widths={
+                        Array [
+                          "xs",
+                          "sm",
+                          "md",
+                          "lg",
+                          "xl",
+                        ]
+                      }
+                    >
+                      Oui
+                    </Label>
+                  </FormGroup>
+                  <FormGroup
+                    tag="div"
                   >
                     <Input
                       checked={false}
                       disabled={false}
+                      id="noInput"
                       name="isPresent"
                       onChange={[Function]}
                       type="radio"
                       value={false}
                     />
-                    No
-                  </Label>
+                    <Label
+                      htmlFor="noInput"
+                      tag="label"
+                      widths={
+                        Array [
+                          "xs",
+                          "sm",
+                          "md",
+                          "lg",
+                          "xl",
+                        ]
+                      }
+                    >
+                      Non
+                    </Label>
+                  </FormGroup>
                 </WrapperContent>
               </WrapperContent>,
               "",
@@ -604,53 +732,65 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <p>
-                    Seriez-vous diponible le Jour-J ?
+                    Serez-vous diponible le Jour-J ?
                   </p>,
                   <WrapperContent>
-                    <Label
-                      tag="label"
-                      widths={
-                        Array [
-                          "xs",
-                          "sm",
-                          "md",
-                          "lg",
-                          "xl",
-                        ]
-                      }
+                    <FormGroup
+                      tag="div"
                     >
                       <Input
                         checked={false}
                         disabled={false}
+                        id="yesInput"
                         name="isPresent"
                         onChange={[Function]}
                         type="radio"
                         value={true}
                       />
-                      Yes
-                    </Label>
-                    <Label
-                      tag="label"
-                      widths={
-                        Array [
-                          "xs",
-                          "sm",
-                          "md",
-                          "lg",
-                          "xl",
-                        ]
-                      }
+                      <Label
+                        htmlFor="yesInput"
+                        tag="label"
+                        widths={
+                          Array [
+                            "xs",
+                            "sm",
+                            "md",
+                            "lg",
+                            "xl",
+                          ]
+                        }
+                      >
+                        Oui
+                      </Label>
+                    </FormGroup>
+                    <FormGroup
+                      tag="div"
                     >
                       <Input
                         checked={false}
                         disabled={false}
+                        id="noInput"
                         name="isPresent"
                         onChange={[Function]}
                         type="radio"
                         value={false}
                       />
-                      No
-                    </Label>
+                      <Label
+                        htmlFor="noInput"
+                        tag="label"
+                        widths={
+                          Array [
+                            "xs",
+                            "sm",
+                            "md",
+                            "lg",
+                            "xl",
+                          ]
+                        }
+                      >
+                        Non
+                      </Label>
+                    </FormGroup>
                   </WrapperContent>,
                   false,
                 ],
@@ -662,10 +802,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Seriez-vous diponible le Jour-J ?",
+                    "children": "Serez-vous diponible le Jour-J ?",
                   },
                   "ref": null,
-                  "rendered": "Seriez-vous diponible le Jour-J ?",
+                  "rendered": "Serez-vous diponible le Jour-J ?",
                   "type": "p",
                 },
                 Object {
@@ -674,50 +814,62 @@ ShallowWrapper {
                   "nodeType": "function",
                   "props": Object {
                     "children": Array [
-                      <Label
-                        tag="label"
-                        widths={
-                          Array [
-                            "xs",
-                            "sm",
-                            "md",
-                            "lg",
-                            "xl",
-                          ]
-                        }
+                      <FormGroup
+                        tag="div"
                       >
                         <Input
                           checked={false}
                           disabled={false}
+                          id="yesInput"
                           name="isPresent"
                           onChange={[Function]}
                           type="radio"
                           value={true}
                         />
-                        Yes
-                      </Label>,
-                      <Label
-                        tag="label"
-                        widths={
-                          Array [
-                            "xs",
-                            "sm",
-                            "md",
-                            "lg",
-                            "xl",
-                          ]
-                        }
+                        <Label
+                          htmlFor="yesInput"
+                          tag="label"
+                          widths={
+                            Array [
+                              "xs",
+                              "sm",
+                              "md",
+                              "lg",
+                              "xl",
+                            ]
+                          }
+                        >
+                          Oui
+                        </Label>
+                      </FormGroup>,
+                      <FormGroup
+                        tag="div"
                       >
                         <Input
                           checked={false}
                           disabled={false}
+                          id="noInput"
                           name="isPresent"
                           onChange={[Function]}
                           type="radio"
                           value={false}
                         />
-                        No
-                      </Label>,
+                        <Label
+                          htmlFor="noInput"
+                          tag="label"
+                          widths={
+                            Array [
+                              "xs",
+                              "sm",
+                              "md",
+                              "lg",
+                              "xl",
+                            ]
+                          }
+                        >
+                          Non
+                        </Label>
+                      </FormGroup>,
                     ],
                   },
                   "ref": null,
@@ -731,21 +883,29 @@ ShallowWrapper {
                           <Input
                             checked={false}
                             disabled={false}
+                            id="yesInput"
                             name="isPresent"
                             onChange={[Function]}
                             type="radio"
                             value={true}
                           />,
-                          "Yes",
+                          <Label
+                            htmlFor="yesInput"
+                            tag="label"
+                            widths={
+                              Array [
+                                "xs",
+                                "sm",
+                                "md",
+                                "lg",
+                                "xl",
+                              ]
+                            }
+                          >
+                            Oui
+                          </Label>,
                         ],
-                        "tag": "label",
-                        "widths": Array [
-                          "xs",
-                          "sm",
-                          "md",
-                          "lg",
-                          "xl",
-                        ],
+                        "tag": "div",
                       },
                       "ref": null,
                       "rendered": Array [
@@ -756,6 +916,7 @@ ShallowWrapper {
                           "props": Object {
                             "checked": false,
                             "disabled": false,
+                            "id": "yesInput",
                             "name": "isPresent",
                             "onChange": [Function],
                             "type": "radio",
@@ -765,7 +926,26 @@ ShallowWrapper {
                           "rendered": null,
                           "type": [Function],
                         },
-                        "Yes",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "children": "Oui",
+                            "htmlFor": "yesInput",
+                            "tag": "label",
+                            "widths": Array [
+                              "xs",
+                              "sm",
+                              "md",
+                              "lg",
+                              "xl",
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": "Oui",
+                          "type": [Function],
+                        },
                       ],
                       "type": [Function],
                     },
@@ -778,21 +958,29 @@ ShallowWrapper {
                           <Input
                             checked={false}
                             disabled={false}
+                            id="noInput"
                             name="isPresent"
                             onChange={[Function]}
                             type="radio"
                             value={false}
                           />,
-                          "No",
+                          <Label
+                            htmlFor="noInput"
+                            tag="label"
+                            widths={
+                              Array [
+                                "xs",
+                                "sm",
+                                "md",
+                                "lg",
+                                "xl",
+                              ]
+                            }
+                          >
+                            Non
+                          </Label>,
                         ],
-                        "tag": "label",
-                        "widths": Array [
-                          "xs",
-                          "sm",
-                          "md",
-                          "lg",
-                          "xl",
-                        ],
+                        "tag": "div",
                       },
                       "ref": null,
                       "rendered": Array [
@@ -803,6 +991,7 @@ ShallowWrapper {
                           "props": Object {
                             "checked": false,
                             "disabled": false,
+                            "id": "noInput",
                             "name": "isPresent",
                             "onChange": [Function],
                             "type": "radio",
@@ -812,7 +1001,26 @@ ShallowWrapper {
                           "rendered": null,
                           "type": [Function],
                         },
-                        "No",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "children": "Non",
+                            "htmlFor": "noInput",
+                            "tag": "label",
+                            "widths": Array [
+                              "xs",
+                              "sm",
+                              "md",
+                              "lg",
+                              "xl",
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": "Non",
+                          "type": [Function],
+                        },
                       ],
                       "type": [Function],
                     },

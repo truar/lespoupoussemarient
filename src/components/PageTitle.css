@@ -9,22 +9,17 @@
     justify-content: center;
     text-align: center;
     height: 56px;
-}
-
-@media (min-width: 768px) {
-    .PageTitle h1 {
-        display: block;
-        margin-top: 56px;
-        font-size: 4rem;
-    }
-    .PageTitle {
-        height: auto;
-    }
+    z-index: 10;
 }
 
 @media (min-width: 992px) {
     .PageTitle {
         height: auto;
         margin-left: 90px;
+    }
+    .PageTitle h1 {
+        display: block;
+        margin-top: 1rem;
+        font-size: 4rem;
     }
 }

@@ -21,53 +21,357 @@ ShallowWrapper {
         <PageTitle
           title="Coordonnées"
         />,
-        <WrapperContent>
-          <article
-            className="hidden-mobile"
-            id="todoList"
-          >
-            <h2>
-              To Do List
-            </h2>
+        <WrapperContent
+          id="coordonnees"
+        >
+          <p>
+            <span>
+              Anouk POITEVIN :
+            </span>
+          </p>
+          <ul>
+            <li
+              className="mail"
+            >
+              anouk.poitevin@gmail.com
+            </li>
+            <li
+              className="phone"
+            >
+              06.85.28.45.72
+            </li>
+          </ul>
+          <p>
+            <span>
+              Thibault RUARO :
+            </span>
+          </p>
+          <ul>
+            <li
+              className="mail"
+            >
+              thibault.ruaro@gmail.com
+            </li>
+            <li
+              className="phone"
+            >
+              06.25.56.27.53
+            </li>
+          </ul>
+          <p>
+            <span>
+              Adresse :
+            </span>
+          </p>
+          <ul>
+            <li
+              className="address"
+            >
+              164 rue des Pyrénées
+              <br />
+              75020 Paris
+            </li>
+          </ul>
+        </WrapperContent>,
+      ],
+      "className": "Contact",
+      "id": "Contact",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "title": "Coordonnées",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <p>
+              <span>
+                Anouk POITEVIN :
+              </span>
+            </p>,
             <ul>
               <li
-                className="striked"
+                className="mail"
               >
-                Bagues
+                anouk.poitevin@gmail.com
               </li>
               <li
-                className="striked"
+                className="phone"
               >
-                Robe
+                06.85.28.45.72
               </li>
-              <li>
-                Fleurs
-              </li>
-              <li>
-                Déco
-              </li>
-              <li>
-                Quizz
-              </li>
-            </ul>
-          </article>
-          <article
-            className="hidden-mobile"
-            id="images"
-          >
+            </ul>,
             <p>
-              <img
-                alt="avion"
-                src="avion.png"
-              />
-            </p>
+              <span>
+                Thibault RUARO :
+              </span>
+            </p>,
+            <ul>
+              <li
+                className="mail"
+              >
+                thibault.ruaro@gmail.com
+              </li>
+              <li
+                className="phone"
+              >
+                06.25.56.27.53
+              </li>
+            </ul>,
             <p>
-              <img
-                alt="world"
-                src="world.png"
-              />
-            </p>
-          </article>
+              <span>
+                Adresse :
+              </span>
+            </p>,
+            <ul>
+              <li
+                className="address"
+              >
+                164 rue des Pyrénées
+                <br />
+                75020 Paris
+              </li>
+            </ul>,
+          ],
+          "id": "coordonnees",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                Anouk POITEVIN :
+              </span>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Anouk POITEVIN :",
+              },
+              "ref": null,
+              "rendered": "Anouk POITEVIN :",
+              "type": "span",
+            },
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <li
+                  className="mail"
+                >
+                  anouk.poitevin@gmail.com
+                </li>,
+                <li
+                  className="phone"
+                >
+                  06.85.28.45.72
+                </li>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "anouk.poitevin@gmail.com",
+                  "className": "mail",
+                },
+                "ref": null,
+                "rendered": "anouk.poitevin@gmail.com",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "06.85.28.45.72",
+                  "className": "phone",
+                },
+                "ref": null,
+                "rendered": "06.85.28.45.72",
+                "type": "li",
+              },
+            ],
+            "type": "ul",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                Thibault RUARO :
+              </span>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Thibault RUARO :",
+              },
+              "ref": null,
+              "rendered": "Thibault RUARO :",
+              "type": "span",
+            },
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <li
+                  className="mail"
+                >
+                  thibault.ruaro@gmail.com
+                </li>,
+                <li
+                  className="phone"
+                >
+                  06.25.56.27.53
+                </li>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "thibault.ruaro@gmail.com",
+                  "className": "mail",
+                },
+                "ref": null,
+                "rendered": "thibault.ruaro@gmail.com",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "06.25.56.27.53",
+                  "className": "phone",
+                },
+                "ref": null,
+                "rendered": "06.25.56.27.53",
+                "type": "li",
+              },
+            ],
+            "type": "ul",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                Adresse :
+              </span>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Adresse :",
+              },
+              "ref": null,
+              "rendered": "Adresse :",
+              "type": "span",
+            },
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <li
+                className="address"
+              >
+                164 rue des Pyrénées
+                <br />
+                75020 Paris
+              </li>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "164 rue des Pyrénées",
+                  <br />,
+                  "75020 Paris",
+                ],
+                "className": "address",
+              },
+              "ref": null,
+              "rendered": Array [
+                "164 rue des Pyrénées",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": "br",
+                },
+                "75020 Paris",
+              ],
+              "type": "li",
+            },
+            "type": "ul",
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <PageTitle
+            title="Coordonnées"
+          />,
           <WrapperContent
             id="coordonnees"
           >
@@ -114,738 +418,11 @@ ShallowWrapper {
               <li
                 className="address"
               >
-                10 route du Bouchet
+                164 rue des Pyrénées
                 <br />
-                74150 Rumilly
+                75020 Paris
               </li>
             </ul>
-          </WrapperContent>
-        </WrapperContent>,
-      ],
-      "className": "Contact",
-      "id": "Contact",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "title": "Coordonnées",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "children": Array [
-            <article
-              className="hidden-mobile"
-              id="todoList"
-            >
-              <h2>
-                To Do List
-              </h2>
-              <ul>
-                <li
-                  className="striked"
-                >
-                  Bagues
-                </li>
-                <li
-                  className="striked"
-                >
-                  Robe
-                </li>
-                <li>
-                  Fleurs
-                </li>
-                <li>
-                  Déco
-                </li>
-                <li>
-                  Quizz
-                </li>
-              </ul>
-            </article>,
-            <article
-              className="hidden-mobile"
-              id="images"
-            >
-              <p>
-                <img
-                  alt="avion"
-                  src="avion.png"
-                />
-              </p>
-              <p>
-                <img
-                  alt="world"
-                  src="world.png"
-                />
-              </p>
-            </article>,
-            <WrapperContent
-              id="coordonnees"
-            >
-              <p>
-                <span>
-                  Anouk POITEVIN :
-                </span>
-              </p>
-              <ul>
-                <li
-                  className="mail"
-                >
-                  anouk.poitevin@gmail.com
-                </li>
-                <li
-                  className="phone"
-                >
-                  06.85.28.45.72
-                </li>
-              </ul>
-              <p>
-                <span>
-                  Thibault RUARO :
-                </span>
-              </p>
-              <ul>
-                <li
-                  className="mail"
-                >
-                  thibault.ruaro@gmail.com
-                </li>
-                <li
-                  className="phone"
-                >
-                  06.25.56.27.53
-                </li>
-              </ul>
-              <p>
-                <span>
-                  Adresse :
-                </span>
-              </p>
-              <ul>
-                <li
-                  className="address"
-                >
-                  10 route du Bouchet
-                  <br />
-                  74150 Rumilly
-                </li>
-              </ul>
-            </WrapperContent>,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <h2>
-                  To Do List
-                </h2>,
-                <ul>
-                  <li
-                    className="striked"
-                  >
-                    Bagues
-                  </li>
-                  <li
-                    className="striked"
-                  >
-                    Robe
-                  </li>
-                  <li>
-                    Fleurs
-                  </li>
-                  <li>
-                    Déco
-                  </li>
-                  <li>
-                    Quizz
-                  </li>
-                </ul>,
-              ],
-              "className": "hidden-mobile",
-              "id": "todoList",
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "To Do List",
-                },
-                "ref": null,
-                "rendered": "To Do List",
-                "type": "h2",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    <li
-                      className="striked"
-                    >
-                      Bagues
-                    </li>,
-                    <li
-                      className="striked"
-                    >
-                      Robe
-                    </li>,
-                    <li>
-                      Fleurs
-                    </li>,
-                    <li>
-                      Déco
-                    </li>,
-                    <li>
-                      Quizz
-                    </li>,
-                  ],
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Bagues",
-                      "className": "striked",
-                    },
-                    "ref": null,
-                    "rendered": "Bagues",
-                    "type": "li",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Robe",
-                      "className": "striked",
-                    },
-                    "ref": null,
-                    "rendered": "Robe",
-                    "type": "li",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Fleurs",
-                    },
-                    "ref": null,
-                    "rendered": "Fleurs",
-                    "type": "li",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Déco",
-                    },
-                    "ref": null,
-                    "rendered": "Déco",
-                    "type": "li",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Quizz",
-                    },
-                    "ref": null,
-                    "rendered": "Quizz",
-                    "type": "li",
-                  },
-                ],
-                "type": "ul",
-              },
-            ],
-            "type": "article",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <p>
-                  <img
-                    alt="avion"
-                    src="avion.png"
-                  />
-                </p>,
-                <p>
-                  <img
-                    alt="world"
-                    src="world.png"
-                  />
-                </p>,
-              ],
-              "className": "hidden-mobile",
-              "id": "images",
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <img
-                    alt="avion"
-                    src="avion.png"
-                  />,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "alt": "avion",
-                    "src": "avion.png",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": "img",
-                },
-                "type": "p",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <img
-                    alt="world"
-                    src="world.png"
-                  />,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "alt": "world",
-                    "src": "world.png",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": "img",
-                },
-                "type": "p",
-              },
-            ],
-            "type": "article",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": Array [
-                <p>
-                  <span>
-                    Anouk POITEVIN :
-                  </span>
-                </p>,
-                <ul>
-                  <li
-                    className="mail"
-                  >
-                    anouk.poitevin@gmail.com
-                  </li>
-                  <li
-                    className="phone"
-                  >
-                    06.85.28.45.72
-                  </li>
-                </ul>,
-                <p>
-                  <span>
-                    Thibault RUARO :
-                  </span>
-                </p>,
-                <ul>
-                  <li
-                    className="mail"
-                  >
-                    thibault.ruaro@gmail.com
-                  </li>
-                  <li
-                    className="phone"
-                  >
-                    06.25.56.27.53
-                  </li>
-                </ul>,
-                <p>
-                  <span>
-                    Adresse :
-                  </span>
-                </p>,
-                <ul>
-                  <li
-                    className="address"
-                  >
-                    10 route du Bouchet
-                    <br />
-                    74150 Rumilly
-                  </li>
-                </ul>,
-              ],
-              "id": "coordonnees",
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <span>
-                    Anouk POITEVIN :
-                  </span>,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Anouk POITEVIN :",
-                  },
-                  "ref": null,
-                  "rendered": "Anouk POITEVIN :",
-                  "type": "span",
-                },
-                "type": "p",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    <li
-                      className="mail"
-                    >
-                      anouk.poitevin@gmail.com
-                    </li>,
-                    <li
-                      className="phone"
-                    >
-                      06.85.28.45.72
-                    </li>,
-                  ],
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "anouk.poitevin@gmail.com",
-                      "className": "mail",
-                    },
-                    "ref": null,
-                    "rendered": "anouk.poitevin@gmail.com",
-                    "type": "li",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "06.85.28.45.72",
-                      "className": "phone",
-                    },
-                    "ref": null,
-                    "rendered": "06.85.28.45.72",
-                    "type": "li",
-                  },
-                ],
-                "type": "ul",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <span>
-                    Thibault RUARO :
-                  </span>,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Thibault RUARO :",
-                  },
-                  "ref": null,
-                  "rendered": "Thibault RUARO :",
-                  "type": "span",
-                },
-                "type": "p",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    <li
-                      className="mail"
-                    >
-                      thibault.ruaro@gmail.com
-                    </li>,
-                    <li
-                      className="phone"
-                    >
-                      06.25.56.27.53
-                    </li>,
-                  ],
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "thibault.ruaro@gmail.com",
-                      "className": "mail",
-                    },
-                    "ref": null,
-                    "rendered": "thibault.ruaro@gmail.com",
-                    "type": "li",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "06.25.56.27.53",
-                      "className": "phone",
-                    },
-                    "ref": null,
-                    "rendered": "06.25.56.27.53",
-                    "type": "li",
-                  },
-                ],
-                "type": "ul",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <span>
-                    Adresse :
-                  </span>,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Adresse :",
-                  },
-                  "ref": null,
-                  "rendered": "Adresse :",
-                  "type": "span",
-                },
-                "type": "p",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <li
-                    className="address"
-                  >
-                    10 route du Bouchet
-                    <br />
-                    74150 Rumilly
-                  </li>,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      "10 route du Bouchet",
-                      <br />,
-                      "74150 Rumilly",
-                    ],
-                    "className": "address",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    "10 route du Bouchet",
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {},
-                      "ref": null,
-                      "rendered": null,
-                      "type": "br",
-                    },
-                    "74150 Rumilly",
-                  ],
-                  "type": "li",
-                },
-                "type": "ul",
-              },
-            ],
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": Array [
-          <PageTitle
-            title="Coordonnées"
-          />,
-          <WrapperContent>
-            <article
-              className="hidden-mobile"
-              id="todoList"
-            >
-              <h2>
-                To Do List
-              </h2>
-              <ul>
-                <li
-                  className="striked"
-                >
-                  Bagues
-                </li>
-                <li
-                  className="striked"
-                >
-                  Robe
-                </li>
-                <li>
-                  Fleurs
-                </li>
-                <li>
-                  Déco
-                </li>
-                <li>
-                  Quizz
-                </li>
-              </ul>
-            </article>
-            <article
-              className="hidden-mobile"
-              id="images"
-            >
-              <p>
-                <img
-                  alt="avion"
-                  src="avion.png"
-                />
-              </p>
-              <p>
-                <img
-                  alt="world"
-                  src="world.png"
-                />
-              </p>
-            </article>
-            <WrapperContent
-              id="coordonnees"
-            >
-              <p>
-                <span>
-                  Anouk POITEVIN :
-                </span>
-              </p>
-              <ul>
-                <li
-                  className="mail"
-                >
-                  anouk.poitevin@gmail.com
-                </li>
-                <li
-                  className="phone"
-                >
-                  06.85.28.45.72
-                </li>
-              </ul>
-              <p>
-                <span>
-                  Thibault RUARO :
-                </span>
-              </p>
-              <ul>
-                <li
-                  className="mail"
-                >
-                  thibault.ruaro@gmail.com
-                </li>
-                <li
-                  className="phone"
-                >
-                  06.25.56.27.53
-                </li>
-              </ul>
-              <p>
-                <span>
-                  Adresse :
-                </span>
-              </p>
-              <ul>
-                <li
-                  className="address"
-                >
-                  10 route du Bouchet
-                  <br />
-                  74150 Rumilly
-                </li>
-              </ul>
-            </WrapperContent>
           </WrapperContent>,
         ],
         "className": "Contact",
@@ -870,105 +447,56 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "children": Array [
-              <article
-                className="hidden-mobile"
-                id="todoList"
-              >
-                <h2>
-                  To Do List
-                </h2>
-                <ul>
-                  <li
-                    className="striked"
-                  >
-                    Bagues
-                  </li>
-                  <li
-                    className="striked"
-                  >
-                    Robe
-                  </li>
-                  <li>
-                    Fleurs
-                  </li>
-                  <li>
-                    Déco
-                  </li>
-                  <li>
-                    Quizz
-                  </li>
-                </ul>
-              </article>,
-              <article
-                className="hidden-mobile"
-                id="images"
-              >
-                <p>
-                  <img
-                    alt="avion"
-                    src="avion.png"
-                  />
-                </p>
-                <p>
-                  <img
-                    alt="world"
-                    src="world.png"
-                  />
-                </p>
-              </article>,
-              <WrapperContent
-                id="coordonnees"
-              >
-                <p>
-                  <span>
-                    Anouk POITEVIN :
-                  </span>
-                </p>
-                <ul>
-                  <li
-                    className="mail"
-                  >
-                    anouk.poitevin@gmail.com
-                  </li>
-                  <li
-                    className="phone"
-                  >
-                    06.85.28.45.72
-                  </li>
-                </ul>
-                <p>
-                  <span>
-                    Thibault RUARO :
-                  </span>
-                </p>
-                <ul>
-                  <li
-                    className="mail"
-                  >
-                    thibault.ruaro@gmail.com
-                  </li>
-                  <li
-                    className="phone"
-                  >
-                    06.25.56.27.53
-                  </li>
-                </ul>
-                <p>
-                  <span>
-                    Adresse :
-                  </span>
-                </p>
-                <ul>
-                  <li
-                    className="address"
-                  >
-                    10 route du Bouchet
-                    <br />
-                    74150 Rumilly
-                  </li>
-                </ul>
-              </WrapperContent>,
+              <p>
+                <span>
+                  Anouk POITEVIN :
+                </span>
+              </p>,
+              <ul>
+                <li
+                  className="mail"
+                >
+                  anouk.poitevin@gmail.com
+                </li>
+                <li
+                  className="phone"
+                >
+                  06.85.28.45.72
+                </li>
+              </ul>,
+              <p>
+                <span>
+                  Thibault RUARO :
+                </span>
+              </p>,
+              <ul>
+                <li
+                  className="mail"
+                >
+                  thibault.ruaro@gmail.com
+                </li>
+                <li
+                  className="phone"
+                >
+                  06.25.56.27.53
+                </li>
+              </ul>,
+              <p>
+                <span>
+                  Adresse :
+                </span>
+              </p>,
+              <ul>
+                <li
+                  className="address"
+                >
+                  164 rue des Pyrénées
+                  <br />
+                  75020 Paris
+                </li>
+              </ul>,
             ],
+            "id": "coordonnees",
           },
           "ref": null,
           "rendered": Array [
@@ -977,139 +505,23 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": Array [
-                  <h2>
-                    To Do List
-                  </h2>,
-                  <ul>
-                    <li
-                      className="striked"
-                    >
-                      Bagues
-                    </li>
-                    <li
-                      className="striked"
-                    >
-                      Robe
-                    </li>
-                    <li>
-                      Fleurs
-                    </li>
-                    <li>
-                      Déco
-                    </li>
-                    <li>
-                      Quizz
-                    </li>
-                  </ul>,
-                ],
-                "className": "hidden-mobile",
-                "id": "todoList",
+                "children": <span>
+                  Anouk POITEVIN :
+                </span>,
               },
               "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "To Do List",
-                  },
-                  "ref": null,
-                  "rendered": "To Do List",
-                  "type": "h2",
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Anouk POITEVIN :",
                 },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <li
-                        className="striked"
-                      >
-                        Bagues
-                      </li>,
-                      <li
-                        className="striked"
-                      >
-                        Robe
-                      </li>,
-                      <li>
-                        Fleurs
-                      </li>,
-                      <li>
-                        Déco
-                      </li>,
-                      <li>
-                        Quizz
-                      </li>,
-                    ],
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Bagues",
-                        "className": "striked",
-                      },
-                      "ref": null,
-                      "rendered": "Bagues",
-                      "type": "li",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Robe",
-                        "className": "striked",
-                      },
-                      "ref": null,
-                      "rendered": "Robe",
-                      "type": "li",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Fleurs",
-                      },
-                      "ref": null,
-                      "rendered": "Fleurs",
-                      "type": "li",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Déco",
-                      },
-                      "ref": null,
-                      "rendered": "Déco",
-                      "type": "li",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Quizz",
-                      },
-                      "ref": null,
-                      "rendered": "Quizz",
-                      "type": "li",
-                    },
-                  ],
-                  "type": "ul",
-                },
-              ],
-              "type": "article",
+                "ref": null,
+                "rendered": "Anouk POITEVIN :",
+                "type": "span",
+              },
+              "type": "p",
             },
             Object {
               "instance": null,
@@ -1117,21 +529,17 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <p>
-                    <img
-                      alt="avion"
-                      src="avion.png"
-                    />
-                  </p>,
-                  <p>
-                    <img
-                      alt="world"
-                      src="world.png"
-                    />
-                  </p>,
+                  <li
+                    className="mail"
+                  >
+                    anouk.poitevin@gmail.com
+                  </li>,
+                  <li
+                    className="phone"
+                  >
+                    06.85.28.45.72
+                  </li>,
                 ],
-                "className": "hidden-mobile",
-                "id": "images",
               },
               "ref": null,
               "rendered": Array [
@@ -1140,110 +548,68 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": <img
-                      alt="avion"
-                      src="avion.png"
-                    />,
+                    "children": "anouk.poitevin@gmail.com",
+                    "className": "mail",
                   },
                   "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "alt": "avion",
-                      "src": "avion.png",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": "img",
-                  },
-                  "type": "p",
+                  "rendered": "anouk.poitevin@gmail.com",
+                  "type": "li",
                 },
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": <img
-                      alt="world"
-                      src="world.png"
-                    />,
+                    "children": "06.85.28.45.72",
+                    "className": "phone",
                   },
                   "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "alt": "world",
-                      "src": "world.png",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": "img",
-                  },
-                  "type": "p",
+                  "rendered": "06.85.28.45.72",
+                  "type": "li",
                 },
               ],
-              "type": "article",
+              "type": "ul",
             },
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  Thibault RUARO :
+                </span>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Thibault RUARO :",
+                },
+                "ref": null,
+                "rendered": "Thibault RUARO :",
+                "type": "span",
+              },
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <p>
-                    <span>
-                      Anouk POITEVIN :
-                    </span>
-                  </p>,
-                  <ul>
-                    <li
-                      className="mail"
-                    >
-                      anouk.poitevin@gmail.com
-                    </li>
-                    <li
-                      className="phone"
-                    >
-                      06.85.28.45.72
-                    </li>
-                  </ul>,
-                  <p>
-                    <span>
-                      Thibault RUARO :
-                    </span>
-                  </p>,
-                  <ul>
-                    <li
-                      className="mail"
-                    >
-                      thibault.ruaro@gmail.com
-                    </li>
-                    <li
-                      className="phone"
-                    >
-                      06.25.56.27.53
-                    </li>
-                  </ul>,
-                  <p>
-                    <span>
-                      Adresse :
-                    </span>
-                  </p>,
-                  <ul>
-                    <li
-                      className="address"
-                    >
-                      10 route du Bouchet
-                      <br />
-                      74150 Rumilly
-                    </li>
-                  </ul>,
+                  <li
+                    className="mail"
+                  >
+                    thibault.ruaro@gmail.com
+                  </li>,
+                  <li
+                    className="phone"
+                  >
+                    06.25.56.27.53
+                  </li>,
                 ],
-                "id": "coordonnees",
               },
               "ref": null,
               "rendered": Array [
@@ -1252,210 +618,94 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": <span>
-                      Anouk POITEVIN :
-                    </span>,
+                    "children": "thibault.ruaro@gmail.com",
+                    "className": "mail",
                   },
                   "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Anouk POITEVIN :",
-                    },
-                    "ref": null,
-                    "rendered": "Anouk POITEVIN :",
-                    "type": "span",
-                  },
-                  "type": "p",
+                  "rendered": "thibault.ruaro@gmail.com",
+                  "type": "li",
                 },
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": Array [
-                      <li
-                        className="mail"
-                      >
-                        anouk.poitevin@gmail.com
-                      </li>,
-                      <li
-                        className="phone"
-                      >
-                        06.85.28.45.72
-                      </li>,
-                    ],
+                    "children": "06.25.56.27.53",
+                    "className": "phone",
                   },
                   "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "anouk.poitevin@gmail.com",
-                        "className": "mail",
-                      },
-                      "ref": null,
-                      "rendered": "anouk.poitevin@gmail.com",
-                      "type": "li",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "06.85.28.45.72",
-                        "className": "phone",
-                      },
-                      "ref": null,
-                      "rendered": "06.85.28.45.72",
-                      "type": "li",
-                    },
-                  ],
-                  "type": "ul",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <span>
-                      Thibault RUARO :
-                    </span>,
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Thibault RUARO :",
-                    },
-                    "ref": null,
-                    "rendered": "Thibault RUARO :",
-                    "type": "span",
-                  },
-                  "type": "p",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <li
-                        className="mail"
-                      >
-                        thibault.ruaro@gmail.com
-                      </li>,
-                      <li
-                        className="phone"
-                      >
-                        06.25.56.27.53
-                      </li>,
-                    ],
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "thibault.ruaro@gmail.com",
-                        "className": "mail",
-                      },
-                      "ref": null,
-                      "rendered": "thibault.ruaro@gmail.com",
-                      "type": "li",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "06.25.56.27.53",
-                        "className": "phone",
-                      },
-                      "ref": null,
-                      "rendered": "06.25.56.27.53",
-                      "type": "li",
-                    },
-                  ],
-                  "type": "ul",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <span>
-                      Adresse :
-                    </span>,
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Adresse :",
-                    },
-                    "ref": null,
-                    "rendered": "Adresse :",
-                    "type": "span",
-                  },
-                  "type": "p",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <li
-                      className="address"
-                    >
-                      10 route du Bouchet
-                      <br />
-                      74150 Rumilly
-                    </li>,
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        "10 route du Bouchet",
-                        <br />,
-                        "74150 Rumilly",
-                      ],
-                      "className": "address",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      "10 route du Bouchet",
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {},
-                        "ref": null,
-                        "rendered": null,
-                        "type": "br",
-                      },
-                      "74150 Rumilly",
-                    ],
-                    "type": "li",
-                  },
-                  "type": "ul",
+                  "rendered": "06.25.56.27.53",
+                  "type": "li",
                 },
               ],
-              "type": [Function],
+              "type": "ul",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  Adresse :
+                </span>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Adresse :",
+                },
+                "ref": null,
+                "rendered": "Adresse :",
+                "type": "span",
+              },
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <li
+                  className="address"
+                >
+                  164 rue des Pyrénées
+                  <br />
+                  75020 Paris
+                </li>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "164 rue des Pyrénées",
+                    <br />,
+                    "75020 Paris",
+                  ],
+                  "className": "address",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "164 rue des Pyrénées",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": "br",
+                  },
+                  "75020 Paris",
+                ],
+                "type": "li",
+              },
+              "type": "ul",
             },
           ],
           "type": [Function],

@@ -16,7 +16,6 @@
     padding: 5px 10px;
     height: 85%;
     justify-content: space-between;
-    background-color: rgba(255,255,255,0.5);
 }
 
 .Reponse>.WrapperContent>.WrapperContent>.WrapperContent, .Reponse>.WrapperContent>.WrapperContent>.WrapperContent>.WrapperContent {
@@ -36,15 +35,36 @@
     text-align: center;
 }
 
+.Reponse>.WrapperContent>.WrapperContent>.WrapperContent .form-group {
+    display: flex;
+    align-items: center;
+}
+
+.Reponse>.WrapperContent>.WrapperContent>.WrapperContent .form-group label, .Reponse>.WrapperContent>.WrapperContent>.WrapperContent .form-group input {
+    margin: 0px;
+    position: relative;
+}
+
+.Reponse>.WrapperContent>.WrapperContent>.WrapperContent .form-group input {
+    margin-right: .7rem;
+    position: relative;
+}
+
+.Reponse .transparent-background {
+    background-color: rgba(255,255,255,0.5);
+    z-index: 1;
+}
+
+.Reponse .spaceDown {
+    margin-bottom: 2%;
+}
+
 @media(min-width: 768px) {
     .Reponse>.WrapperContent>.WrapperContent:nth-child(2){
         width: 85%;
     }
     .Reponse .WrapperContent label {
         font-size: 1.5rem;
-    }
-    .Reponse input[type='radio'] {
-        margin-top: .7rem;
     }
 }
 @media(min-width: 992px) {

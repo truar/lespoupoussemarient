@@ -3,8 +3,16 @@
     justify-content: flex-start;
     flex-direction: column;
     color: white;
+    position: relative;
 }
 
 .Section {
     text-shadow: 1px 2px 2px #1a1a1a; 
+}
+
+.Section .transparent-background {
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    z-index: 1;
 }
