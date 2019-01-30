@@ -45,19 +45,19 @@ const items = [
         key: 6,
         className: 'Soiree',
         header: 'Soirée',
-        text: 'C\'est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00 (N\'oubliez pas de consulter la page hébergements pour savoir ou dormir).',
+        text: 'C\'est le moment d’enflammer la piste de danse ! Les festivités s’arrêteront vers 4h00. (N\'oubliez pas de consulter la page hébergements pour savoir ou dormir).',
         category: 2
     }, {
         key: 7,
         className: 'Petit-dejeuner',
-        header: 'Petit déjeuner de 9h à 11h',
-        text: 'Nous demandons aux invités de libérer les chalets pour 11h',
+        header: 'Petit déjeuner',
+        text: 'Pour ceux qui arriveront à se réveiller, viennoiseries et cafés vous attendront de 9h à 11h. (Merci de libérer les logements pour 11h).',
         category: 2
     }, {
         key: 8,
         className: 'Brunch',
         header: 'Brunch',
-        text: 'Dimanche 1 Septembre à partir de 11h00. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain.',
+        text: 'Dimanche 1 Septembre à partir de 12h30. La journée sera placée sous le thème de la détente. N’oubliez pas vos maillots de bain.',
         category: 3
     }
 ];
