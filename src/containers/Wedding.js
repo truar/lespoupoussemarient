@@ -67,6 +67,9 @@ class Wedding extends Component {
 
         if(guestCode === this.CODE_VIN_HONNEUR) {
             profile = 1;
+            if(navItems[2].href === '#view-Hebergement') {
+                navItems.splice(2, 1);
+            }
         } else if(guestCode === this.CODE_DINER) {
             profile = 2;
         } else if(guestCode === this.CODE_BRUNCH) {
@@ -103,7 +106,7 @@ class Wedding extends Component {
 
     render() {
         const {selectedNavItem, isLogged, error, profile} = this.state;
-
+        let reducedIndex = (profile === 1) ? 1 : 0;
         return (
             <>
                 <Profile error={error} isLogged={isLogged} onChange={this.handleChange} onSubmit={this.handleSubmit} 
@@ -112,10 +115,10 @@ class Wedding extends Component {
                     <>
                         <Nav navItems={navItems} selectedNavItem={selectedNavItem} />
                         <JourJ profile={profile} onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 1)}/>
-                        <Hebergement onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 2)}/>
-                        <Reponse profile={profile} onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 3)}/>
-                        <Sjc onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 4)}/>
-                        <Contact onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 5)}/>
+                        { profile > 1 && <Hebergement onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 2)}/> }
+                        <Reponse profile={profile} onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 3 - reducedIndex)}/>
+                        <Sjc onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 4 - reducedIndex)}/>
+                        <Contact onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 5 - reducedIndex)}/>
                     </>
                 }
             </>
