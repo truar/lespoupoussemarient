@@ -47,9 +47,17 @@ class Profile extends Component {
 
     renderLogged() {
         const dateDisplay = this.calculateRemainingDays();
+        const profile = this.props.profile;
+        let displayText = <p>Nous avons le plaisir de vous convier au <b>Vin d'honneur</b> !</p>;
+        if(profile === 2) {
+            displayText = <p>Nous avons le plaisir de vous convier au <b>Vin d'honneur et Diner</b> !</p>;
+        } else if(profile === 3) {
+            displayText = <p>Nous avons le plaisir de vous convier au <b>Vin d'honneur, Diner et Brunch</b> !</p>;
+        }
         return (
             <WrapperContent title="Que l'aventure commence !">
                 <p>{dateDisplay}</p>
+                {displayText}
             </WrapperContent>
         );
     }

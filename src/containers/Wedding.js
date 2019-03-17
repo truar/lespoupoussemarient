@@ -109,7 +109,7 @@ class Wedding extends Component {
         let reducedIndex = (profile === 1) ? 1 : 0;
         return (
             <>
-                <Profile error={error} isLogged={isLogged} onChange={this.handleChange} onSubmit={this.handleSubmit} 
+                <Profile error={error} profile={profile} isLogged={isLogged} onChange={this.handleChange} onSubmit={this.handleSubmit} 
                     onVisibilityChange={(isVisible) => this.handleVisibilityChange(isVisible, 0)}/>
                 { isLogged && 
                     <>
